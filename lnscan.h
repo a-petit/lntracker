@@ -24,7 +24,9 @@ typedef enum filter {
 
 typedef struct scanopt scanopt;
 
-extern scanopt *lnscan_opt(transform trans, filter flt);
+extern scanopt *scanopt_default();
+extern scanopt *scanopt_transform(transform trans);
+extern scanopt *scanopt_filter(filter trans);
 
 extern int lnscan_getline(const scanopt *opt, FILE *stream, char *s, size_t m);
 

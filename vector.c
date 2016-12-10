@@ -14,7 +14,7 @@ struct vector {
 #define VALUE(t, i)   ((t) -> value[i])
 
 static int vector_resize(vector *t, size_t nslots) {
-  printf("vector_resize to %zu\n", nslots);
+  //printf("vector_resize to %zu\n", nslots);
   void **a = realloc(t->value, nslots * sizeof(*(t->value)));
   if (a == NULL) {
     printf("*** realloc error\n");
@@ -46,7 +46,7 @@ vector *vector_empty(void) {
 // vector_add : insère x en queue du tableau associé à t.
 //   renvoie x en cas de succès, NULL en cas d'échec
 const void *vector_add(vector *t, const void * x) {
-  //printf("vector_add at %zu\n", t->nentries);
+  //printf("vector_add at %zu/%zu\n", t->nentries, t->nslots);
   if (t->nentries >= t->nslots) {
     size_t n =  t->nslots * VEC_RESIZE_MUL;
     if (t->nslots >= SIZE_MAX / VEC_RESIZE_MUL || vector_resize(t, n)) {
@@ -90,6 +90,9 @@ const void *vector_rsearch(vector *t, const void *key,
 // vector_dispose : libère les ressources allouées à *ptrt et donne à *ptrt
 //   la valeur NULL. tolère que *ptrt vaille NULL
 void vector_dispose(vector **ptrt) {
+  if (*ptrt == NULL) {
+    return;
+  }
   free((*ptrt)->value);
   free(*ptrt);
   *ptrt = NULL;
