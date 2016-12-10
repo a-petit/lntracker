@@ -210,27 +210,6 @@ void lntracker_display(lntracker *tracker) {
   }
   printf("\n");
 
-  /*
-  for (size_t i = 0; i < KEYS_CT(tracker); ++i) {
-    char * s = (char *) vector_get(KEYS(tracker), i);
-    const vector *t = hashtable_value(HTBL(tracker), s);
-    for (size_t k = 0; k < vector_length(t); ++k) {
-      const ftrack *x = (const ftrack *) vector_get(t, k);
-      printf("%zu\t", ftrack_id(x));
-    }
-    putchar('\n');
-    for (size_t k = 0; k < vector_length(t); ++k) {
-      const ftrack *x = (ftrack *) vector_get(t, k);
-      const vector *lines = ftrack_getlines(x);
-      for (size_t i = 0; i < vector_length(lines); ++i) {
-        long int *n = (long int *) vector_get(lines, i);
-        printf("%ld,", *n);
-      }
-      putchar('\t');
-    }
-    printf("\t%s\n", s);
-  }*/
-
   if (n == 1) {
     lnt_display_single(tracker);
   } else {
