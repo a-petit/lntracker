@@ -17,9 +17,9 @@ typedef struct vector vector;
 //   et NULL en cas d'échec
 extern vector *vector_empty(void);
 
-// vector_add : insère x en queue du tableau associé à t.
+// vector_push : insère x en queue du tableau associé à t.
 //   renvoie x en cas de succès, NULL en cas d'échec
-extern const void *vector_add(vector *t, const void * x);
+extern const void *vector_push(vector *t, const void * x);
 
 // vector_get : renvoie l'élément référencé à l'indice i dans le tableau t.
 //   renvoie x en cas de succès, NULL en cas d'échec

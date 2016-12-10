@@ -43,10 +43,10 @@ vector *vector_empty(void) {
   return t;
 }
 
-// vector_add : insère x en queue du tableau associé à t.
+// vector_push : insère x en queue du tableau associé à t.
 //   renvoie x en cas de succès, NULL en cas d'échec
-const void *vector_add(vector *t, const void * x) {
-  //printf("vector_add at %zu/%zu\n", t->nentries, t->nslots);
+const void *vector_push(vector *t, const void * x) {
+  //printf("vector_push at %zu/%zu\n", t->nentries, t->nslots);
   if (t->nentries >= t->nslots) {
     size_t n =  t->nslots * VEC_RESIZE_MUL;
     if (t->nslots >= SIZE_MAX / VEC_RESIZE_MUL || vector_resize(t, n)) {

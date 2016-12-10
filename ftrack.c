@@ -29,7 +29,7 @@ long int *ftrack_addline(ftrack *ft, long int n) {
     return NULL;
   }
   *x = n;
-  vector_add(ft->lines, x);
+  vector_push(ft->lines, x);
   return x;
 }
 

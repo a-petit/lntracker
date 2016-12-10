@@ -49,7 +49,7 @@ static int lnt_parselines(lntracker *tracker, FILE *stream, size_t fid, bool gen
       }
       strcpy(s, buf);
 
-      if (vector_add(tracker->keys, s) == NULL) {
+      if (vector_push(tracker->keys, s) == NULL) {
         vector_dispose(&ftl);
         free(s);
         return FUN_FAILURE;
@@ -71,7 +71,7 @@ static int lnt_parselines(lntracker *tracker, FILE *stream, size_t fid, bool gen
         if (ft == NULL) {
           return FUN_FAILURE;
         }
-        if (vector_add(ftl, ft) == NULL) {
+        if (vector_push(ftl, ft) == NULL) {
           ftrack_dispose(&ft);
           return FUN_FAILURE;
         }
@@ -123,7 +123,7 @@ lntracker *lntracker_create(size_t (*str_hashfun)(const char *)) {
 
 int lntracker_addfile(lntracker *tracker, char *filename) {
   // controler les doublons ?
-  return vector_add(tracker->filenames, filename) == NULL ?
+  return vector_push(tracker->filenames, filename) == NULL ?
       FUN_FAILURE :
       FUN_SUCCESS;
 }
