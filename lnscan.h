@@ -27,6 +27,8 @@ typedef struct scanopt scanopt;
 extern scanopt *scanopt_default();
 extern scanopt *scanopt_transform(transform trans);
 extern scanopt *scanopt_filter(filter trans);
+extern void scanopt_dispose(scanopt **ptro);
+
 
 extern int lnscan_getline(const scanopt *opt, FILE *stream, char *s, size_t m);
 

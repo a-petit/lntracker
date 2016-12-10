@@ -12,7 +12,7 @@ struct scanopt {
 
 //--- fonctions de scanopt -----------------------------------------------------
 
-extern scanopt *scanopt_default() {
+scanopt *scanopt_default() {
   scanopt *opt = malloc(sizeof *opt);
   if (opt == NULL) {
     return NULL;
@@ -22,12 +22,19 @@ extern scanopt *scanopt_default() {
   return opt;
 }
 
-extern void scanopt_settransform(scanopt *opt, transform trans) {
+void scanopt_settransform(scanopt *opt, transform trans) {
   opt->t = trans;
 }
 
-extern void scanopt_setfilter(scanopt *opt, filter fltr) {
+void scanopt_setfilter(scanopt *opt, filter fltr) {
   opt->f = fltr;
+}
+
+void scanopt_dispose(scanopt **ptro) {
+  if (*ptro == NULL) {
+    return;
+  }
+  free(*ptro);
 }
 
 //--- fonctions locales --------------------------------------------------------

@@ -50,30 +50,13 @@ void ftrack_dispose(ftrack **ptrt) {
     return;
   }
 
-#if 1
-
-  long int *n;
-  vector_reset_iterator((*ptrt)->lines);
-  while ((n = (long int *) vector_iterate((*ptrt)->lines))) {
+  size_t k = 0;
+  size_t m = vector_length((*ptrt)->lines);
+  while (k < m) {
+    long int *n = (long int *) vector_get((*ptrt)->lines, k);
     free(n);
+    ++k;
   }
-
-#elif 1
-
-  long int *n = (long int *) vector_fst((*ptrt)->lines);
-  while (n) {
-    free(n);
-    n = (long int *) vector_next((*ptrt)->lines);
-  }
-
-#elif 1
-
-  for (size_t i = 0; i < vector_length((*ptrt)->lines); ++i) {
-    long int *n = (long int *) vector_get((*ptrt)->lines, i);
-    free(n);
-  }
-
-#endif
 
   vector_dispose(&(*ptrt)->lines);
   free(*ptrt);
