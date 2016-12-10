@@ -9,7 +9,10 @@ static size_t str_hashfun(const char *s);
 int main(void) {
 
   lntracker *tracker = lntracker_create((size_t (*)(const char *)) str_hashfun);
-
+  if (tracker == NULL) {
+    printf("***error : fail to create a line tracker\n");
+    return EXIT_FAILURE;
+  }
   //lntracker_addfile(tracker, "double.txt");
   //lntracker_addfile(tracker, "double.txt");
 
@@ -32,6 +35,8 @@ int main(void) {
 
   return EXIT_SUCCESS;
 }
+
+// proposer une meilleure fonction de hashage ?
 
 size_t str_hashfun(const char *s) {
   size_t h = 0;

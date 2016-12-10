@@ -20,7 +20,7 @@ struct vector {
 
 static int vector_resize(vector *t, size_t nslots) {
   //printf("vector_resize to %zu\n", nslots);
-  void **a = realloc(t->value, nslots * PTRSIZE); // sizeof(*(t->value))
+  void **a = realloc(t->value, nslots * PTRSIZE);
   if (a == NULL) {
     printf("*** realloc error\n");
     return 1;
