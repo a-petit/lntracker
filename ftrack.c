@@ -46,6 +46,9 @@ int ftrack_compar_id(ftrack *ft, size_t fileid) {
 }
 
 void ftrack_dispose(ftrack **ptrt) {
+  if (*prtr == NULL) {
+    return;
+  }
   for (size_t i = 0; i < vector_length((*ptrt)->lines); ++i) {
     long int *n = (long int *) vector_get((*ptrt)->lines, i);
     free(n);

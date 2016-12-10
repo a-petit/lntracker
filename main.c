@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdbool.h>
 #include <stdint.h>
 #include <string.h>
 #include "hashtbl.h"
@@ -9,8 +10,8 @@
 
 //------------------------------------------------------------------------------
 
-#define FUN_FAILURE 0
-#define FUN_SUCCESS -1
+#define FUN_FAILURE 1
+#define FUN_SUCCESS 0
 
 #define STR(s)  #s
 #define XSTR(s) STR(s)
@@ -21,12 +22,101 @@
 // leur intégralité.
 #define STRINGLEN_MAX (4095 - 1)
 
+#define ON_VALUE_GOTO(expr, value, label)     \
+    if ((expr) == (value)) {                  \
+      goto label;                             \
+
 static size_t str_hashfun(const char *s);
 
-size_t filecount;
-char **filenames;
-hashtable *ht;
-vector *slist;
+typedef struct lntracker {
+  size_t filecount;
+  char **filenames;
+  hashtable *ht;
+  vector *slist;
+  scanopt *opt;
+} lntracker;
+
+typedef vector ftrack_list;
+
+static int parselines(lntracker *tracker, FILE *stream, size_t fid, bool gen) {
+  char buf[STRINGLEN_MAX + 1];
+  long int n = 0;
+
+  // IB :
+  // QC : nombre d'appels à lnscan_getline
+  while (lnscan_getline(tracker->opt, stream, buf, STRINGLEN_MAX + 1) == 0) {
+    ftrack_list *ftl = (ftrack_list *) hashtable_value(ht, buf);
+    if (ftl == NULL) {
+      if (gen) {
+        ftrack *ft = ftrack_create(fid);
+        //ON_VALUE_GOTO(ft, NULL, parselines_error);
+        if (ft == NULL) {
+          return FUN_FAILURE;
+        }
+
+        if (ftrack_addline(ft, n) == NULL) {
+          ftrack_dispose(ft);
+          return FUN_FAILURE;
+        }
+
+        ftl = vector_empty();
+        if (ftl == NULL) {
+          ftrack_dispose(ft);
+          return FUN_FAILURE;
+        }
+
+        if (vector_add(ftl, ft) == NULL) {
+          ftrack_dispose(ft);
+          vector_dispose(&tl);
+          return FUN_FAILURE;
+        }
+
+        char *s = malloc(strlen(buf) + 1);
+        if (s == NULL) {
+          ftrack_dispose(ft);
+          vector_dispose(&tl);
+          return FUN_FAILURE;
+        }
+        strcpy(s, buf);
+
+        if (hashtable_add(tracker->ht, s, ftl) == NULL) {
+          ftrack_dispose(&ft);
+          vector_dispose(&ftl);
+          free(s);
+          return FUN_FAILURE;
+        }
+
+      } else {
+        // next line
+      }
+    } else {
+      ftrack *ft = vector_get(ftl, vector_length(ftl) - 1);
+      if (ftrack_id(ft) != fid) {
+        ft = ftrack_create(fid);
+        if (ft == NULL) {
+          return FUN_FAILURE;
+        }
+        if (vector_add(ftl, ft) == NULL) {
+          ftrack_dispose(ft);
+          vector_dispose(&tl);
+          return FUN_FAILURE;
+        }
+      }
+
+      if (ftrack_addline(ft, n) == NULL) {
+        ftrack_dispose(ft);
+        return FUN_FAILURE;
+      }
+    }
+
+parselines_error:
+    ftrack_dispose(&ft);
+    vector_dispose(&ftl);
+    free(s);
+
+    return FUN_FAILURE;
+}
+
 
 static int parseFile(char *name, size_t fileid) {
   FILE *f = fopen(name, "r");
@@ -96,6 +186,9 @@ static int parseFile(char *name, size_t fileid) {
   }
   return r;
 }
+
+
+
 
 
 int main(void) {

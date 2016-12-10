@@ -90,6 +90,9 @@ const void *vector_rsearch(vector *t, const void *key,
 // vector_dispose : libère les ressources allouées à *ptrt et donne à *ptrt
 //   la valeur NULL. tolère que *ptrt vaille NULL
 void vector_dispose(vector **ptrt) {
+  if (*ptrt == NULL) {
+    return;
+  }
   free((*ptrt)->value);
   free(*ptrt);
   *ptrt = NULL;
