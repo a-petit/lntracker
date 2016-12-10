@@ -33,20 +33,20 @@ long int *ftrack_addline(ftrack *ft, long int n) {
   return x;
 }
 
-size_t ftrack_id(ftrack *ft) {
+size_t ftrack_id(const ftrack *ft) {
   return ft->id;
 }
 
-const vector *ftrack_getlines(ftrack *ft) {
+const vector *ftrack_getlines(const ftrack *ft) {
   return (const vector *) ft->lines;
 }
 
-int ftrack_compar_id(ftrack *ft, size_t fileid) {
+int ftrack_compar_id(const ftrack *ft, size_t fileid) {
   return ftrack_id(ft) == fileid ? 0 : 1;
 }
 
 void ftrack_dispose(ftrack **ptrt) {
-  if (*prtr == NULL) {
+  if (*ptrt == NULL) {
     return;
   }
   for (size_t i = 0; i < vector_length((*ptrt)->lines); ++i) {

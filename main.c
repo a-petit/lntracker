@@ -28,156 +28,89 @@
 
 static size_t str_hashfun(const char *s);
 
+typedef vector ftrack_list;
+
 typedef struct lntracker {
-  size_t filecount;
-  char **filenames;
+  vector *filenames;
   hashtable *ht;
-  vector *slist;
+  vector *keys;
   scanopt *opt;
 } lntracker;
 
-typedef vector ftrack_list;
-
 static int parselines(lntracker *tracker, FILE *stream, size_t fid, bool gen) {
+  //printf("--- parselines : %zu, %d\n", fid, gen);
   char buf[STRINGLEN_MAX + 1];
   long int n = 0;
 
   // IB :
   // QC : nombre d'appels à lnscan_getline
   while (lnscan_getline(tracker->opt, stream, buf, STRINGLEN_MAX + 1) == 0) {
-    ftrack_list *ftl = (ftrack_list *) hashtable_value(ht, buf);
-    if (ftl == NULL) {
-      if (gen) {
-        ftrack *ft = ftrack_create(fid);
-        //ON_VALUE_GOTO(ft, NULL, parselines_error);
-        if (ft == NULL) {
-          return FUN_FAILURE;
-        }
-
-        if (ftrack_addline(ft, n) == NULL) {
-          ftrack_dispose(ft);
-          return FUN_FAILURE;
-        }
-
-        ftl = vector_empty();
-        if (ftl == NULL) {
-          ftrack_dispose(ft);
-          return FUN_FAILURE;
-        }
-
-        if (vector_add(ftl, ft) == NULL) {
-          ftrack_dispose(ft);
-          vector_dispose(&tl);
-          return FUN_FAILURE;
-        }
-
-        char *s = malloc(strlen(buf) + 1);
-        if (s == NULL) {
-          ftrack_dispose(ft);
-          vector_dispose(&tl);
-          return FUN_FAILURE;
-        }
-        strcpy(s, buf);
-
-        if (hashtable_add(tracker->ht, s, ftl) == NULL) {
-          ftrack_dispose(&ft);
-          vector_dispose(&ftl);
-          free(s);
-          return FUN_FAILURE;
-        }
-
-      } else {
-        // next line
+    //printf("--- parselines : %s\n", buf);
+    ftrack_list *ftl = (ftrack_list *) hashtable_value(tracker->ht, buf);
+    if (ftl == NULL && gen) {
+      ftl = vector_empty();
+      if (ftl == NULL) {
+        return FUN_FAILURE;
       }
-    } else {
-      ftrack *ft = vector_get(ftl, vector_length(ftl) - 1);
-      if (ftrack_id(ft) != fid) {
+
+      char *s = malloc(strlen(buf) + 1);
+      if (s == NULL) {
+        vector_dispose(&ftl);
+        return FUN_FAILURE;
+      }
+      strcpy(s, buf);
+
+      if (vector_add(tracker->keys, s) == NULL) {
+        vector_dispose(&ftl);
+        free(s);
+        return FUN_FAILURE;
+      }
+
+      if (hashtable_add(tracker->ht, s, ftl) == NULL) {
+        vector_dispose(&ftl);
+        free(s);
+        return FUN_FAILURE;
+      }
+    }
+    if (ftl != NULL) {
+      ftrack *ft = NULL;
+      if (vector_length(ftl)) {
+        ft = vector_get(ftl, vector_length(ftl) - 1);
+      }
+      if (ft == NULL || ftrack_id(ft) != fid) {
         ft = ftrack_create(fid);
         if (ft == NULL) {
           return FUN_FAILURE;
         }
         if (vector_add(ftl, ft) == NULL) {
-          ftrack_dispose(ft);
-          vector_dispose(&tl);
+          ftrack_dispose(&ft);
           return FUN_FAILURE;
         }
       }
 
       if (ftrack_addline(ft, n) == NULL) {
-        ftrack_dispose(ft);
+        //ftrack_dispose(ft); // SURTOUT PAS ICI !
         return FUN_FAILURE;
       }
     }
 
-parselines_error:
-    ftrack_dispose(&ft);
-    vector_dispose(&ftl);
-    free(s);
-
-    return FUN_FAILURE;
+    ++n; // débordement possible .? ou QC  déjà majorée par SIZE_MAX
+  }
+  return FUN_SUCCESS;
 }
 
-
-static int parseFile(char *name, size_t fileid) {
-  FILE *f = fopen(name, "r");
+static int parsefile(lntracker *tracker, char *fname, size_t fid, bool gen) {
+  //printf("--- parsefile : %s, %zu, %d\n", fname, fid, gen);
+  FILE *f = fopen(fname, "r");
   if (f == NULL) {
     return FUN_FAILURE;
   }
 
-  scanopt *opt = lnscan_opt(TRANSFORM_LOWER, FILTER_ALNUM);
-
-  char buf[STRINGLEN_MAX + 1];
-  char *s = NULL;
-  long int n = 0;
-  while (lnscan_getline(opt, f, buf, STRINGLEN_MAX + 1) == 0) {
-
-    vector *t = (vector *) hashtable_value(ht, buf);
-    if (t != NULL){
-      // ajouter une nouvelle occurences
-      ftrack *x = (ftrack *) vector_rsearch(t, 0,
-          (int (*)(const void *, const void *))ftrack_compar_id);
-      //ftrack *x = (ftrack *) vector_get(t, vector_length(t) - 1);
-      ftrack_addline(x, n);
-    } else {
-      // allouer une chaine de caractères pour la clé
-      s = malloc(strlen(buf) + 1);
-      if (s == NULL) {
-        return FUN_FAILURE;
-      }
-      strcpy(s, buf);
-
-      // créer un tableau de ftrack
-      vector *v = vector_empty();
-      if (v == NULL) {
-        return FUN_FAILURE;
-      }
-
-      {
-        // créer une structure ftrack (numéro de fichier, tableau de lignes vides)
-        ftrack *x = ftrack_create(fileid);
-        if (x == NULL) {
-          return FUN_FAILURE;
-        }
-
-        if (ftrack_addline(x, n) == NULL) {
-          return FUN_FAILURE;
-        }
-
-        vector_add(v, x);
-      }
-
-      hashtable_add(ht, s, v);
-      vector_add(slist, s);
-    }
-
-    //fprintf(stdout, "--- string read: '%s'\n", buf);
-
-    ++n;
+  int r = FUN_SUCCESS;
+  if (parselines(tracker, f, fid, gen) != 0) {
+    r = FUN_FAILURE;
   }
 
-  free(opt);
-
-  int r = FUN_SUCCESS;
   if (!feof(f)) {
     r = FUN_FAILURE;
   }
@@ -187,43 +120,46 @@ static int parseFile(char *name, size_t fileid) {
   return r;
 }
 
+static lntracker *lntracker_create() {
+  lntracker *tracker = malloc(sizeof *tracker);
+  tracker->filenames = vector_empty();
+  tracker->ht = hashtable_empty((size_t (*)(const void *)) str_hashfun, (int (*)(const void *, const void *)) strcmp);
+  tracker->keys = vector_empty();
+  tracker->opt = scanopt_default();
+  return tracker;
+}
 
-
-
+static int lntracker_addfile(lntracker *tracker, char *filename) {
+  // controler les doublons ?
+  return vector_add(tracker->filenames, filename) == NULL ?
+      FUN_FAILURE :
+      FUN_SUCCESS;
+}
 
 int main(void) {
 
-  ht = hashtable_empty((size_t (*)(const void *)) str_hashfun, (int (*)(const void *, const void *)) strcmp);
-  if (ht == NULL) {
-    return EXIT_FAILURE;
-  }
+  lntracker *tracker = lntracker_create();
 
-  slist = vector_empty();
-  if (slist == NULL) {
-    return EXIT_FAILURE;
-  }
+  lntracker_addfile(tracker, "double.txt");
+  lntracker_addfile(tracker, "double.txt");
 
-  filecount = 2;
-  filenames = malloc(sizeof(*filenames) * filecount);
-  filenames[0] = "double.txt";
-  filenames[0] = "input.txt";
+  parsefile(tracker, vector_get(tracker->filenames, 0), 0, true);
 
-  //{"double.txt", "input.txt"};
-  parseFile("double.txt", 0);
-  parseFile("double.txt", 1);
 
   // display
 
-  for (size_t i = 0; i < vector_length(slist); ++i) {
-    char * s = (char *) vector_get(slist, i);
-    const vector *t = hashtable_value(ht, s);
+  // créer des apply context. là c'est vraiment torp lourd
+
+  for (size_t i = 0; i < vector_length(tracker->keys); ++i) {
+    char * s = (char *) vector_get(tracker->keys, i);
+    const vector *t = hashtable_value(tracker->ht, s);
     for (size_t k = 0; k < vector_length(t); ++k) {
-      ftrack * x = (ftrack *) vector_get(t, k);
+      const ftrack *x = (const ftrack *) vector_get(t, k);
       printf("%zu\t", ftrack_id(x));
     }
     putchar('\n');
     for (size_t k = 0; k < vector_length(t); ++k) {
-      ftrack * x = (ftrack *) vector_get(t, k);
+      const ftrack *x = (ftrack *) vector_get(t, k);
       const vector *lines = ftrack_getlines(x);
       for (size_t i = 0; i < vector_length(lines); ++i) {
         long int *n = (long int *) vector_get(lines, i);
@@ -236,9 +172,9 @@ int main(void) {
 
   // free
 
-  for (size_t i = 0; i < vector_length(slist); ++i) {
-    char * s = (char *) vector_get(slist, i);
-    vector *t = (vector *) hashtable_value(ht, s);
+  for (size_t i = 0; i < vector_length(tracker->keys); ++i) {
+    char * s = (char *) vector_get(tracker->keys, i);
+    vector *t = (vector *) hashtable_value(tracker->ht, s);
     for (size_t k = 0; k < vector_length(t); ++k) {
       ftrack *x = (ftrack *) vector_get(t, k);
       ftrack_dispose(&x);
@@ -246,14 +182,14 @@ int main(void) {
     vector_dispose(&t);
   }
 
-  for (size_t i = 0; i < vector_length(slist); ++i) {
-    char * s = (char *) vector_get(slist, i);
+  for (size_t i = 0; i < vector_length(tracker->keys); ++i) {
+    char * s = (char *) vector_get(tracker->keys, i);
     free(s);
   }
-  vector_dispose(&slist);
 
-  free(filenames);
-  hashtable_dispose(&ht);
+  vector_dispose(&(tracker->filenames));
+  vector_dispose(&(tracker->keys));
+  hashtable_dispose(&(tracker->ht));
 
   return EXIT_SUCCESS;
 }

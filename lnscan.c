@@ -10,6 +10,26 @@ struct scanopt {
   filter f;
 };
 
+//--- fonctions de scanopt -----------------------------------------------------
+
+extern scanopt *scanopt_default() {
+  scanopt *opt = malloc(sizeof *opt);
+  if (opt == NULL) {
+    return NULL;
+  }
+  opt->t = TRANSFORM_NONE;
+  opt->f = FILTER_NONE;
+  return opt;
+}
+
+extern void scanopt_settransform(scanopt *opt, transform trans) {
+  opt->t = trans;
+}
+
+extern void scanopt_setfilter(scanopt *opt, filter fltr) {
+  opt->f = fltr;
+}
+
 //--- fonctions locales --------------------------------------------------------
 
 #define DEFUN_STR_TRANSFORM(fun, trans)       \
@@ -44,17 +64,6 @@ DEFUN_STR_FILTER(str_punct, ispunct)
 DEFUN_STR_FILTER(str_space, isspace)
 
 //--- fonctions de lnscan ------------------------------------------------------
-
-
-scanopt *lnscan_opt(transform trans, filter fltr) {
-  scanopt *opt = malloc(sizeof *opt);
-  if (opt == NULL) {
-    return NULL;
-  }
-  opt->t = trans;
-  opt->f = fltr;
-  return opt;
-}
 
 int lnscan_getline(const scanopt *opt, FILE *stream, char *s, size_t m) {
   int c = fgetc(stream);

@@ -1,6 +1,9 @@
 /*
  * Vector
  * Tableau dynamique sur le type void *
+ *
+ * push, pop, last, first next ?
+ * or apply context
  */
 #ifndef VECTOR_H
 #define VECTOR_H
