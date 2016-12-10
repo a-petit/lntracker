@@ -9,31 +9,36 @@ struct vector {
   void **value;
   size_t nslots;
   size_t nentries;
+  void *playhead;
 };
+
+#define PTRSIZE       (sizeof(void *))
 
 #define VALUE(t, i)   ((t) -> value[i])
 
+//------------------------------------------------------------------------------
+
 static int vector_resize(vector *t, size_t nslots) {
   //printf("vector_resize to %zu\n", nslots);
-  void **a = realloc(t->value, nslots * sizeof(*(t->value)));
+  void **a = realloc(t->value, nslots * PTRSIZE); // sizeof(*(t->value))
   if (a == NULL) {
     printf("*** realloc error\n");
     return 1;
   }
   t->value = a;
   t->nslots = nslots;
+  t->playhead = t->value;
   return 0;
 }
 
-// vector_empty : crée un tableau vide sur le type void * initialement vide.
-//   renvoie un pointeur sur l'objet qui gère ce tableau en cas de succès,
-//   et NULL en cas d'échec
+//------------------------------------------------------------------------------
+
 vector *vector_empty(void) {
   vector *t = malloc(sizeof *t);
   if (t == NULL) {
     return NULL;
   }
-  t->value = malloc(sizeof *(t->value) * VEC_NSLOTS_MIN);
+  t->value = malloc(PTRSIZE * VEC_NSLOTS_MIN);
   if (t->value == NULL) {
     free(t);
     return NULL;
@@ -43,8 +48,6 @@ vector *vector_empty(void) {
   return t;
 }
 
-// vector_push : insère x en queue du tableau associé à t.
-//   renvoie x en cas de succès, NULL en cas d'échec
 const void *vector_push(vector *t, const void * x) {
   //printf("vector_push at %zu/%zu\n", t->nentries, t->nslots);
   if (t->nentries >= t->nslots) {
@@ -59,9 +62,8 @@ const void *vector_push(vector *t, const void * x) {
   return x;
 }
 
-// vector_get : renvoie l'élément référencé à l'indice i dans le tableau t.
-//   renvoie x en cas de succès, NULL en cas d'échec
 void *vector_get(const vector *t, size_t i) {
+  //printf("*** WARNING : vector_get is now deprecated\n");
   //printf("vector_get at %zu / %zu\n", i, t->nentries);
   if (i >= t->nentries) {
     return NULL;
@@ -69,14 +71,14 @@ void *vector_get(const vector *t, size_t i) {
   return t->value[i];
 }
 
-// vector_length : renvoie la longueur du tableau associé à t
 size_t vector_length(const vector *t) {
+  //printf("*** WARNING : vector_length is now deprecated\n");
   return t->nentries;
 }
 
-
 const void *vector_rsearch(vector *t, const void *key,
   int (*cmp)(const void *, const void *)) {
+  //printf("*** WARNING : vector_rsearch is now deprecated\n");
   size_t k = 0;
   size_t n = t->nentries;
   // IB :
@@ -87,8 +89,48 @@ const void *vector_rsearch(vector *t, const void *key,
   return k == n ? NULL : VALUE(t, k);
 }
 
-// vector_dispose : libère les ressources allouées à *ptrt et donne à *ptrt
-//   la valeur NULL. tolère que *ptrt vaille NULL
+
+
+static int vector_hasnext(vector *t) {
+  return (size_t)((char *) t->playhead - (char *) t->value + 1) < t->nentries;
+}
+
+void vector_reset_iterator(vector *t) {
+  t->playhead = t->value[0];
+}
+
+const void *vector_iterate(vector *t) {
+  if (vector_hasnext(t) == 0) {
+    return NULL;
+  }
+  const void *x = t->playhead;
+  t->playhead = (char *) t->playhead + PTRSIZE;
+  return x;
+}
+
+const void *vector_fst(const vector *t) {
+  if (t->nentries == 0) {
+    return NULL;
+  }
+  return t->value[0];
+}
+
+const void *vector_lst(const vector *t) {
+  if (t->nentries == 0) {
+    return NULL;
+  }
+  return t->value[t->nentries -1];
+}
+
+//const void *vector_next(vector *t) {
+  //printf("vector_next\n");
+  //if (! vector_hasnext(t)) {
+    //return NULL;
+  //}
+  //t->playhead = (char *) t->playhead + PTRSIZE;
+  //return t->playhead;
+//}
+
 void vector_dispose(vector **ptrt) {
   if (*ptrt == NULL) {
     return;

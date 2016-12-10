@@ -24,6 +24,14 @@ typedef struct lntracker {
   scanopt *opt;
 } lntracker;
 
+
+#define FILES(t)      ((t) -> filenames)
+#define KEYS(t)       ((t) -> keys)
+#define HTBL(t)       ((t) -> ht)
+
+#define FILES_CT(t)   (vector_length(FILES(t)))
+#define KEYS_CT(t)    (vector_length(KEYS(t)))
+
 //--- Fonctions locales --------------------------------------------------------
 
 static int lnt_parselines(lntracker *tracker, FILE *stream, size_t fid, bool gen) {
@@ -129,17 +137,56 @@ int lntracker_addfile(lntracker *tracker, char *filename) {
 }
 
 int lntracker_parsefiles(lntracker *tracker) {
-  // TODO
   return lnt_parsefile(tracker, vector_get(tracker->filenames, 0), 0, true);
+}
+
+#define PRINT_COLUMN_SEPARATOR "\t"
+#define PRINT_LINEID_SEPARATOR ","
+
+
+static void lnt_display_single(lntracker *t) {
+
+  printf("lnt_display_single\n");
+
+  size_t n = KEYS_CT(t);
+  for (size_t i = 0; i < n; ++i) {
+    char *s = vector_get(KEYS(t), i);
+    const vector *ftl = (const vector *) hashtable_value(HTBL(t), s);
+    const ftrack *ft = (const ftrack *) vector_fst(ftl);
+    const vector *lines = ftrack_getlines(ft);
+
+    size_t m = vector_length(lines);
+    for (size_t k = 0; k < m; ++k) {
+      long int *n = vector_get(lines, k);
+      printf("%ld", *n);
+      if (k + 1 < m) {
+        printf(PRINT_LINEID_SEPARATOR);
+      }
+    }
+    printf(PRINT_COLUMN_SEPARATOR "%s\n", s);
+  }
 }
 
 void lntracker_display(lntracker *tracker) {
 
-  // créer des apply context. là c'est vraiment torp lourd
+  if (FILES_CT(tracker) == 0) {
+    printf("*** Warning : no files to display\n");
+    return;
+  }
 
-  for (size_t i = 0; i < vector_length(tracker->keys); ++i) {
-    char * s = (char *) vector_get(tracker->keys, i);
-    const vector *t = hashtable_value(tracker->ht, s);
+  size_t n = FILES_CT(tracker);
+  for (size_t i = 0; i < n; ++i) {
+    char *fname = vector_get(FILES(tracker), i);
+    printf("%s", fname);
+    if (i + 1 < n) {
+      printf(PRINT_COLUMN_SEPARATOR);
+    }
+  }
+  printf("\n");
+
+  for (size_t i = 0; i < KEYS_CT(tracker); ++i) {
+    char * s = (char *) vector_get(KEYS(tracker), i);
+    const vector *t = hashtable_value(HTBL(tracker), s);
     for (size_t k = 0; k < vector_length(t); ++k) {
       const ftrack *x = (const ftrack *) vector_get(t, k);
       printf("%zu\t", ftrack_id(x));
@@ -156,6 +203,11 @@ void lntracker_display(lntracker *tracker) {
     }
     printf("\t%s\n", s);
   }
+
+  if (n == 1) {
+    lnt_display_single(tracker);
+  }
+  printf("\n");
 }
 
 void lntracker_dispose(lntracker **ptrt) {

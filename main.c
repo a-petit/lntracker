@@ -11,7 +11,7 @@ int main(void) {
   lntracker *tracker = lntracker_create((size_t (*)(const char *)) str_hashfun);
 
   lntracker_addfile(tracker, "double.txt");
-  lntracker_addfile(tracker, "double.txt");
+  //lntracker_addfile(tracker, "double.txt");
 
   lntracker_parsefiles(tracker);
 
