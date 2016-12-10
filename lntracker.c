@@ -137,7 +137,14 @@ int lntracker_addfile(lntracker *tracker, char *filename) {
 }
 
 int lntracker_parsefiles(lntracker *tracker) {
-  return lnt_parsefile(tracker, vector_get(tracker->filenames, 0), 0, true);
+  size_t n = FILES_CT(tracker);
+  for (size_t i = 0; i < n; ++i) {
+    char *fname = vector_get(FILES(tracker), i);
+    if (lnt_parsefile(tracker, fname, i, i == 0) != FUN_SUCCESS) {
+      return FUN_FAILURE;
+    }
+  }
+  return FUN_SUCCESS;
 }
 
 #define PRINT_COLUMN_SEPARATOR "\t"
@@ -145,8 +152,6 @@ int lntracker_parsefiles(lntracker *tracker) {
 
 
 static void lnt_display_single(lntracker *t) {
-
-  printf("lnt_display_single\n");
 
   size_t n = KEYS_CT(t);
   for (size_t i = 0; i < n; ++i) {
@@ -163,7 +168,28 @@ static void lnt_display_single(lntracker *t) {
         printf(PRINT_LINEID_SEPARATOR);
       }
     }
-    printf(PRINT_COLUMN_SEPARATOR "%s\n", s);
+    printf(PRINT_COLUMN_SEPARATOR);
+    printf("%s\n", s);
+  }
+}
+
+
+static void lnt_display_multiple(lntracker *t) {
+
+  size_t n = KEYS_CT(t);
+  for (size_t i = 0; i < n; ++i) {
+    char *s = vector_get(KEYS(t), i);
+    const vector *ftl = (const vector *) hashtable_value(HTBL(t), s);
+
+    size_t m = vector_length(ftl);
+    for (size_t k = 0; k < m; ++k) {
+      const ftrack *ft = (const ftrack *) vector_get(ftl, k);
+      const vector *lines = ftrack_getlines(ft);
+      size_t m = vector_length(lines);
+      printf("%zu", m);
+      printf(PRINT_COLUMN_SEPARATOR);
+    }
+    printf("%s\n", s);
   }
 }
 
@@ -184,6 +210,7 @@ void lntracker_display(lntracker *tracker) {
   }
   printf("\n");
 
+  /*
   for (size_t i = 0; i < KEYS_CT(tracker); ++i) {
     char * s = (char *) vector_get(KEYS(tracker), i);
     const vector *t = hashtable_value(HTBL(tracker), s);
@@ -202,10 +229,12 @@ void lntracker_display(lntracker *tracker) {
       putchar('\t');
     }
     printf("\t%s\n", s);
-  }
+  }*/
 
   if (n == 1) {
     lnt_display_single(tracker);
+  } else {
+    lnt_display_multiple(tracker);
   }
   printf("\n");
 }
