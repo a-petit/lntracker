@@ -25,7 +25,7 @@ extern const void *vector_push(vector *t, const void * x);
 // vector_get : DEPRECATED
 // vector_get : renvoie l'élément référencé à l'indice i dans le tableau t.
 //   renvoie x en cas de succès, NULL en cas d'échec
-extern void *vector_get(const vector *t, size_t i);
+extern const void *vector_get(const vector *t, size_t i);
 
 // vector_length : DEPRECATED
 // vector_length : renvoie la longueur du tableau associé à t

@@ -11,116 +11,109 @@
 #define FUN_FAILURE 1
 #define FUN_SUCCESS 0
 
-// STRINGLEN_MAX : taille maximale des lignes lues.
+// STRINGLEN_MAX : longuer maximale des lignes lues.
 // Peut être amélioré. Cependant, Si les prefixes de deux lignes de 4095 crctrs
 // sont identiques, il est fort à supposer que les lignes sont identiques dans
 // leur intégralité.
-#define STRINGLEN_MAX (4095 - 1)
+#define STRINGLEN_MAX (4096 - 1)
 
 #define ON_VALUE_GOTO(expr, value, label)     \
     if ((expr) == (value)) {                  \
       goto label;                             \
     }
 
-
 typedef struct lntracker {
   vector *filenames;
-  vector *keys;
+  vector *klist;
+  vector *vlist; // TODO - conserver la trace des valeurs de la htable
   scanopt *opt;
   hashtable *ht;
 } lntracker;
 
-
 #define FILES(t)      ((t) -> filenames)
-#define HKEYS(t)       ((t) -> keys)
-#define HTBLE(t)       ((t) -> ht)
-#define SCOPT(t)    ((t) -> opt)
+#define HTABL(t)      ((t) -> ht)
+#define HKEYS(t)      ((t) -> klist)
+#define HVALS(t)      ((t) -> vlist)
+#define SCOPT(t)      ((t) -> opt)
 
-#define FILES_CT(t)   (vector_length(FILES(t)))
-#define KEYS_CT(t)    (vector_length(HKEYS(t)))
+#define FILES_LEN(t)  (vector_length(FILES(t)))
+#define HKEYS_LEN(t)  (vector_length(HKEYS(t)))
+#define HVALS_LEN(t)  (vector_length(HVALS(t)))
 
 //--- Fonctions locales --------------------------------------------------------
 
-static int lnt_parselines(lntracker *tracker, FILE *stream, size_t fid, bool gen) {
-  //printf("--- parselines : %zu, %d\n", fid, gen);
+static int lnt_parselines(lntracker *t, FILE *stream, size_t id, bool gen) {
   char buf[STRINGLEN_MAX + 1];
   long int n = 0;
 
-  // IB :
-  // QC : nombre d'appels à lnscan_getline
-  while (lnscan_getline(tracker->opt, stream, buf, STRINGLEN_MAX + 1) == 0) {
-    //printf("--- parselines : %s\n", buf);
-    vector *ftl = (vector *) hashtable_value(tracker->ht, buf);
-    if (ftl == NULL && gen) {
-      ftl = vector_empty();
-      if (ftl == NULL) {
-        return FUN_FAILURE;
-      }
+  vector *ftl = NULL;
+  char *s     = NULL;
+  ftrack *ft  = NULL;
 
-      char *s = malloc(strlen(buf) + 1);
-      if (s == NULL) {
-        vector_dispose(&ftl);
-        return FUN_FAILURE;
-      }
+  // IB :
+  // QC : nombre d'appels à lnscan_getline, majoré par LONG_MAX
+  while (lnscan_getline(SCOPT(t), stream, buf, STRINGLEN_MAX + 1) == 0) {
+    ftl = (vector *) hashtable_value(HTABL(t), buf);
+    if (ftl == NULL && gen) {
+      ON_VALUE_GOTO(ftl = vector_empty(),             NULL, error_phase1);
+      ON_VALUE_GOTO(s = malloc(strlen(buf) + 1),      NULL, error_phase1);
       strcpy(s, buf);
 
-      if (vector_push(tracker->keys, s) == NULL) {
-        vector_dispose(&ftl);
-        free(s);
-        return FUN_FAILURE;
-      }
-
-      if (hashtable_add(tracker->ht, s, ftl) == NULL) {
-        vector_dispose(&ftl);
-        free(s);
-        return FUN_FAILURE;
-      }
+      ON_VALUE_GOTO(hashtable_add(HTABL(t), s, ftl),  NULL, error_phase1);
+      ON_VALUE_GOTO(vector_push(HKEYS(t), s),         NULL, error_phase1);
+      s = NULL;
+      ON_VALUE_GOTO(vector_push(HVALS(t), ftl),       NULL, error_phase1);
     }
     if (ftl != NULL) {
-      ftrack *ft = NULL;
+      ft = NULL;
       if (vector_length(ftl)) {
-        ft = vector_get(ftl, vector_length(ftl) - 1);
+        ft = (ftrack *) vector_lst(ftl);
       }
-      if (ft == NULL || ftrack_id(ft) != fid) {
-        ft = ftrack_create(fid);
-        if (ft == NULL) {
-          return FUN_FAILURE;
-        }
-        if (vector_push(ftl, ft) == NULL) {
-          ftrack_dispose(&ft);
-          return FUN_FAILURE;
-        }
+      if (ft == NULL || ftrack_id(ft) != id) {
+        ON_VALUE_GOTO(ft = ftrack_create(id),         NULL, error_phase2);
+        ON_VALUE_GOTO(vector_push(ftl, ft),           NULL, error_phase2);
       }
 
-      if (ftrack_addline(ft, n) == NULL) {
-        //ftrack_dispose(ft); // SURTOUT PAS ICI !
-        return FUN_FAILURE;
-      }
+      ON_VALUE_GOTO(ftrack_addline(ft, n),            NULL, error_phase3);
     }
-
-    ++n; // débordement possible .? ou QC  déjà majorée par SIZE_MAX
+    ++n;
   }
+
+  goto success;
+
+error_phase1:
+  printf("***error : création de l'entrée dans la table de hashage\n");
+  free(s);
+  vector_dispose(&ftl);
+
+error_phase2:
+  printf("***error : création du relevé d'occurences pour le fichier\n");
+  ftrack_dispose(&ft);
+
+error_phase3:
+  printf("***error : ajout d'une occurence\n");
+  return EXIT_FAILURE;
+
+success:
   return FUN_SUCCESS;
 }
 
-static int lnt_parsefile(lntracker *tracker, char *fname, size_t fid, bool gen) {
-  //printf("--- parsefile : %s, %zu, %d\n", fname, fid, gen);
+static int lnt_parsefile(lntracker *t, const char *fname, size_t id, bool gen) {
   FILE *f = fopen(fname, "r");
   if (f == NULL) {
     return FUN_FAILURE;
   }
 
   int r = FUN_SUCCESS;
-  if (lnt_parselines(tracker, f, fid, gen) != 0) {
+  if (lnt_parselines(t, f, id, gen) != 0)
     r = FUN_FAILURE;
-  }
 
-  if (!feof(f)) {
+  if (! feof(f))
     r = FUN_FAILURE;
-  }
-  if (fclose(f) != 0) {
+
+  if (fclose(f) != 0)
     r = FUN_FAILURE;
-  }
+
   return r;
 }
 
@@ -129,17 +122,17 @@ static int lnt_parsefile(lntracker *tracker, char *fname, size_t fid, bool gen) 
 
 static void lnt_display_single(lntracker *t) {
 
-  size_t n = KEYS_CT(t);
+  size_t n = HKEYS_LEN(t);
   for (size_t i = 0; i < n; ++i) {
-    char *s = vector_get(HKEYS(t), i);
-    const vector *ftl = (const vector *) hashtable_value(HTBLE(t), s);
+    const char *s = vector_get(HKEYS(t), i);
+    const vector *ftl = (const vector *) hashtable_value(HTABL(t), s);
     const ftrack *ft = (const ftrack *) vector_fst(ftl);
     const vector *lines = ftrack_getlines(ft);
 
     size_t m = vector_length(lines);
     if (m > 1) {
       for (size_t k = 0; k < m; ++k) {
-        long int *n = vector_get(lines, k);
+        const long int *n = vector_get(lines, k);
         printf("%ld", *n);
         if (k + 1 < m) {
           printf(PRINT_LINEID_SEPARATOR);
@@ -153,10 +146,10 @@ static void lnt_display_single(lntracker *t) {
 
 static void lnt_display_multiple(lntracker *t) {
 
-  size_t n = KEYS_CT(t);
+  size_t n = HKEYS_LEN(t);
   for (size_t i = 0; i < n; ++i) {
-    char *s = vector_get(HKEYS(t), i);
-    const vector *ftl = (const vector *) hashtable_value(HTBLE(t), s);
+    const char *s = vector_get(HKEYS(t), i);
+    const vector *ftl = (const vector *) hashtable_value(HTABL(t), s);
 
     size_t m = vector_length(ftl);
     for (size_t k = 0; k < m; ++k) {
@@ -179,32 +172,18 @@ lntracker *lntracker_create(size_t (*str_hashfun)(const char *)) {
   }
   FILES(t) = NULL;
   HKEYS(t) = NULL;
+  HVALS(t) = NULL;
   SCOPT(t) = NULL;
-  HTBLE(t) = NULL;
+  HTABL(t) = NULL;
 
   ON_VALUE_GOTO(FILES(t) = vector_empty(),    NULL, error);
   ON_VALUE_GOTO(HKEYS(t) = vector_empty(),    NULL, error);
+  ON_VALUE_GOTO(HVALS(t) = vector_empty(),    NULL, error);
   ON_VALUE_GOTO(SCOPT(t) = scanopt_default(), NULL, error);
-  ON_VALUE_GOTO(HTBLE(t) = hashtable_empty(
+  ON_VALUE_GOTO(HTABL(t) = hashtable_empty(
       (size_t (*)(const void *)) str_hashfun,
       (int (*)(const void *, const void *)) strcmp),
-      NULL,
-      error
-      );
-  /*
-  FILES(t)    = vector_empty();
-  ON_VALUE_GOTO(FILES(t), NULL, error);
-
-  HKEYS(t)     = vector_empty();
-  ON_VALUE_GOTO(HKEYS(t), NULL, error);
-
-  SCOPT(t)  = scanopt_default();
-  ON_VALUE_GOTO(SCOPT(t), NULL, error);
-
-  HTBLE(t)     = hashtable_empty((size_t (*)(const void *)) str_hashfun,
-      (int (*)(const void *, const void *)) strcmp);
-  ON_VALUE_GOTO(FILE(t), NULL, error);
-  */
+      NULL, error);
 
   goto endfun;
 
@@ -216,34 +195,34 @@ endfun:
   return t;
 }
 
-int lntracker_addfile(lntracker *tracker, char *filename) {
+int lntracker_addfile(lntracker *t, char *filename) {
   // ? controler les doublons ?
-  if (vector_push(tracker->filenames, filename) == NULL) {
+  if (vector_push(t->filenames, filename) == NULL) {
     return FUN_FAILURE;
   }
   return FUN_SUCCESS;
 }
 
-int lntracker_parsefiles(lntracker *tracker) {
-  size_t n = FILES_CT(tracker);
+int lntracker_parsefiles(lntracker *t) {
+  size_t n = FILES_LEN(t);
   for (size_t i = 0; i < n; ++i) {
-    char *fname = vector_get(FILES(tracker), i);
-    if (lnt_parsefile(tracker, fname, i, i == 0) != FUN_SUCCESS) {
+    const char *fname = vector_get(FILES(t), i);
+    if (lnt_parsefile(t, fname, i, i == 0) != FUN_SUCCESS) {
       return FUN_FAILURE;
     }
   }
   return FUN_SUCCESS;
 }
 
-void lntracker_display(lntracker *tracker) {
-  if (FILES_CT(tracker) == 0) {
+void lntracker_display(lntracker *t) {
+  if (FILES_LEN(t) == 0) {
     printf("*** Warning : no files to display\n");
     return;
   }
 
-  size_t n = FILES_CT(tracker);
+  size_t n = FILES_LEN(t);
   for (size_t i = 0; i < n; ++i) {
-    char *fname = vector_get(FILES(tracker), i);
+    const char *fname = vector_get(FILES(t), i);
     printf("%s", fname);
     if (i + 1 < n) {
       printf(PRINT_COLUMN_SEPARATOR);
@@ -252,9 +231,9 @@ void lntracker_display(lntracker *tracker) {
   putchar('\n');
 
   if (n == 1) {
-    lnt_display_single(tracker);
+    lnt_display_single(t);
   } else {
-    lnt_display_multiple(tracker);
+    lnt_display_multiple(t);
   }
   putchar('\n');
 }
@@ -265,10 +244,17 @@ void lntracker_dispose(lntracker **ptrt) {
   }
 
   if (HKEYS(*ptrt)) {
-    size_t n = KEYS_CT(*ptrt);
+    size_t n = HKEYS_LEN(*ptrt);
     for (size_t i = 0; i < n; ++i) {
       char * s = (char *) vector_get(HKEYS(*ptrt), i);
-      vector *ftl = (vector *) hashtable_value(HTBLE(*ptrt), s);
+      free(s);
+    }
+  }
+
+  if (HVALS(*ptrt)) {
+    size_t n = HVALS_LEN(*ptrt);
+    for (size_t i = 0; i < n; ++i) {
+      vector *ftl = (vector *) vector_get(HVALS(*ptrt), i);
 
       size_t m = vector_length(ftl);
       for (size_t k = 0; k < m; ++k) {
@@ -276,13 +262,13 @@ void lntracker_dispose(lntracker **ptrt) {
         ftrack_dispose(&ft);
       }
       vector_dispose(&ftl);
-      free(s);
     }
   }
 
   vector_dispose(&FILES(*ptrt));
   vector_dispose(&HKEYS(*ptrt));
-  hashtable_dispose(&HTBLE(*ptrt));
+  vector_dispose(&HVALS(*ptrt));
+  hashtable_dispose(&HTABL(*ptrt));
   scanopt_dispose(&SCOPT(*ptrt));
   free(*ptrt);
   *ptrt = NULL;

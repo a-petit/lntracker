@@ -13,6 +13,7 @@ extern lntracker *lntracker_create(size_t (*str_hashfun)(const char *));
 
 extern int lntracker_addfile(lntracker *tracker, char *filename);
 
+// renvoyer le nombre de lignes traités, une valeur négative sinon ?
 extern int lntracker_parsefiles(lntracker *tracker);
 
 extern void lntracker_display(lntracker *tracker);

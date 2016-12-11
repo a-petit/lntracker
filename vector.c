@@ -62,7 +62,7 @@ const void *vector_push(vector *t, const void * x) {
   return x;
 }
 
-void *vector_get(const vector *t, size_t i) {
+const void *vector_get(const vector *t, size_t i) {
   //printf("*** WARNING : vector_get is now deprecated\n");
   //printf("vector_get at %zu / %zu\n", i, t->nentries);
   if (i >= t->nentries) {
