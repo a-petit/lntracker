@@ -1,0 +1,9423 @@
+7 abaisser
+7 s'abaisser
+7 abandonner
+7 s'abandonner
+20 abasourdir
+20 abâtardir
+20 s'abâtardir
+60 abattre
+60 s'abattre
+11 abcéder
+11 s'abcéder
+7 abdiquer
+7 aberrer
+20 abêtir
+20 s'abêtir
+7 abhorrer
+7 abîmer
+7 s'abîmer
+7 abjurer
+7 ablater
+7 s'ablater
+7 abloquer
+20 abolir
+7 abomber
+7 abominer
+7 abonder
+7 abonner
+7 s'abonner
+20 abonnir
+20 s'abonnir
+7 aborder
+7 s'aborder
+7 aboucher
+7 s'aboucher
+7 abouler
+7 s'abouler
+7 abouter
+20 aboutir
+18 aboyer
+7 abraser
+7 s'abraser
+15 abréger
+15 s'abréger
+7 abreuver
+7 s'abreuver
+7 abricoter
+7 abriter
+7 s'abriter
+9 abroger
+20 abrutir
+20 s'abrutir
+7 absenter
+7 s'absenter
+7 absorber
+7 s'absorber
+78 absoudre
+24 s'abstenir
+66 abstraire
+66 s'abstraire
+7 abuser
+7 s'abuser
+7 s'acagnarder
+7 accabler
+7 accaparer
+7 accastiller
+11 accéder
+11 accélérer
+11 s'accélérer
+7 accentuer
+7 s'accentuer
+7 accepter
+7 s'accepter
+7 accessoiriser
+7 accidenter
+7 acclamer
+7 acclimater
+7 s'acclimater
+7 s'accointer
+7 accoler
+7 s'accoler
+7 accommoder
+7 s'accommoder
+7 accompagner
+7 s'accompagner
+20 accomplir
+20 s'accomplir
+7 accorder
+7 s'accorder
+7 accorer
+7 accoster
+7 s'accoster
+7 accoter
+7 s'accoter
+7 accoucher
+7 s'accouder
+7 accouer
+7 accoupler
+7 s'accoupler
+20 accourcir
+34 accourir
+7 accoutrer
+7 s'accoutrer
+7 accoutumer
+7 s'accoutumer
+7 accréditer
+7 s'accréditer
+7 accrocher
+7 s'accrocher
+0 accroire	seulement à l'infinitif
+73 accroître
+73 s'accroître
+20 s'accroupir
+29 accueillir
+7 acculer
+7 acculturer
+7 accumuler
+7 s'accumuler
+7 accuser
+7 s'accuser
+7 acenser
+11 acérer
+16 acétifier
+7 acétyler
+7 achalander
+7 achaler
+7 acharner
+7 s'acharner
+7 acheminer
+7 s'acheminer
+13 acheter
+13 s'acheter
+10 achever
+10 s'achever
+7 achopper
+7 s'achopper
+7 achromatiser
+16 acidifier
+16 s'acidifier
+7 aciduler
+11 aciérer
+13 aciseler
+7 s'acoquiner
+25 acquérir
+25 s'acquérir
+8 acquiescer
+7 acquitter
+7 s'acquitter
+7 acter
+7 actionner
+7 activer
+7 s'activer
+7 actualiser
+7 adapter
+7 s'adapter
+7 additionner
+7 s'additionner
+11 adhérer
+84 s'adire
+7 adirer
+7 adjectiver
+7 adjectiviser
+63 adjoindre
+63 s'adjoindre
+9 adjuger
+9 s'adjuger
+7 adjurer
+61 admettre
+7 administrer
+7 s'administrer
+7 admirer
+7 s'admirer
+7 admonester
+7 s'adoniser
+7 adonner
+7 s'adonner
+7 adopter
+7 adorer
+7 s'adorer
+7 adosser
+7 s'adosser
+7 adouber
+20 adoucir
+20 s'adoucir
+7 adresser
+7 s'adresser
+7 adsorber
+7 aduler
+11 adultérer
+24 advenir
+7 adverbialiser
+11 aérer
+11 s'aérer
+7 affabuler
+20 affadir
+20 s'affadir
+20 affaiblir
+20 s'affaiblir
+7 s'affairer
+7 affaisser
+7 s'affaisser
+7 affaler
+7 s'affaler
+7 affamer
+9 afféager
+7 affecter
+7 s'affecter
+7 affectionner
+11 afférer
+7 affermer
+20 affermir
+20 s'affermir
+7 afficher
+7 s'afficher
+7 affiler
+16 affilier
+16 s'affilier
+7 affiner
+7 s'affiner
+7 affirmer
+7 s'affirmer
+7 affleurer
+9 affliger
+9 s'affliger
+7 afflouer
+7 affluer
+7 affoler
+7 s'affoler
+9 affouager
+7 affouiller
+9 affourager
+7 affourcher
+9 affourrager
+20 affranchir
+20 s'affranchir
+11 affréter
+7 affriander
+7 affricher
+7 affrioler
+7 affriter
+7 affronter
+7 s'affronter
+7 affruiter
+7 affubler
+7 s'affubler
+7 affurer
+7 affûter
+7 africaniser
+7 s'africaniser
+8 agacer
+8 s'agacer
+8 agencer
+8 s'agencer
+7 s'agenouiller
+11 agglomérer
+11 s'agglomérer
+7 agglutiner
+7 s'agglutiner
+7 aggraver
+7 s'aggraver
+7 agioter
+20 agir
+20 s'agir
+7 agiter
+7 s'agiter
+12 agneler
+20 agonir
+7 agoniser
+7 agrafer
+20 agrandir
+20 s'agrandir
+14 agréer
+15 agréger
+15 s'agréger
+7 agrémenter
+7 agresser
+7 agricher
+7 s'agriffer
+7 agripper
+7 s'agripper
+20 aguerrir
+20 s'aguerrir
+7 aguicher
+7 ahaner
+7 s'aheurter
+20 ahurir
+7 aicher
+7 aider
+7 s'aider
+20 aigrir
+20 s'aigrir
+7 aiguiller
+12 aiguilleter
+7 aiguillonner
+7 aiguiser
+7 s'aiguiser
+7 ailler
+7 aimanter
+7 s'aimanter
+7 aimer
+7 s'aimer
+7 airer
+7 ajointer
+7 ajourer
+7 ajourner
+7 ajouter
+7 s'ajouter
+7 ajuster
+7 s'ajuster
+7 alambiquer
+20 alanguir
+20 s'alanguir
+7 alarmer
+7 s'alarmer
+7 alcaliniser
+7 alcaliser
+7 alcooliser
+7 s'alcooliser
+20 alentir
+7 alerter
+11 aléser
+7 aleviner
+11 aliéner
+11 s'aliéner
+7 aligner
+7 s'aligner
+7 alimenter
+7 s'alimenter
+7 aliter
+7 s'aliter
+7 allaiter
+11 allécher
+15 alléger
+20 allégir
+7 allégoriser
+11 alléguer
+23 aller
+23 s'en aller
+16 allier
+16 s'allier
+9 allonger
+9 s'allonger
+7 allouer
+7 allumer
+7 s'allumer
+7 alluvionner
+20 alourdir
+20 s'alourdir
+7 alpaguer
+7 alphabétiser
+11 altérer
+11 s'altérer
+7 alterner
+7 aluminer
+7 aluner
+20 alunir
+7 amadouer
+20 amaigrir
+20 s'amaigrir
+7 amalgamer
+7 s'amalgamer
+7 amariner
+7 s'amariner
+7 amarrer
+7 s'amarrer
+7 amasser
+7 s'amasser
+20 amatir
+8 ambiancer
+7 s'ambifier
+7 ambitionner
+7 ambler
+7 ambrer
+7 améliorer
+7 s'améliorer
+9 aménager
+7 amender
+7 s'amender
+10 amener
+10 s'amener
+7 amenuiser
+7 s'amenuiser
+7 américaniser
+7 s'américaniser
+20 amerrir
+20 ameublir
+7 ameuter
+7 s'ameuter
+7 amidonner
+20 amincir
+20 s'amincir
+7 aminer
+16 amnistier
+7 amocher
+7 s'amocher
+16 amodier
+20 amoindrir
+20 s'amoindrir
+20 amollir
+20 s'amollir
+12 amonceler
+12 s'amonceler
+8 amorcer
+8 s'amorcer
+8 amordancer
+20 amortir
+20 s'amortir
+7 s'amouracher
+7 amourer
+16 amplifier
+16 s'amplifier
+7 amputer
+20 s'amuïr
+7 amurer
+7 amuser
+7 s'amuser
+16 analgésier
+7 analyser
+7 s'analyser
+7 anastomoser
+7 s'anastomoser
+7 anathématiser
+7 ancrer
+7 s'ancrer
+20 anéantir
+20 s'anéantir
+16 anémier
+16 anesthésier
+7 anglaiser
+7 angliciser
+7 s'angliciser
+7 angoisser
+7 s'angoisser
+11 anhéler
+7 animaliser
+7 animer
+7 s'animer
+7 aniser
+7 ankyloser
+7 s'ankyloser
+12 anneler
+7 annexer
+7 s'annexer
+7 annihiler
+7 s'annihiler
+8 annoncer
+8 s'annoncer
+7 annoter
+7 annualiser
+7 annuler
+7 s'annuler
+20 anoblir
+20 s'anoblir
+7 anodiser
+7 ânonner
+20 anordir
+7 antéposer
+7 anticiper
+7 antidater
+7 aoûter
+7 apaiser
+7 s'apaiser
+9 apanager
+7 apatamer
+40 apercevoir
+40 s'apercevoir
+7 apeurer
+7 apiquer
+18 apitoyer
+18 s'apitoyer
+20 aplanir
+20 s'aplanir
+20 aplatir
+20 s'aplatir
+7 aplomber
+7 s'aplomber
+16 apostasier
+7 aposter
+7 apostiller
+7 apostropher
+7 s'apostropher
+7 appairer
+69 apparaître
+7 appareiller
+7 s'appareiller
+7 apparenter
+7 s'apparenter
+16 apparier
+16 s'apparier
+0 apparoir	seulement à l'infinitif et à la 3e personne du singulier de l'indicatif présent : il appert
+24 appartenir
+24 s'appartenir
+7 appâter
+20 appauvrir
+20 s'appauvrir
+12 appeler
+12 s'appeler
+58 appendre
+7 appertiser
+20 appesantir
+20 s'appesantir
+11 appéter
+20 applaudir
+20 s'applaudir
+7 appliquer
+7 s'appliquer
+7 appointer
+7 s'appointer
+20 appointir
+7 apponter
+7 apporter
+7 apposer
+16 apprécier
+16 s'apprécier
+7 appréhender
+59 apprendre
+59 s'apprendre
+7 apprêter
+7 s'apprêter
+7 apprivoiser
+7 s'apprivoiser
+7 approcher
+7 s'approcher
+20 approfondir
+20 s'approfondir
+16 approprier
+16 s'approprier
+7 approuver
+7 s'approuver
+7 approvisionner
+7 s'approvisionner
+18 appuyer
+18 s'appuyer
+7 apurer
+9 aquiger
+7 arabiser
+7 araser
+7 arbitrer
+7 arborer
+7 arboriser
+7 arc-bouter
+7 s'arc-bouter
+7 archaïser
+7 architecturer
+7 archiver
+7 arçonner
+7 ardoiser
+7 argenter
+7 s'argenter
+7 argotiser
+7 argougner
+7 arguer
+7 argumenter
+7 ariser
+7 armer
+7 s'armer
+16 armorier
+7 arnaquer
+7 aromatiser
+15 arpéger
+7 arpenter
+7 arpigner
+7 arquebuser
+8 arquepincer
+7 arquer
+7 s'arquer
+7 arracher
+7 s'arracher
+7 arraisonner
+9 arranger
+9 s'arranger
+7 arrenter
+9 arrérager
+9 s'arrérager
+7 arrêter
+7 s'arrêter
+7 arriérer
+7 arrimer
+7 arriser
+7 arriver
+9 s'arroger
+20 arrondir
+20 s'arrondir
+7 arroser
+7 s'arroser
+7 s'arsouiller
+7 articuler
+7 s'articuler
+7 artiller
+7 ascensionner
+7 aseptiser
+7 aspecter
+9 asperger
+9 s'asperger
+7 asphalter
+16 asphyxier
+16 s'asphyxier
+7 aspirer
+20 assagir
+20 s'assagir
+30 assaillir
+20 assainir
+7 assaisonner
+7 assarmenter
+7 assassiner
+0 assavoir	seulement à l'infinitif
+11 assécher
+11 s'assécher
+7 assembler
+7 s'assembler
+10 assener
+11 asséner
+51 asseoir
+51 s'asseoir
+7 assermenter
+20 asservir
+20 s'asservir
+7 assibiler
+7 s'assibiler
+15 assiéger
+7 assigner
+7 assimiler
+7 s'assimiler
+7 assister
+16 associer
+16 s'associer
+7 assoiffer
+7 assoler
+20 assombrir
+20 s'assombrir
+7 assommer
+7 s'assommer
+7 assoner
+20 assortir
+20 s'assortir
+20 assoupir
+20 s'assoupir
+20 assouplir
+20 s'assouplir
+20 assourdir
+20 s'assourdir
+20 assouvir
+20 s'assouvir
+20 assujettir
+20 s'assujettir
+7 assumer
+7 s'assumer
+7 assurer
+7 s'assurer
+7 asticoter
+7 astiquer
+62 astreindre
+62 s'astreindre
+18 atermoyer
+7 atomiser
+7 s'atomiser
+16 atrophier
+16 s'atrophier
+7 attabler
+7 s'attabler
+7 attacher
+7 s'attacher
+7 attaquer
+7 s'attaquer
+7 s'attarder
+62 atteindre
+12 atteler
+12 s'atteler
+58 attendre
+58 s'attendre
+20 attendrir
+20 s'attendrir
+7 attenter
+7 atténuer
+7 s'atténuer
+7 atterrer
+20 atterrir
+7 attester
+20 attiédir
+20 s'attiédir
+7 attifer
+7 s'attifer
+9 attiger
+7 attirer
+7 s'attirer
+7 attiser
+7 attitrer
+7 attraper
+7 s'attraper
+7 attribuer
+7 s'attribuer
+7 attriquer
+7 attrister
+7 s'attrister
+7 attrouper
+7 s'attrouper
+7 auditionner
+7 augmenter
+7 s'augmenter
+7 augurer
+7 auner
+7 auréoler
+7 s'auréoler
+16 aurifier
+7 ausculter
+16 authentifier
+7 authentiquer
+7 s'autocensurer
+7 s'autodéterminer
+88 s'autodétruire
+8 autofinancer
+8 s'autofinancer
+16 autographier
+7 s'autoguider
+7 automatiser
+7 s'autoproclamer
+16 autopsier
+7 autoriser
+7 s'autoriser
+7 s'autosuggestionner
+7 s'autotomiser
+20 avachir
+20 s'avachir
+7 avaler
+7 avaliser
+8 avancer
+8 s'avancer
+9 avantager
+16 avarier
+16 s'avarier
+62 aveindre
+24 avenir
+7 aventurer
+7 s'aventurer
+11 avérer
+11 s'avérer
+20 avertir
+7 aveugler
+7 s'aveugler
+20 aveulir
+20 s'aveulir
+20 avilir
+20 s'avilir
+7 aviner
+7 aviser
+7 s'aviser
+7 avitailler
+7 s'avitailler
+7 aviver
+7 avocasser
+7 avoiner
+2 avoir
+7 avoisiner
+7 s'avoisiner
+7 avorter
+7 avouer
+7 s'avouer
+19 avoyer
+7 axer
+7 axiomatiser
+7 azimuter
+7 azimuther
+7 azurer
+13 babeler
+7 babiller
+7 bâcher
+7 bachoter
+7 bâcler
+7 bader
+7 badigeonner
+7 se badigeonner
+7 badiner
+7 baffer
+7 bafouer
+7 bafouiller
+7 bâfrer
+7 bagarrer
+7 se bagarrer
+7 bagoter
+7 bagotter
+7 bagouler
+7 baguenauder
+7 se baguenauder
+7 baguer
+7 baigner
+7 se baigner
+7 bailler (la bailler belle)
+7 bâiller (bâiller d'ennui)
+7 bâillonner
+7 baiser
+7 baisser
+7 se baisser
+7 balader
+7 se balader
+7 balafrer
+8 balancer
+8 se balancer
+7 balanstiquer
+17 balayer
+16 balbutier
+7 baleiner
+7 baligander
+7 baliser
+7 balkaniser
+7 se balkaniser
+7 ballaster
+7 baller
+7 ballonner
+7 ballotter
+7 balluchonner
+7 se balluchonner
+7 balter
+7 baluchonner
+7 se baluchonner
+7 bambocher
+7 banaliser
+7 se banaliser
+7 bananer
+7 bancher
+7 bander
+7 se bander
+7 banner
+20 bannir
+7 banquer
+12 banqueter
+7 baptiser
+7 se baquer
+7 baquer
+12 baqueter
+7 baragouiner
+7 baraquer
+7 baratiner
+7 baratter
+7 barber
+7 se barber
+16 barbifier
+16 se barbifier
+7 barboter
+7 barbouiller
+7 barder
+11 baréter
+7 barguigner
+7 barioler
+7 barjaquer
+7 barloquer
+7 baronner
+7 barouder
+7 barrer
+7 se barrer
+7 barricader
+7 se barricader
+20 barrir
+7 basaner
+7 basculer
+7 baser
+7 se baser
+7 bassiner
+7 baster
+7 bastillonner
+7 bastionner
+7 bastonner
+7 se bastonner
+7 batailler
+7 se batailler
+12 bateler
+7 bâter
+7 batifoler
+20 bâtir
+20 se bâtir
+7 bâtonner
+60 battre
+60 se battre
+9 se bauger
+7 bavarder
+7 bavasser
+7 baver
+7 bavocher
+17 bayer (aux corneilles)
+7 bazarder
+16 béatifier
+7 bêcher
+13 bêcheveter
+7 bécoter
+7 se bécoter
+7 becquer
+12 becqueter
+7 becter
+7 bedonner
+14 béer
+7 bégaler
+17 bégayer
+11 béguer
+13 bégueter
+7 bêler
+7 beloter
+7 bémoliser
+16 bénéficier
+20 bénir
+7 benner
+11 béquer
+12 béqueter
+7 béquiller
+8 bercer
+8 se bercer
+7 berdeller
+7 berlurer
+7 se berlurer
+7 berner
+7 besogner
+16 bêtifier
+16 se bêtifier
+7 bêtiser
+7 bétonner
+7 beugler
+7 beurrer
+7 se beurrer
+7 biaiser
+7 bibarder
+7 bibeloter
+7 biberonner
+7 bicher
+7 bichonner
+7 se bichonner
+7 bichoter
+7 se bider
+7 bidonner
+7 se bidonner
+7 bidouiller
+0 bienvenir	seulement à l'infinitif
+7 biffer
+7 biffetonner
+7 bifurquer
+7 bigarrer
+7 bigler
+7 biglouser
+7 bigophoner
+7 bigorner
+7 se bigorner
+7 bigrer
+7 bilaner
+7 se biler
+7 billebauder
+7 biller
+7 billonner
+7 biloquer
+7 se biloter
+7 biner
+7 biologiser
+7 biquer
+7 biscuiter
+7 biseauter
+7 bisegmenter
+7 biser
+7 bisquer
+7 bisser
+7 bistourner
+7 bistrer
+7 biter
+7 bitonner
+7 bitter
+7 se bitturer
+7 bitumer
+7 bituminer
+7 se biturer
+7 bivouaquer
+7 bizuter
+7 blablater
+7 blackbouler
+7 blaguer
+7 blairer
+7 blâmer
+7 se blâmer
+20 blanchir
+20 se blanchir
+7 blaser
+7 se blaser
+7 blasonner
+11 blasphémer
+11 blatérer
+7 bleffer
+20 blêmir
+11 bléser
+7 blesser
+7 se blesser
+20 blettir
+20 bleuir
+7 bleuter
+7 blinder
+7 se blinder
+7 blinquer
+7 blobloter
+20 blondir
+18 blondoyer
+7 bloquer
+7 se bloquer
+20 se blottir
+7 blouser
+7 se blouser
+7 bluffer
+7 bluter
+7 blutiner
+7 bobiner
+7 bocarder
+7 boetter
+75 boire
+75 se boire
+7 boiser
+7 boiter
+7 boitiller
+7 bolcheviser
+7 bombarder
+7 bomber
+7 bonder
+7 bondériser
+20 bondir
+7 bondonner
+16 bonifier
+16 se bonifier
+7 bonimenter
+20 bonir
+20 bonnir
+7 boquillonner
+7 bordéliser
+7 border
+7 bordurer
+7 borgnoter
+7 borner
+7 se borner
+18 bornoyer
+12 bosseler
+7 bosser
+7 bossuer
+7 bostonner
+7 botaniser
+12 botteler
+7 botter
+7 se botter
+7 bottiner
+7 boubouler
+7 boucaner
+7 boucharder
+7 boucher
+7 se boucher
+7 bouchonner
+7 se bouchonner
+7 boucler
+7 se boucler
+7 bouder
+7 se bouder
+7 boudiner
+7 bouffer
+7 se bouffer
+20 bouffir
+7 bouffonner
+9 bouger
+9 se bouger
+7 bougonner
+32 bouillir
+7 bouillonner
+7 bouillotter
+9 boulanger
+7 bouler
+7 bouleverser
+7 bouliner
+7 boulocher
+7 boulonner
+7 boulotter
+7 boumer
+7 bouquiner
+7 bourder
+7 bourdonner
+7 bourgeonner
+7 bourlinguer
+12 bourreler
+7 bourrer
+7 se bourrer
+7 boursicoter
+7 boursouffler
+7 se boursouffler
+7 boursoufler
+7 se boursoufler
+7 bousculer
+7 se bousculer
+7 bousiller
+7 boustifailler
+7 bouteiller
+7 bouter
+7 boutonner
+7 se boutonner
+7 bouturer
+7 boxer
+7 boxonner
+7 se boyauter
+7 boycotter
+7 braconner
+7 brader
+7 brailler
+7 se brailler
+66 braire
+7 braiser
+7 bramer
+7 brancarder
+7 brancher
+7 se brancher
+7 brandiller
+20 brandir
+7 branler
+7 branlocher
+7 braquer
+7 se braquer
+7 braser
+7 brasiller
+7 brasser
+7 se brasser
+17 brasseyer
+7 braver
+17 brayer
+7 bredouiller
+7 brêler
+7 breller
+7 brésiller
+7 se brésiller
+12 bretteler
+7 bretter
+12 breveter
+7 bricoler
+7 brider
+9 bridger
+7 briefer
+7 briffer
+7 brigander
+7 briguer
+7 brillanter
+7 brillantiner
+7 briller
+7 brimbaler
+7 brimer
+7 bringuebaler
+7 brinqueballer
+7 briocher
+7 briquer
+12 briqueter
+7 briser
+7 se briser
+7 broadcaster
+7 brocanter
+7 brocarder
+7 brocher
+7 broder
+7 broncher
+7 bronzer
+7 se bronzer
+7 broquanter
+7 broquer
+7 brosser
+7 se brosser
+7 brouetter
+7 brouillasser
+7 brouiller
+7 se brouiller
+7 brouillonner
+7 brouter
+18 broyer
+7 bruiner
+20 bruire
+7 bruisser
+7 bruiter
+7 brûler
+7 se brûler
+7 brumasser
+7 brumer
+20 brunir
+20 se brunir
+7 brusquer
+7 brutaliser
+7 bûcher
+7 budgéter
+7 budgétiser
+7 buller
+7 bureaucratiser
+7 se bureaucratiser
+7 buriner
+7 buser
+7 buter
+7 se buter
+7 butiner
+7 butter
+7 buvoter
+7 cabaler
+7 cabaner
+7 cabiner
+7 câbler
+7 cabosser
+7 caboter
+7 cabotiner
+7 cabrer
+7 se cabrer
+7 cabrioler
+7 cacaber
+7 cacarder
+7 cacher
+7 se cacher
+12 cacheter
+7 cachetonner
+7 cadancher
+7 cadastrer
+7 cadeauter
+7 cadenasser
+8 cadencer
+7 cadoter
+7 cadrer
+7 cafarder
+7 cafeter
+7 cafouiller
+7 cafter
+7 cagnarder
+7 cagner
+7 caguer
+7 cahoter
+7 caillebotter
+7 cailler
+7 se cailler
+12 cailleter
+7 caillouter
+7 caïmanter
+7 cajoler
+7 se calaminer
+7 calamistrer
+7 calancher
+7 calandrer
+7 calciner
+7 calculer
+7 caler
+7 se caler
+13 caleter
+13 se caleter
+7 calfater
+7 calfeutrer
+7 se calfeutrer
+7 calibrer
+7 câliner
+16 calligraphier
+7 calmer
+7 se calmer
+20 calmir
+16 calomnier
+9 calorifuger
+7 calotter
+7 calquer
+7 calter
+7 se calter
+7 cambrer
+7 se cambrer
+7 cambrioler
+7 cambuter
+7 cameloter
+11 camembérer
+7 se camer
+7 camionner
+7 camoufler
+7 se camoufler
+7 camper
+7 se camper
+7 canaliser
+7 canarder
+7 cancaner
+7 cancériser
+20 se candir
+7 caner
+12 canneler
+7 canner
+7 cannibaliser
+7 se cannibaliser
+7 canoniser
+7 canonner
+7 canoter
+7 cantiner
+7 cantonner
+7 se cantonner
+7 canuler
+7 caoutchouter
+7 capahuter
+7 caparaçonner
+7 se caparaçonner
+14 capéer
+12 capeler
+17 capeyer
+7 capitaliser
+7 capitonner
+7 se capitonner
+7 capituler
+7 caponner
+7 caporaliser
+7 capoter
+7 capsuler
+7 capter
+7 captiver
+7 se captiver
+7 capturer
+7 capuchonner
+7 caquer
+12 caqueter
+7 caracoler
+7 caractériser
+7 se caractériser
+7 caramboler
+7 se caramboler
+7 caraméliser
+7 se caraméliser
+7 se carapater
+7 carbonater
+7 carboniser
+7 carburer
+7 carcailler
+7 carder
+8 carencer
+11 caréner
+7 carer
+7 caresser
+7 se caresser
+7 carguer
+7 caricaturer
+16 carier
+16 se carier
+7 carillonner
+7 carmer
+7 carminer
+16 se carnifier
+7 carotter
+7 caroubler
+12 carreler
+7 carrer
+7 se carrer
+7 carrosser
+18 carroyer
+7 carter
+7 cartonner
+7 cartoucher
+7 cascader
+16 caséifier
+7 casemater
+7 caser
+7 se caser
+7 caserner
+7 casquer
+7 casse-croûter
+7 casser
+7 se casser
+7 castagner
+7 se castagner
+7 castrer
+7 cataloguer
+7 catalyser
+7 catapulter
+7 catastropher
+7 catcher
+7 catéchiser
+7 catiner
+20 catir
+7 cauchemarder
+7 causer
+7 cautériser
+7 cautionner
+7 cavacher
+7 cavalcader
+7 cavaler
+7 se cavaler
+7 caver
+7 se caver
+7 caviarder
+11 céder
+7 cégotter
+62 ceindre
+62 se ceindre
+7 ceinturer
+11 célébrer
+13 celer
+7 cémenter
+7 cendrer
+7 censurer
+7 center
+7 centraliser
+7 centrer
+9 centrifuger
+7 centupler
+7 cercler
+7 cerner
+16 certifier
+7 césariser
+7 cesser
+7 chabler
+7 chagriner
+7 chahuter
+7 chaîner
+9 challenger
+0 chaloir	surtout à la 3e personne du singulier de l'indicatif présent (peu lui chaut)
+7 chalouper
+7 se chamailler
+7 chamarrer
+7 chambarder
+7 chambouler
+7 chambrer
+7 chameauser
+7 chamoiser
+7 champagniser
+10 champlever
+12 chanceler
+7 chancetiquer
+20 chancir
+20 se chancir
+7 chanfreiner
+9 changer
+9 se changer
+7 chansonner
+7 chanstiquer
+7 chanter
+7 chantonner
+7 chantourner
+7 chaparder
+7 chapeauter
+12 chapeler
+7 chaperonner
+7 chapitrer
+7 chaponner
+7 chaptaliser
+7 charbonner
+7 charcuter
+7 se charcuter
+9 charger
+9 se charger
+7 chariboter
+7 charlater
+7 charmer
+7 charpenter
+16 charrier
+18 charroyer
+7 chartériser
+7 chasser
+7 châtaigner
+7 se châtaigner
+16 châtier
+16 se châtier
+7 chatonner
+7 chatouiller
+18 chatoyer
+7 châtrer
+7 chauffer
+7 se chauffer
+7 chauler
+7 chaumer
+7 chausser
+7 se chausser
+20 chauvir
+7 chavirer
+7 chawer
+7 chelinguer
+7 cheminer
+7 chemiser
+7 chercher
+7 se chercher
+11 chérer
+20 chérir
+7 cherrer
+7 chevaler
+7 chevaucher
+7 se chevaucher
+7 cheviller
+12 chevreter
+7 chevronner
+7 chevroter
+7 chiader
+7 chialer
+7 chicaner
+7 se chicaner
+7 se chicorer
+7 se chicorner
+7 chicoter
+7 chicotter
+7 chienner
+16 chier
+7 chiffonner
+7 se chiffonner
+7 chiffrer
+7 se chiffrer
+7 chigner
+7 chimer
+7 chiner
+7 chinoiser
+7 chiper
+7 chipoter
+7 chiquer
+16 chirographier
+7 chlinguer
+7 chlorer
+7 chloroformer
+7 chlorurer
+7 chocotter
+7 chofer
+55 choir
+20 choisir
+7 chômer
+7 choper
+7 chopiner
+7 chopper
+7 choquer
+7 se choquer
+16 chorégraphier
+7 choser
+16 chosifier
+7 chouchouter
+7 choufer
+7 chouraver
+7 chourer
+7 chouriner
+18 choyer
+7 christianiser
+7 chromer
+7 chroniquer
+11 chronométrer
+7 chroumer
+7 chuchoter
+7 chuinter
+7 chuter
+7 cibler
+7 cicatriser
+7 se cicatriser
+7 cigler
+7 ciller
+7 cimenter
+7 se cimenter
+16 cinématographier
+7 cingler
+7 se cingler
+7 cintrer
+87 circoncire
+86 circonscrire
+86 se circonscrire
+16 circonstancier
+24 circonvenir
+7 circuler
+7 cirer
+7 cisailler
+13 ciseler
+7 citer
+7 civiliser
+7 se civiliser
+7 clabauder
+7 claboter
+7 clacher
+7 claironner
+7 clamecer
+7 clamer
+7 clamper
+7 clamser
+7 claper
+20 clapir
+20 se clapir
+7 clapoter
+7 clapper
+7 clapser
+7 claquemurer
+7 se claquemurer
+7 claquer
+7 se claquer
+12 claqueter
+16 clarifier
+16 se clarifier
+7 classer
+7 se classer
+16 classifier
+7 claudiquer
+7 claustrer
+7 se claustrer
+7 claver
+12 claveter
+12 clavetter
+7 clayonner
+11 cléber
+7 clicher
+7 clienter
+7 cligner
+7 clignoter
+7 climatiser
+7 cliquer
+12 cliqueter
+7 cliquoter
+7 clisser
+7 cliver
+7 se cliver
+7 clochardiser
+7 se clochardiser
+7 clocher
+7 cloisonner
+7 cloîtrer
+7 se cloîtrer
+7 cloner
+7 cloper
+7 clopiner
+7 cloquer
+76 clore
+7 clôturer
+7 clouer
+7 clouter
+7 coaguler
+7 se coaguler
+7 coaliser
+7 se coaliser
+7 coasser
+7 se cocaliser
+7 cocher
+7 côcher
+7 cochonner
+7 cocoter
+7 cocotter
+16 cocufier
+7 coder
+16 codifier
+7 coéditer
+7 coexister
+7 coffrer
+11 cogérer
+7 cogiter
+7 cogner
+7 se cogner
+7 cognoter
+7 cohabiter
+7 cohériter
+7 coiffer
+7 se coiffer
+8 coincer
+8 se coincer
+7 coïncider
+7 coïter
+16 cokéfier
+7 cokser
+7 collaborer
+7 collapser
+7 collationner
+7 collecter
+7 se collecter
+7 collectionner
+7 collectiviser
+7 coller
+7 se coller
+12 colleter
+12 se colleter
+9 colliger
+7 colloquer
+7 colmater
+7 coloniser
+7 colorer
+7 se colorer
+16 colorier
+7 coloriser
+7 colporter
+7 coltiner
+7 se coltiner
+60 combattre
+7 combiner
+7 se combiner
+7 combler
+7 commander
+7 se commander
+7 commanditer
+7 commémorer
+8 commencer
+8 se commencer
+7 commenter
+8 commercer
+7 commercialiser
+11 commérer
+61 commettre
+61 se commettre
+7 commissionner
+7 commotionner
+7 commuer
+7 communaliser
+16 communier
+7 communiquer
+7 se communiquer
+7 commuter
+7 compacter
+69 comparaître
+7 comparer
+7 se comparer
+0 comparoir	seulement à l'infinitif (être assigné à comparoir) et au participe présent (comparant)
+7 compartimenter
+7 compasser
+20 compatir
+7 compenser
+7 se compenser
+11 compéter
+7 compiler
+7 compisser
+68 complaire
+68 se complaire
+11 compléter
+11 se compléter
+7 complexer
+7 se complexer
+16 complexifier
+16 se complexifier
+7 complimenter
+7 compliquer
+7 se compliquer
+7 comploter
+7 comporter
+7 se comporter
+7 composer
+7 se composer
+7 composter
+59 comprendre
+59 se comprendre
+7 compresser
+7 comprimer
+61 compromettre
+61 se compromettre
+7 comptabiliser
+7 compter
+7 se compter
+7 compulser
+7 computer
+7 concasser
+11 concéder
+11 concélébrer
+7 concentrer
+7 se concentrer
+7 conceptualiser
+7 concerner
+7 concerter
+7 se concerter
+40 concevoir
+40 se concevoir
+16 concilier
+16 se concilier
+77 conclure
+77 se conclure
+7 concocter
+7 concorder
+34 concourir
+11 concréter
+7 concrétiser
+7 se concrétiser
+8 concurrencer
+7 condamner
+7 condenser
+7 se condenser
+58 condescendre
+7 conditionner
+88 conduire
+88 se conduire
+7 confectionner
+7 se confectionner
+11 confédérer
+11 conférer
+7 confesser
+7 se confesser
+7 confiancer
+16 confier
+16 se confier
+7 configurer
+7 confiner
+7 se confiner
+87 confire
+87 se confire
+7 confirmer
+7 se confirmer
+7 confisquer
+7 confiturer
+7 confluer
+58 confondre
+58 se confondre
+7 conformer
+7 se conformer
+7 conforter
+7 se conforter
+7 confronter
+16 congédier
+13 congeler
+13 se congeler
+7 congestionner
+7 se congestionner
+11 conglomérer
+11 se conglomérer
+7 conglutiner
+7 congratuler
+7 se congratuler
+14 congréer
+20 cônir
+7 conjecturer
+63 conjoindre
+7 conjuguer
+7 se conjuguer
+7 conjurer
+7 se conjurer
+69 connaître
+69 se connaître
+7 connecter
+7 connobler
+7 connoter
+7 conobler
+7 conobrer
+25 conquérir
+25 se conquérir
+7 consacrer
+7 se consacrer
+7 conscientiser
+7 conseiller
+26 consentir
+7 conserver
+7 se conserver
+11 considérer
+11 se considérer
+7 consigner
+7 consister
+7 consoler
+7 se consoler
+7 consolider
+7 se consolider
+7 consommer
+7 se consommer
+7 consoner
+7 conspirer
+7 conspuer
+7 constater
+7 consteller
+7 consterner
+7 constiper
+7 constituer
+7 se constituer
+7 constitutionnaliser
+88 construire
+88 se construire
+7 consulter
+7 se consulter
+7 consumer
+7 se consumer
+7 contacter
+7 contagionner
+7 containeriser
+7 contaminer
+7 contempler
+7 se contempler
+7 conteneuriser
+24 contenir
+24 se contenir
+7 contenter
+7 se contenter
+7 conter
+7 contester
+7 contingenter
+7 continuer
+7 se continuer
+7 contorsionner
+7 se contorsionner
+7 contourner
+7 contracter
+7 se contracter
+7 contractualiser
+7 contracturer
+64 contraindre
+64 se contraindre
+16 contrarier
+16 se contrarier
+7 contraster
+7 contre-attaquer
+8 contrebalancer
+8 s'en contrebalancer
+60 contrebattre
+7 contrebouter
+7 contrebraquer
+7 contrebuter
+7 contrecarrer
+84 contredire
+84 se contredire
+67 contrefaire
+7 se contrefiche
+58 se contrefoutre
+7 contre-indiquer
+7 contremander
+7 contre-manifester
+7 contremarquer
+7 contre-miner
+7 contre-murer
+7 contre-passer
+7 contre-plaquer
+7 contrer
+7 contre-sceller
+7 contresigner
+7 contre-tirer
+24 contrevenir
+7 contribuer
+7 contrister
+7 contrôler
+7 se contrôler
+7 controuver
+7 controverser
+7 contusionner
+65 convaincre
+65 se convaincre
+24 convenir
+24 se convenir
+7 conventionner
+9 converger
+7 converser
+20 convertir
+20 se convertir
+16 convier
+7 convivialiser
+7 convoiter
+7 convoler
+7 convoquer
+18 convoyer
+7 convulser
+7 se convulser
+7 convulsionner
+11 coopérer
+7 coopter
+7 coordonner
+7 copermuter
+16 copier
+7 copiner
+7 coposséder
+88 coproduire
+7 copuler
+7 coquer
+12 coqueter
+7 coquiller
+7 coraniser
+12 cordeler
+7 corder
+7 cordonner
+7 cornancher
+7 se cornancher
+7 cornaquer
+7 corner
+7 correctionnaliser
+11 corréler
+58 correspondre
+58 se correspondre
+9 corriger
+9 se corriger
+7 corroborer
+7 corroder
+58 corrompre
+58 se corrompre
+18 corroyer
+7 corser
+7 se corser
+13 corseter
+7 cosigner
+7 cosmétiquer
+7 cosser
+7 costumer
+7 se costumer
+7 coter
+20 cotir
+7 cotiser
+7 se cotiser
+7 cotonner
+7 se cotonner
+18 côtoyer
+18 se côtoyer
+7 couchailler
+7 coucher
+7 se coucher
+7 couder
+18 coudoyer
+79 coudre
+7 couiller
+7 couillonner
+7 couiner
+7 couler
+7 se couler
+7 coulisser
+7 coupailler
+7 coupeller
+7 couper
+7 se couper
+7 coupler
+7 courailler
+7 courbaturer
+7 courber
+7 se courber
+34 courir
+7 couronner
+7 se couronner
+0 courre	seulement à l'infinitif (chasse à courre)
+8 courroucer
+8 se courroucer
+7 courser
+7 courtauder
+7 court-circuiter
+7 courtiser
+7 cousiner
+7 couteauner
+7 coûter
+7 coutoner
+18 coutoyer
+7 couturer
+7 couver
+28 couvrir
+28 se couvrir
+7 coxer
+7 cracher
+7 crachiner
+7 crachoter
+7 crachouiller
+7 crailler
+64 craindre
+7 cramer
+7 cramponner
+7 se cramponner
+7 crampser
+7 cramser
+7 craner
+7 crâner
+7 cranter
+7 crapahuter
+7 crapaüter
+7 crapoter
+7 crapuler
+12 craqueler
+12 se craqueler
+7 craquer
+12 craqueter
+7 se crasher
+7 crasser
+7 cravacher
+7 se cravater
+7 cravater
+7 crawler
+7 crayonner
+11 crécher
+7 crédibiliser
+7 créditer
+14 créer
+14 se créer
+11 crémer
+12 créneler
+11 créner
+7 créoliser
+7 se créoliser
+7 créosoter
+7 crêper
+7 se crêper
+20 crépir
+7 crépiter
+7 crétiniser
+7 creuser
+7 se creuser
+7 crevasser
+7 se crevasser
+10 crever
+10 se crever
+7 criailler
+7 cribler
+16 crier
+7 criminaliser
+7 criquer
+7 se criquer
+7 criser
+7 crisper
+7 se crisper
+7 crisser
+7 cristalliser
+7 se cristalliser
+7 criticailler
+7 critiquer
+7 croasser
+7 crocher
+13 crocheter
+74 croire
+74 se croire
+7 croiser
+7 se croiser
+73 croître
+7 croler
+20 crônir
+7 croquer
+7 crosser
+7 crotter
+7 se crotter
+7 crouler
+20 crounir
+7 croupionner
+20 croupir
+7 croustiller
+7 croûter
+7 se croûtonner
+16 crucifier
+7 crypter
+16 cryptographier
+7 cuber
+29 cueillir
+7 cuirasser
+7 se cuirasser
+88 cuire
+7 cuisiner
+7 se cuiter
+7 cuivrer
+7 culbuter
+7 culer
+7 culminer
+7 culotter
+7 se culotter
+7 culpabiliser
+7 cultiver
+7 se cultiver
+7 cumuler
+7 curer
+7 se curer
+12 cureter
+12 cuveler
+7 cuver
+7 cyanoser
+7 cylindrer
+16 dactylographier
+7 daguer
+7 daigner
+7 daller
+7 damasquiner
+7 damasser
+7 damer
+7 damner
+7 se damner
+7 dandiner
+7 se dandiner
+7 danser
+7 dansotter
+7 darder
+7 se darder
+7 dater
+7 dauber
+7 déactiver
+7 dealer
+7 déambuler
+7 se déambuler
+7 débâcher
+7 débâcler
+7 débagouler
+7 débâillonner
+7 déballer
+7 se déballonner
+7 débalourder
+7 débanaliser
+7 débander
+7 se débander
+7 débaptiser
+7 débarboter
+7 débarbouiller
+7 se débarbouiller
+7 débarder
+7 débarquer
+7 débarrasser
+7 se débarrasser
+7 débarrer
+7 débâter
+20 débâtir
+60 débattre
+60 se débattre
+7 débaucher
+7 se débaucher
+12 débecqueter
+12 se débecqueter
+7 débecter
+12 débequeter
+12 se débequeter
+7 débiliter
+7 débillarder
+7 débiner
+7 se débiner
+7 débiter
+11 déblatérer
+17 déblayer
+20 débleuir
+7 débloquer
+7 débobiner
+7 déboguer
+7 déboiser
+7 déboîter
+7 se déboîter
+7 débonder
+7 se débonder
+7 déborder
+7 se déborder
+12 débosseler
+7 débotter
+7 se débotter
+7 déboucher
+7 déboucler
+7 débouder
+7 se débouder
+32 débouillir
+7 débouler
+7 déboulonner
+7 débouquer
+7 débourber
+7 débourrer
+7 débourser
+7 déboussoler
+7 débouter
+7 déboutonner
+7 se déboutonner
+7 débraguetter
+7 se débraguetter
+7 se débrailler
+7 débrancher
+7 se débrancher
+17 débrayer
+7 débrider
+7 débriefer
+7 débrocher
+7 débrôler
+7 débrouiller
+7 se débrouiller
+7 débroussailler
+7 débrousser
+7 débucher
+7 débudgétiser
+7 débugger
+7 débuller
+7 débureaucratiser
+7 débusquer
+7 débuter
+12 décacheter
+7 décadenasser
+7 décadrer
+7 décaféiner
+7 décaisser
+7 décalaminer
+7 décalcariser
+16 décalcifier
+16 se décalcifier
+7 décaler
+7 décalotter
+7 décalquer
+7 décamper
+7 décaniller
+7 décanter
+7 se décanter
+12 décapeler
+7 décaper
+7 décapitaliser
+7 décapiter
+7 décapoter
+7 décapsuler
+7 décapuchonner
+7 décarburer
+7 décarcasser
+7 se décarcasser
+7 décarpiller
+12 décarreler
+7 décarrer
+7 décartonner
+20 décatir
+20 se décatir
+7 décauser
+7 décavaillonner
+7 décaver
+7 se décaver
+11 décéder
+13 déceler
+11 décélérer
+7 décentraliser
+7 se décentraliser
+7 décentrer
+7 se décentrer
+7 décercler
+7 décérébrer
+7 décerner
+12 décerveler
+7 décesser
+40 décevoir
+7 déchagriner
+7 déchaîner
+7 se déchaîner
+7 déchanter
+7 déchaper
+7 déchaperonner
+9 décharger
+9 se décharger
+7 décharner
+7 déchaumer
+7 déchausser
+7 se déchausser
+11 décher
+7 déchevêtrer
+7 décheviller
+7 déchiffonner
+7 déchiffrer
+12 déchiqueter
+7 déchirer
+7 se déchirer
+7 déchlorurer
+57 déchoir
+7 déchristianiser
+7 se déchristianiser
+7 déchromer
+7 décider
+7 se décider
+7 décimaliser
+7 décimer
+7 décintrer
+7 déclamer
+7 déclarer
+7 se déclarer
+7 déclasser
+12 déclaveter
+7 déclencher
+7 se déclencher
+7 décléricaliser
+7 décliner
+7 se décliner
+12 décliqueter
+7 décloisonner
+76 déclore
+7 déclouer
+7 décocher
+7 décoder
+7 décoffrer
+7 décoiffer
+7 se décoiffer
+8 décoincer
+11 décolérer
+7 décoller
+7 se décoller
+12 décolleter
+12 se décolleter
+7 décoloniser
+7 décolorer
+7 se décolorer
+7 décommander
+7 se décommander
+61 décommettre
+7 décommuniser
+7 décompenser
+7 décomplexer
+7 décomposer
+7 se décomposer
+7 décompresser
+7 décomprimer
+7 décompter
+7 déconcentrer
+7 se déconcentrer
+7 déconcerter
+7 se déconcubiner
+7 déconditionner
+87 déconfire
+13 décongeler
+7 décongestionner
+7 déconnecter
+7 déconner
+7 déconseiller
+11 déconsidérer
+11 se déconsidérer
+7 déconsigner
+7 déconstiper
+88 déconstruire
+7 décontaminer
+8 décontenancer
+8 se décontenancer
+7 décontracter
+7 se décontracter
+8 décorcer
+7 décorder
+7 se décorder
+7 décorer
+7 décorner
+7 décortiquer
+7 découcher
+79 découdre
+79 se découdre
+7 découler
+7 découper
+7 se découper
+7 découpler
+9 décourager
+9 se décourager
+7 découronner
+28 découvrir
+28 se découvrir
+7 décrambuter
+7 décramponner
+7 décrapouiller
+7 se décrapouiller
+7 décrasser
+7 se décrasser
+7 décrédibiliser
+7 décréditer
+7 se décréditer
+7 décrêper
+20 décrépir
+20 se décrépir
+7 décrépiter
+11 décréter
+7 décreuser
+16 décrier
+7 décriminaliser
+86 décrire
+7 décrisper
+7 se décrisper
+7 décrocher
+7 se décrocher
+7 décroiser
+73 décroître
+7 décrotter
+7 décroûter
+7 décruer
+7 décruser
+7 décrypter
+88 décuire
+7 décuivrer
+7 déculasser
+7 déculotter
+7 se déculotter
+7 déculpabiliser
+7 décupler
+7 décuver
+7 dédaigner
+8 dédicacer
+16 dédier
+84 dédire
+84 se dédire
+9 dédommager
+9 se dédommager
+7 dédorer
+7 dédouaner
+7 se dédouaner
+7 dédoubler
+7 se dédoubler
+7 dédramatiser
+88 déduire
+88 se déduire
+30 défaillir
+67 défaire
+67 se défaire
+7 défalquer
+7 défarder
+7 défarguer
+7 défatiguer
+7 se défatiguer
+7 défaucher
+7 défaufiler
+7 défausser
+7 se défausser
+7 défavoriser
+58 défendre
+58 se défendre
+7 défenestrer
+7 se défenestrer
+11 déféquer
+11 déférer
+7 déferler
+7 déferrer
+7 déferriser
+7 défeuiller
+7 défeutrer
+7 défibrer
+12 déficeler
+7 déficher
+16 défier
+16 se défier
+9 défiger
+7 défigurer
+7 se défigurer
+7 défiler
+7 se défiler
+20 définir
+20 se définir
+7 défiscaliser
+7 déflagrer
+7 déflaquer
+20 défléchir
+20 défleurir
+7 défloquer
+7 déflorer
+16 défolier
+8 défoncer
+8 se défoncer
+7 déforcer
+7 déformer
+7 se déformer
+7 défouler
+7 se défouler
+7 défourailler
+7 défourner
+7 défourrer
+20 défraîchir
+7 défranciser
+17 défrayer
+7 défretter
+7 défricher
+7 défringuer
+7 se défringuer
+7 défriper
+7 défriser
+7 défroisser
+7 se défroisser
+8 défroncer
+7 défroquer
+7 se défroquer
+7 défruiter
+7 défrusquer
+9 dégager
+9 se dégager
+7 dégainer
+7 dégalonner
+7 déganter
+7 se déganter
+20 dégarnir
+20 se dégarnir
+7 dégasoliner
+20 dégauchir
+7 dégazer
+7 dégazoliner
+7 dégazonner
+13 dégeler
+13 se dégeler
+11 dégénérer
+11 se dégénérer
+7 dégermer
+7 dégingander
+7 se dégingander
+7 dégîter
+7 dégivrer
+7 déglacer
+7 déglinguer
+7 se déglinguer
+7 dégluer
+20 déglutir
+7 dégobiller
+7 dégoiser
+7 dégommer
+7 dégonder
+7 dégonfler
+7 se dégonfler
+9 dégorger
+9 se dégorger
+7 dégoter
+7 dégotter
+7 dégoudronner
+7 dégouliner
+7 dégoupiller
+20 dégourdir
+20 se dégourdir
+7 dégourer
+7 dégourrer
+7 dégoûter
+7 se dégoûter
+7 dégoutter
+7 dégrader
+7 se dégrader
+7 dégrafer
+7 se dégrafer
+7 dégraisser
+18 dégravoyer
+14 dégréer
+11 dégréner
+10 dégrever
+7 dégringoler
+7 dégripper
+7 dégriser
+7 se dégriser
+7 dégrosser
+20 dégrossir
+20 se dégrossir
+7 se dégrouiller
+20 déguerpir
+7 dégueulasser
+7 dégueuler
+7 déguiser
+7 se déguiser
+7 dégurgiter
+7 déguster
+7 déhaler
+7 se déhaler
+7 déhancher
+7 se déhancher
+7 déharder
+7 déharnacher
+7 se déharnacher
+7 déhotter
+7 déhouiller
+16 déifier
+7 déjanter
+9 déjauger
+20 déjaunir
+12 déjeter
+12 se déjeter
+7 déjeuner
+7 déjouer
+7 déjucher
+9 se déjuger
+7 délabialiser
+7 se délabialiser
+7 délabrer
+7 se délabrer
+7 délabyrinther
+8 délacer
+7 délainer
+7 délaisser
+7 délaiter
+7 délarder
+7 délasser
+7 se délasser
+7 délatter
+7 se délatter
+7 délaver
+17 délayer
+7 déléaturer
+7 délecter
+7 se délecter
+7 délégitimer
+11 déléguer
+7 délester
+7 se délester
+11 délibérer
+16 délier
+16 se délier
+16 délignifier
+7 délimiter
+14 délinéer
+7 délirer
+7 délisser
+7 déliter
+7 se déliter
+7 délivrer
+7 se délivrer
+7 délocaliser
+7 se délocaliser
+9 déloger
+7 déloquer
+7 se déloquer
+7 délover
+7 délurer
+7 délustrer
+7 déluter
+7 démaçonner
+7 démagnétiser
+20 démaigrir
+7 démailler
+7 se démailler
+7 démailloter
+7 démancher
+7 se démancher
+7 demander
+7 se demander
+9 démanger
+13 démanteler
+7 démantibuler
+7 se démantibuler
+7 se démaquer
+7 démaquiller
+7 se démaquiller
+7 démarabouter
+7 démarcher
+16 démarier
+16 se démarier
+7 démarquer
+7 se démarquer
+7 démarrer
+7 démascler
+7 démasquer
+7 se démasquer
+7 démastiquer
+7 démâter
+7 dématérialiser
+7 démazouter
+7 démédicaliser
+7 démêler
+7 se démêler
+7 démembrer
+9 déménager
+10 se démener
+26 démentir
+26 se démentir
+7 se démerder
+9 démerger
+7 démériter
+7 déméthaniser
+61 démettre
+61 se démettre
+7 démeubler
+7 demeurer
+7 démieller
+7 démilitariser
+7 déminer
+7 déminéraliser
+7 démissionner
+7 démobiliser
+7 se démobiliser
+7 démocratiser
+7 se démocratiser
+7 démoder
+7 se démoder
+7 démoduler
+20 démolir
+7 démonétiser
+7 démonter
+7 se démonter
+7 démontrer
+7 se démontrer
+7 démoraliser
+7 se démoraliser
+58 démordre
+7 démotiver
+7 se démotiver
+12 démoucheter
+7 démouler
+7 se démouscailler
+7 démoustiquer
+16 démultiplier
+20 démunir
+20 se démunir
+7 démurer
+9 démurger
+12 démuseler
+16 démystifier
+16 démythifier
+7 dénasaliser
+7 dénationaliser
+7 dénatter
+7 dénaturaliser
+7 dénaturer
+7 se dénaturer
+16 dénazifier
+7 dénébuler
+7 dénébuliser
+9 déneiger
+7 dénerver
+7 déniaiser
+7 se déniaiser
+7 dénicher
+7 dénickeler
+7 dénicotiniser
+16 dénier
+7 dénigrer
+7 dénitrer
+16 dénitrifier
+12 déniveler
+7 dénombrer
+7 dénommer
+8 dénoncer
+8 se dénoncer
+7 dénoter
+7 dénouer
+7 se dénouer
+7 dénoyauter
+18 dénoyer
+16 densifier
+12 denteler
+7 dénucléariser
+7 dénuder
+7 se dénuder
+7 se dénuer
+7 se dépagnoter
+7 dépailler
+7 se dépailler
+12 dépaisseler
+7 dépalisser
+7 dépanner
+12 dépaqueter
+7 déparaffiner
+7 déparasiter
+7 dépareiller
+7 déparer
+16 déparier
+7 déparler
+9 départager
+7 départementaliser
+26 départir
+26 se départir
+7 dépasser
+7 se dépasser
+7 dépassionner
+7 se dépatouiller
+16 dépatrier
+16 se dépatrier
+7 dépaver
+7 dépayser
+8 dépecer
+7 dépêcher
+7 se dépêcher
+7 dépeigner
+62 dépeindre
+7 dépelotonner
+7 dépénaliser
+58 dépendre
+7 dépenser
+7 se dépenser
+20 dépérir
+ 7 dépersonnaliser
+7 se dépersonnaliser
+7 dépêtrer
+7 se dépêtrer
+7 dépeupler
+7 se dépeupler
+7 déphaser
+7 déphosphorer
+7 dépiauter
+7 dépigmenter
+7 dépiler
+7 dépingler
+7 dépiquer
+7 dépister
+7 dépiter
+7 se dépiter
+8 déplacer
+8 se déplacer
+7 déplafonner
+68 déplaire
+68 se déplaire
+7 déplaner
+7 déplanquer
+7 se déplanquer
+7 déplanter
+7 déplâtrer
+16 déplier
+16 se déplier
+7 déplisser
+7 se déplisser
+7 déplomber
+7 déplorer
+18 déployer
+18 se déployer
+7 déplumer
+7 se déplumer
+7 dépocher
+7 dépoétiser
+7 se dépoiler
+7 dépointer
+7 dépolariser
+20 dépolir
+20 se dépolir
+7 dépolitiser
+7 se dépolitiser
+7 dépolluer
+7 dépolymériser
+7 dépontiller
+7 déporter
+7 se déporter
+7 déposer
+7 se déposer
+11 déposséder
+7 dépoter
+7 dépoudrer
+7 dépouiller
+7 se dépouiller
+42 dépourvoir
+42 se dépourvoir
+11 dépoussiérer
+7 dépraver
+16 déprécier
+16 se déprécier
+59 se déprendre
+7 dépressuriser
+7 déprimer
+7 se déprimer
+7 dépriser
+7 déprogrammer
+7 déprolétariser
+7 dépropaniser
+15 déprotéger
+12 dépuceler
+7 dépulper
+7 dépurer
+7 députer
+16 déqualifier
+7 déquiller
+7 déraciner
+7 dérader
+9 dérager
+20 déraidir
+20 se déraidir
+7 dérailler
+7 déraisonner
+7 déramer
+9 déranger
+9 se déranger
+7 déraper
+7 déraser
+7 dérater
+7 dératiser
+17 dérayer
+7 déréaliser
+11 dérégler
+11 se dérégler
+7 déresponsabiliser
+7 dérésumenter
+7 dérider
+7 se dérider
+7 dériver
+7 dérober
+7 se dérober
+7 dérocher
+7 déroder
+9 déroger
+20 dérondir
+20 dérougir
+7 dérouiller
+7 se dérouiller
+7 dérouler
+7 se dérouler
+7 dérouter
+7 se dérouter
+7 désabonner
+7 se désabonner
+7 désabuser
+7 désaccentuer
+7 désacclimater
+7 désaccorder
+7 se désaccorder
+7 désaccoupler
+7 désaccoutumer
+7 se désaccoutumer
+16 désacidifier
+7 désaciérer
+7 désacraliser
+7 désactiver
+7 désadapter
+7 se désadapter
+11 désaérer
+7 désaffecter
+7 se désaffectionner
+16 désaffilier
+8 désagencer
+7 désagrafer
+15 désagréger
+15 se désagréger
+7 désaimanter
+7 désaisonnaliser
+7 désajuster
+11 désaliéner
+7 désaligner
+7 désalper
+11 désaltérer
+11 se désaltérer
+7 désamarrer
+7 désambiguïser
+7 se désâmer
+7 désamianter
+7 désamidonner
+7 désaminer
+8 désamorcer
+8 se désamorcer
+7 désannexer
+7 désaper
+7 se désaper
+16 désapparier
+7 désappointer
+59 désapprendre
+7 désapprouver
+7 désapprovisionner
+7 désarçonner
+7 désargenter
+7 se désargenter
+7 désarmer
+7 se désarmer
+7 désarrimer
+7 désarticuler
+7 se désarticuler
+7 désassembler
+7 désassimiler
+20 désassortir
+7 désatomiser
+9 désavantager
+7 désaveugler
+7 désavouer
+7 désaxer
+7 desceller
+7 se desceller
+58 descendre
+7 déséchouer
+7 désectoriser
+7 désembobiner
+7 désembourber
+7 désembourgeoiser
+7 se désembourgeoiser
+7 désembouteiller
+17 désembrayer
+7 désembuer
+7 désemmancher
+7 désemparer
+10 désempeser
+20 désemplir
+20 se désemplir
+7 désemprisonner
+7 désencadrer
+7 désencarter
+7 désenchaîner
+7 désenchanter
+7 désenclaver
+7 se désenclaver
+7 désencombrer
+ 7 se désencombrer
+7 désencrasser
+7 se désendetter
+7 désénerver
+7 se désénerver
+7 désenfiler
+7 désenflammer
+7 désenfler
+7 se désenfler
+7 désenfumer
+9 désengager
+9 se désengager
+7 désengluer
+7 se désengluer
+9 désengorger
+20 désengourdir
+10 désengrener
+7 désenivrer
+8 désenlacer
+20 désenlaidir
+18 désennuyer
+18 se désennuyer
+17 désenrayer
+7 désenrhumer
+7 désenrouer
+7 désensabler
+7 désensibiliser
+7 se désensibiliser
+12 désensorceler
+7 désentoiler
+7 désentortiller
+7 désentraver
+7 désenvaser
+7 désenvelopper
+7 désenvenimer
+7 désenverguer
+7 désenvoûter
+20 désépaissir
+7 déséquilibrer
+7 déséquiper
+7 se déséquiper
+7 déserter
+7 se déserter
+11 désespérer
+11 se désespérer
+20 désétablir
+7 désétamer
+7 désétatiser
+7 désexciter
+7 se désexciter
+7 désexualiser
+7 déshabiller
+7 se déshabiller
+7 déshabituer
+7 se déshabituer
+7 désherber
+7 déshériter
+7 déshonorer
+7 se déshonorer
+7 déshuiler
+7 déshumaniser
+7 se déshumaniser
+16 déshumidifier
+7 déshydrater
+7 se déshydrater
+11 déshydrogéner
+11 déshypothéquer
+7 désigner
+7 désillusionner
+7 désincarner
+7 se désincarner
+7 désincorporer
+7 désincruster
+7 désinculper
+7 désindexer
+7 désindustrialiser
+7 se désindustrialiser
+7 désinfecter
+7 désinformer
+11 désinhiber
+7 désinsectiser
+11 désintégrer
+11 se désintégrer
+7 désintéresser
+7 se désintéresser
+7 désintoxiquer
+7 se désintoxiquer
+20 désinvestir
+7 désinviter
+7 désirer
+7 se désister
+20 désobéir
+9 désobliger
+7 désobstruer
+7 désoccuper
+7 désocialiser
+7 désodoriser
+7 désoler
+7 se désoler
+7 désolidariser
+7 se désolidariser
+7 désoperculer
+7 désopiler
+7 se désopiler
+7 désorber
+7 désorbiter
+7 se désorbiter
+7 désordonner
+7 désorganiser
+7 se désorganiser
+7 désorienter
+7 se désorienter
+7 désosser
+7 se désosser
+7 désouffler
+7 désoxyder
+13 désoxygéner
+7 desquamer
+7 dessabler
+20 dessaisir
+20 se dessaisir
+7 dessaler
+7 se dessaler
+7 dessangler
+7 se dessangler
+7 dessaouler
+7 se dessaouler
+7 dessaper
+7 se dessaper
+11 dessécher
+11 se dessécher
+7 desseller
+7 desserrer
+7 se desserrer
+20 dessertir
+36 desservir
+36 se desservir
+7 dessiller
+7 se dessiller
+7 dessiner
+7 se dessiner
+7 dessoler
+7 dessouder
+7 se dessouder
+7 dessoufler
+7 dessoûler
+7 se dessoûler
+7 dessuinter
+7 déstabiliser
+7 destiner
+7 se destiner
+7 destituer
+7 destocker
+7 destructurer
+7 se destructurer
+7 désulfiter
+7 désulfurer
+20 désunir
+20 se désunir
+7 désynchroniser
+7 détacher
+7 se détacher
+7 détailler
+7 détaler
+7 détaller
+7 détapisser
+7 détartrer
+7 détaxer
+7 détecter
+62 déteindre
+12 dételer
+58 détendre
+58 se détendre
+24 détenir
+9 déterger
+7 détériorer
+7 se détériorer
+7 déterminer
+7 se déterminer
+7 déterrer
+7 détester
+7 se détester
+7 détirer
+7 se détirer
+7 détisser
+7 détoner
+12 détonneler
+7 détonner
+58 détordre
+7 détortiller
+7 détourer
+7 détourner
+7 se détourner
+7 détoxiquer
+7 détracter
+7 détrancher
+7 détransposer
+7 détraquer
+7 se détraquer
+7 détremper
+7 détresser
+7 détricoter
+7 détromper
+7 se détromper
+7 détroncher
+7 détrôner
+7 détroquer
+7 détrousser
+88 détruire
+88 se détruire
+7 dévaler
+7 dévaliser
+7 dévaloriser
+7 se dévaloriser
+7 dévaluer
+7 se dévaluer
+8 devancer
+7 dévaser
+7 dévaster
+7 développer
+7 se développer
+24 devenir
+7 déventer
+20 déverdir
+7 se dévergonder
+7 déverguer
+20 dévernir
+7 déverrouiller
+7 déverser
+7 se déverser
+27 dévêtir
+27 se dévêtir
+7 dévider
+7 se dévider
+16 dévier
+7 deviner
+7 se deviner
+7 dévirer
+7 dévirginiser
+7 déviriliser
+7 déviroler
+9 dévisager
+7 deviser
+7 dévisser
+7 dévitaliser
+16 dévitrifier
+7 dévoiler
+7 se dévoiler
+44 devoir
+44 se devoir
+7 dévolter
+7 dévorer
+7 se dévorer
+7 dévouer
+7 se dévouer
+18 dévoyer
+18 se dévoyer
+7 dézinguer
+7 diaboliser
+7 diagnostiquer
+7 dialectaliser
+7 dialectiser
+7 dialoguer
+7 dialyser
+7 diamanter
+7 diaphragmer
+7 diaprer
+7 dicter
+7 diéséliser
+7 diéser
+7 diffamer
+16 différencier
+16 se différencier
+11 différer
+7 difformer
+7 diffracter
+7 diffuser
+7 se diffuser
+11 digérer
+11 se digérer
+7 digitaliser
+7 digresser
+11 dilacérer
+7 dilapider
+7 dilater
+7 se dilater
+7 diligenter
+7 diluer
+7 se diluer
+7 dimensionner
+7 diminuer
+7 se diminuer
+7 dindonner
+7 dîner
+7 dinguer
+7 diphtonguer
+7 diplômer
+84 dire
+84 se dire
+9 diriger
+9 se diriger
+7 discerner
+7 discipliner
+7 discompter
+7 discontinuer
+24 disconvenir
+7 discorder
+7 discounter
+34 discourir
+7 discréditer
+7 se discréditer
+7 discriminer
+7 disculper
+7 se disculper
+7 discuputer
+7 discursiviser
+7 discutailler
+7 discuter
+7 se discuter
+16 disgracier
+63 disjoindre
+63 se disjoindre
+7 disjoncter
+7 disloquer
+7 se disloquer
+69 disparaître
+7 dispatcher
+7 dispenser
+7 se dispenser
+7 disperser
+7 se disperser
+7 disposer
+7 se disposer
+7 disproportionner
+7 disputailler
+7 disputer
+7 se disputer
+16 disqualifier
+16 se disqualifier
+7 disséminer
+7 se disséminer
+11 disséquer
+7 disserter
+7 dissimuler
+7 se dissimuler
+7 dissiper
+7 se dissiper
+16 dissocier
+16 se dissocier
+7 dissoner
+78 dissoudre
+78 se dissoudre
+7 dissuader
+8 distancer
+8 se distancer
+16 distancier
+16 se distancier
+58 distendre
+58 se distendre
+7 distiller
+7 distinguer
+7 se distinguer
+58 distordre
+58 se distordre
+66 distraire
+66 se distraire
+7 distribuer
+7 se distribuer
+7 divaguer
+9 diverger
+16 diversifier
+16 se diversifier
+20 divertir
+20 se divertir
+7 diviniser
+7 diviser
+7 se diviser
+8 divorcer
+7 divulguer
+7 se divulguer
+7 djibser
+7 documenter
+7 se documenter
+7 dodeliner
+7 dogmatiser
+7 doguer
+7 doigter
+7 doler
+7 domestiquer
+16 domicilier
+7 dominer
+7 se dominer
+7 dompter
+7 donner
+7 se donner
+7 doper
+7 se doper
+7 dorer
+7 se dorer
+7 dorloter
+7 se dorloter
+33 dormir
+7 doser
+7 doter
+7 se doter
+7 doubler
+7 se doubler
+7 doublonner
+7 doucher
+7 se doucher
+20 doucir
+7 douer
+7 douiller
+7 douter
+7 se douter
+7 dracher
+16 dragéifier
+7 drageonner
+7 draguer
+7 drainer
+7 dramatiser
+12 drapeler
+7 draper
+7 se draper
+7 draver
+17 drayer
+7 dresser
+7 se dresser
+7 dribbler
+7 driller
+7 driver
+7 droguer
+7 se droguer
+7 droper
+7 drosser
+16 dulcifier
+7 duper
+7 se duper
+7 duplexer
+7 dupliquer
+20 durcir
+20 se durcir
+7 durer
+12 se duveter
+7 dynamiser
+7 dynamiter
+20 ébahir
+20 s'ébahir
+7 ébarber
+60 s'ébattre
+20 s'ébaubir
+7 ébaucher
+7 s'ébaucher
+20 ébaudir
+20 s'ébaudir
+7 ébavurer
+7 éberluer
+12 ébiseler
+20 éblouir
+7 éborgner
+7 s'éborgner
+7 ébosser
+7 ébouer
+7 ébouillanter
+7 s'ébouillanter
+7 ébouler
+7 s'ébouler
+7 ébourgeonner
+7 ébouriffer
+7 ébourrer
+7 ébouter
+7 ébouzer
+7 ébraiser
+7 ébrancher
+7 ébranler
+7 s'ébranler
+7 ébraser
+11 ébrécher
+11 s'ébrécher
+7 s'ébrouer
+7 ébruiter
+7 s'ébruiter
+7 ébruter
+7 écacher
+7 écaffer
+7 écailler
+7 s'écailler
+7 écaler
+7 s'écaler
+7 écanguer
+7 écarquiller
+13 écarteler
+7 écarter
+7 s'écarter
+20 écatir
+7 échafauder
+7 échalasser
+20 échampir
+7 échancrer
+7 échanfreiner
+9 échanger
+9 s'échanger
+7 échantillonner
+7 échapper
+7 s'échapper
+7 échardonner
+7 écharner
+7 écharper
+7 s'écharper
+7 échauder
+7 s'échauder
+7 échauffer
+7 s'échauffer
+7 échauler
+7 échaumer
+7 échelonner
+7 s'échelonner
+7 écheniller
+12 écheveler
+7 échiner
+7 s'échiner
+56 échoir
+7 échopper
+7 échouer
+7 s'échouer
+7 écimer
+7 éclabousser
+7 s'éclabousser
+20 éclaircir
+20 s'éclaircir
+7 éclairer
+7 s'éclairer
+7 éclater
+7 s'éclater
+7 éclipser
+7 s'éclipser
+7 éclisser
+7 écloper
+76 éclore
+7 écluser
+7 écobuer
+7 écoeurer
+88 éconduire
+7 économiser
+7 écoper
+8 écorcer
+7 écorcher
+7 s'écorcher
+7 écorer
+7 écorner
+7 écornifler
+7 écosser
+7 écouler
+7 s'écouler
+7 écourter
+7 écouter
+7 s'écouter
+7 écouvillonner
+7 écrabouiller
+7 écraser
+7 s'écraser
+11 écrémer
+7 écrêter
+16 s'écrier
+86 écrire
+86 s'écrire
+7 écrivailler
+7 écrivasser
+7 écrouer
+20 écrouir
+7 s'écrouler
+7 écroûter
+7 écuisser
+7 éculer
+7 écumer
+7 écurer
+7 écussonner
+7 édenter
+7 édicter
+16 édifier
+7 éditer
+7 éditionner
+7 édulcorer
+7 éduquer
+7 éfaufiler
+8 effacer
+8 s'effacer
+7 effaner
+7 effarer
+7 s'effarer
+7 effaroucher
+7 s'effaroucher
+7 effectuer
+7 s'effectuer
+7 efféminer
+7 effeuiller
+7 s'effeuiller
+7 effiler
+7 s'effiler
+7 effilocher
+7 s'effilocher
+7 efflanquer
+7 s'efflanquer
+7 effleurer
+20 effleurir
+7 effluver
+7 effondrer
+7 s'effondrer
+8 s'efforcer
+9 effranger
+9 s'effranger
+17 effrayer
+17 s'effrayer
+7 effriter
+7 s'effriter
+7 s'égailler
+7 égaler
+7 égaliser
+7 égarer
+7 s'égarer
+17 égayer
+17 s'égayer
+7 égnaffer
+7 égoïner
+9 égorger
+9 s'égorger
+7 s'égosiller
+7 égoutter
+7 s'égoutter
+7 égrainer
+7 s'égrainer
+7 égrapper
+7 égratigner
+7 s'égratigner
+10 égrener
+10 s'égrener
+7 égriser
+9 égruger
+7 égueuler
+7 éjaculer
+7 éjarrer
+7 éjecter
+7 s'éjecter
+7 éjointer
+7 élaborer
+7 s'élaborer
+7 élaguer
+8 élancer
+8 s'élancer
+20 élargir
+20 s'élargir
+16 électrifier
+7 électriser
+7 électrocuter
+7 s'électrocuter
+7 électrolyser
+7 électroniser
+20 élégir
+10 élever
+10 s'élever
+7 élider
+7 s'élider
+7 élimer
+7 éliminer
+7 s'éliminer
+7 élinguer
+83 élire
+7 éloigner
+7 s'éloigner
+9 élonger
+7 élucider
+7 élucubrer
+7 éluder
+7 éluer
+16 émacier
+16 s'émacier
+7 émailler
+7 émanciper
+7 s'émanciper
+7 émaner
+9 émarger
+7 émasculer
+7 emballer
+7 s'emballer
+7 emballotter
+7 emballuchonner
+7 s'embaquer
+7 embarbouiller
+7 s'embarbouiller
+7 embarder
+7 s'embarder
+7 embarquer
+7 s'embarquer
+7 embarrasser
+7 s'embarrasser
+7 embarrer
+7 s'embarrer
+7 embastiller
+7 embastionner
+60 embatre
+60 embattre
+7 embaucher
+7 s'embaucher
+7 embaumer
+7 embecquer
+7 s'embéguiner
+20 embellir
+20 s'embellir
+7 emberlificoter
+7 s'emberlificoter
+7 embêter
+7 s'embêter
+7 embidonner
+7 embistrouiller
+7 emblaver
+7 embobeliner
+7 embobiner
+75 s'emboire
+7 emboîter
+7 s'emboîter
+7 embosser
+7 s'embosser
+12 embotteler
+7 emboucaner
+7 emboucher
+7 embouer
+7 embouquer
+7 embourber
+7 s'embourber
+7 embourgeoiser
+7 s'embourgeoiser
+7 embourrer
+7 s'embourrer
+7 embourrmaner
+7 embouteiller
+7 embouter
+20 emboutir
+7 embrancher
+7 s'embrancher
+7 embraquer
+7 embraser
+7 s'embraser
+7 embrasser
+7 s'embrasser
+17 embrayer
+13 embreler
+10 embrever
+7 embrigader
+7 s'embrigader
+7 embringuer
+7 s'embringuer
+7 embrocher
+7 embroncher
+7 embrouiller
+7 s'embrouiller
+7 embroussailler
+7 s'embroussailler
+7 embrumer
+20 embrunir
+7 embuer
+7 s'embuer
+7 embusquer
+7 s'embusquer
+11 émécher
+9 émerger
+7 émerillonner
+7 émeriser
+7 émerveiller
+7 s'émerveiller
+61 émettre
+16 émier
+7 émietter
+7 s'émietter
+7 émigrer
+8 émincer
+7 emmagasiner
+7 emmailloter
+7 s'emmailloter
+7 emmancher
+7 s'emmancher
+9 emmarger
+7 emmêler
+7 s'emmêler
+9 emménager
+10 emmener
+7 emmerder
+7 s'emmerder
+11 emmétrer
+7 emmieller
+7 emmitonner
+7 emmitoufler
+7 s'emmitoufler
+7 emmortaiser
+7 emmouscailler
+7 emmurer
+7 émonder
+7 émorfiler
+7 émotionner
+7 émotter
+7 émoucher
+13 émoucheter
+80 émoudre
+7 émousser
+7 s'émousser
+7 émoustiller
+46 émouvoir
+46 s'émouvoir
+7 empaffer
+7 empailler
+7 empaler
+7 s'empaler
+7 empalmer
+7 empanacher
+7 empanner
+7 empapahouter
+7 empapaouter
+7 empapilloter
+12 empaqueter
+7 s'emparer
+7 emparquer
+7 empâter
+7 s'empâter
+7 empatter
+7 empaumer
+7 empêcher
+7 s'empêcher
+7 empeigner
+7 empêner
+7 empenner
+7 empercher
+7 emperler
+10 empeser
+7 empester
+7 empêtrer
+7 s'empêtrer
+9 empiéger
+7 empierrer
+11 empiéter
+7 s'empiffrer
+7 empiler
+7 s'empiler
+7 empirer
+7 s'empirer
+7 emplafonner
+7 s'emplafonner
+7 emplâtrer
+20 emplir
+20 s'emplir
+18 employer
+18 s'employer
+7 emplumer
+7 empocher
+7 empoigner
+7 s'empoigner
+7 empoisonner
+7 s'empoisonner
+7 empoisser
+7 empoissonner
+7 emporter
+7 s'emporter
+7 empoter
+7 empourprer
+7 s'empourprer
+11 empoussiérer
+11 s'empoussiérer
+62 empreindre
+62 s'empreindre
+7 empresser
+7 emprésurer
+7 emprisonner
+7 emprunter
+20 empuantir
+7 émuler
+16 émulsifier
+7 émulsionner
+7 s'enamourer
+7 s'énamourer
+7 encabaner
+7 encadrer
+7 s'encadrer
+9 encager
+7 encagouler
+7 encaisser
+7 encanailler
+7 s'encanailler
+7 encaper
+7 encapsuler
+7 encapuchonner
+7 s'encapuchonner
+7 encaquer
+7 encarrer
+7 encarter
+7 encartonner
+7 encartoucher
+7 encaserner
+13 s'encasteler
+7 encastrer
+7 s'encastrer
+7 encaustiquer
+7 encaver
+62 enceindre
+7 enceinter
+7 encenser
+7 encercler
+7 enchaîner
+7 s'enchaîner
+7 enchanter
+7 s'enchanter
+7 enchaperonner
+7 encharner
+7 enchâsser
+7 s'enchâsser
+7 enchatonner
+7 enchausser
+7 enchemiser
+20 enchérir
+7 enchetarder
+7 enchevaucher
+7 enchevêtrer
+7 s'enchevêtrer
+10 enchifrener
+7 enchtiber
+7 enchtourber
+7 encirer
+7 enclaver
+7 s'enclaver
+7 enclencher
+7 s'enclencher
+12 encliqueter
+7 encloîtrer
+7 encloquer
+76 enclore
+7 enclouer
+7 encocher
+7 encoder
+7 encoffrer
+7 encoller
+7 encombrer
+7 s'encombrer
+7 encorder
+7 s'encorder
+7 encorner
+9 encourager
+34 encourir
+7 encrasser
+7 s'encrasser
+7 encrêper
+7 encrer
+7 encrister
+7 s'encroumer
+7 encroûter
+7 s'encroûter
+7 encuver
+7 endauber
+7 endenter
+7 endetter
+7 s'endetter
+7 endeuiller
+7 endêver
+7 endiabler
+7 endiguer
+7 endimancher
+7 s'endimancher
+7 endivisionner
+7 endoctriner
+20 endolorir
+9 endommager
+33 endormir
+33 s'endormir
+7 endosser
+88 enduire
+88 s'enduire
+20 endurcir
+20 s'endurcir
+7 endurer
+7 énerver
+7 s'énerver
+7 enfaîter
+7 enfanter
+7 enfariner
+7 enfermer
+7 s'enfermer
+7 enferrer
+7 s'enferrer
+7 enficher
+7 enfieller
+11 enfiévrer
+11 s'enfiévrer
+7 enfiler
+7 s'enfiler
+7 enflammer
+7 s'enflammer
+11 enflécher
+7 enfler
+7 s'enfler
+7 enfleurer
+7 enfoirer
+7 s'enfoirer
+8 enfoncer
+8 s'enfoncer
+20 enforcir
+7 enfouiller
+20 enfouir
+20 s'enfouir
+7 enfourailler
+7 enfourcher
+7 enfourner
+7 s'enfourner
+62 enfreindre
+37 s'enfuir
+7 enfumer
+7 s'enfumer
+7 enfutailler
+7 enfûter
+9 engager
+9 s'engager
+7 engainer
+7 engamer
+7 engargousser
+7 engaver
+7 engazonner
+7 engendrer
+7 engerber
+8 englacer
+7 englober
+20 engloutir
+20 s'engloutir
+7 engluer
+7 s'engluer
+7 engober
+7 engommer
+8 engoncer
+9 engorger
+9 s'engorger
+7 s'engouer
+7 engouffrer
+7 s'engouffrer
+7 engouler
+20 engourdir
+20 s'engourdir
+7 engraisser
+7 s'engraisser
+9 engranger
+7 engraver
+10 engrener
+10 s'engrener
+7 engrosser
+12 engrumeler
+12 s'engrumeler
+7 engueuler
+7 s'engueuler
+7 enguirlander
+20 enhardir
+20 s'enhardir
+7 enharnacher
+7 enherber
+7 énieller
+7 enivrer
+7 s'enivrer
+7 enjamber
+12 enjaveler
+63 enjoindre
+7 enjôler
+7 enjoliver
+7 s'enjoliver
+8 enjoncer
+7 enjouer
+7 enjuguer
+7 enjuponner
+7 s'enkyster
+8 enlacer
+8 s'enlacer
+20 enlaidir
+20 s'enlaidir
+10 enlever
+10 s'enlever
+7 enliasser
+16 enlier
+7 enligner
+7 enliser
+7 s'enliser
+7 enluminer
+20 ennoblir
+9 ennuager
+9 s'ennuager
+18 ennuyer
+18 s'ennuyer
+8 énoncer
+8 s'énoncer
+20 enorgueillir
+20 s'enorgueillir
+7 énouer
+25 s'enquérir
+7 enquêter
+7 s'enquêter
+7 enquiller
+7 enquiquiner
+7 s'enquiquiner
+7 enraciner
+7 s'enraciner
+9 enrager
+7 enrailler
+17 enrayer
+17 s'enrayer
+7 enrégimenter
+7 enregistrer
+7 s'enregistrer
+7 enrêner
+7 enrésiner
+7 enrhumer
+7 s'enrhumer
+20 enrichir
+20 s'enrichir
+7 enrober
+7 enrocher
+7 enrôler
+7 s'enrôler
+7 enrouer
+7 s'enrouer
+7 enrouiller
+7 s'enrouiller
+7 enrouler
+7 s'enrouler
+7 enrubanner
+7 ensabler
+7 s'ensabler
+7 ensaboter
+7 ensacher
+7 ensaisiner
+7 ensanglanter
+7 ensauvager
+7 s'ensauver
+7 enseigner
+7 s'enseigner
+8 ensemencer
+7 enserrer
+20 ensevelir
+20 s'ensevelir
+7 ensiler
+7 ensoleiller
+12 ensorceler
+7 ensoufrer
+11 enstérer
+81 s'ensuivre
+7 ensuquer
+7 entabler
+7 s'entabler
+7 entacher
+7 entailler
+7 s'entailler
+7 entamer
+7 entaquer
+7 entarter
+7 entartrer
+7 s'entartrer
+7 entasser
+7 s'entasser
+58 entendre
+58 s'entendre
+11 enténébrer
+11 s'enténébrer
+7 enter
+7 entériner
+7 enterrer
+7 s'enterrer
+7 entêter
+7 s'entêter
+7 enthousiasmer
+7 s'enthousiasmer
+7 s'enticher
+7 entifler
+7 s'entifler
+7 entoiler
+7 entôler
+7 entonner
+7 entorser
+7 entortiller
+7 s'entortiller
+7 entourer
+7 s'entourer
+7 entourlouper
+7 s'entraccorder
+7 s'entraccuser
+7 s'entradmirer
+7 s'entraider
+7 s'entraimer
+7 entraîner
+7 s'entraîner
+40 entrapercevoir
+40 s'entrapercevoir
+7 entraver
+7 entrebâiller
+7 s'entrebâiller
+60 s'entrebattre
+7 entrechoquer
+7 s'entrechoquer
+7 entrecouper
+7 s'entrecouper
+7 entrecroiser
+7 s'entrecroiser
+7 s'entre-déchirer
+88 s'entredétruire
+88 s'entre-détruire
+7 s'entre-dévorer
+9 s'entre-égorger
+7 s'entre-frapper
+21 s'entre-haïr
+7 entre-heurter
+8 entrelacer
+8 s'entrelacer
+7 entrelarder
+7 s'entre-louer
+9 s'entremanger
+9 s'entre-manger
+7 entremêler
+7 s'entremêler
+61 s'entremettre
+88 s'entrenuire
+88 s'entre-nuire
+7 entreposer
+59 entreprendre
+7 entrer
+7 s'entreregarder
+7 s'entre-regarder
+7 s'entretailler
+24 entretenir
+24 s'entretenir
+7 entretoiser
+7 s'entretuer
+7 s'entre-tuer
+41 entrevoir
+41 s'entrevoir
+7 entrevoûter
+28 entrouvrir
+28 s'entrouvrir
+7 entuber
+14 énucléer
+11 énumérer
+20 envahir
+7 envaser
+7 s'envaser
+7 envelopper
+7 s'envelopper
+7 envenimer
+7 s'envenimer
+9 enverger
+7 enverguer
+7 enviander
+7 envider
+20 envieillir
+20 s'envieillir
+16 envier
+7 environner
+7 s'environner
+9 envisager
+7 s'envoiler
+7 s'envoler
+7 envoûter
+19 envoyer
+19 s'envoyer
+20 épaissir
+20 s'épaissir
+7 épaler
+7 épamprer
+7 épancher
+7 s'épancher
+58 épandre
+58 s'épandre
+12 épanneler
+7 épanner
+20 épanouir
+20 s'épanouir
+7 épargner
+7 s'épargner
+7 éparpiller
+7 s'éparpiller
+7 épastrouiller
+7 épater
+7 épaufrer
+7 épauler
+7 s'épauler
+12 épeler
+12 s'épeler
+7 épépiner
+58 s'éperdre
+7 éperonner
+7 épeuler
+7 épeurer
+8 épicer
+16 épier
+16 s'épier
+7 épierrer
+7 épiler
+7 s'épiler
+7 épiloguer
+13 épinceler
+8 épincer
+12 épinceter
+7 épiner
+7 épingler
+7 épisser
+7 s'épivarder
+18 éployer
+18 s'éployer
+7 éplucher
+7 épointer
+9 éponger
+9 s'éponger
+7 épontiller
+7 épouiller
+7 s'épouiller
+7 s'époumoner
+7 épouser
+7 s'épouser
+12 épousseter
+7 époustoufler
+16 époutier
+20 époutir
+7 épouvanter
+7 s'épouvanter
+62 épreindre
+59 s'éprendre
+7 éprouver
+7 s'éprouver
+8 épucer
+8 s'épucer
+7 épuiser
+7 s'épuiser
+7 épurer
+7 s'épurer
+20 équarrir
+7 équerrer
+7 équeuter
+7 équilibrer
+7 s'équilibrer
+7 équiper
+7 s'équiper
+49 équivaloir
+49 s'équivaloir
+7 équivoquer
+7 éradiquer
+7 érafler
+7 s'érafler
+7 érailler
+7 s'érailler
+17 érayer
+7 éreinter
+7 s'éreinter
+7 ergoter
+9 ériger
+9 s'ériger
+7 éroder
+7 s'éroder
+7 érotiser
+7 errer
+7 éructer
+20 s'esbaudir
+7 s'esbigner
+7 esbroufer
+7 escalader
+7 escamoter
+7 escarmoucher
+7 escarper
+16 escarrifier
+7 escher
+7 s'esclaffer
+7 esclavager
+16 escoffier
+7 escompter
+7 escorter
+7 s'escrimer
+7 escroquer
+7 esgourder
+8 espacer
+8 s'espacer
+11 espérer
+7 espionner
+7 espoliner
+7 espouliner
+7 esquicher
+7 esquinter
+7 s'esquinter
+7 esquisser
+7 s'esquisser
+7 esquiver
+7 s'esquiver
+7 essaimer
+9 essanger
+7 essarter
+17 essayer
+17 s'essayer
+7 essorer
+7 s'essorer
+7 essoriller
+7 essoucher
+7 essouffler
+7 s'essouffler
+18 essuyer
+18 s'essuyer
+7 estamper
+7 estampiller
+0 ester	seulement à l'infinitif
+16 estérifier
+7 esthétiser
+7 estimer
+7 s'estimer
+7 estiver
+7 estomaquer
+7 estomper
+7 s'estomper
+7 estoquer
+20 estourbir
+7 estrapader
+7 estrapasser
+16 estropier
+16 s'estropier
+7 établer
+20 établir
+20 s'établir
+9 étager
+9 s'étager
+9 étalager
+7 étaler
+7 s'étaler
+7 étalinguer
+7 étalonner
+7 étamer
+7 étamper
+7 étancher
+7 étançonner
+7 étarquer
+7 étatiser
+17 étayer
+17 s'étayer
+62 éteindre
+62 s'éteindre
+58 étendre
+58 s'étendre
+7 éterniser
+7 s'éterniser
+7 éternuer
+7 étêter
+16 éthérifier
+7 éthériser
+7 éthniciser
+12 étinceler
+7 étioler
+7 s'étioler
+12 étiqueter
+7 étirer
+7 s'étirer
+7 étoffer
+7 s'étoffer
+7 étoiler
+7 s'étoiler
+7 étonner
+7 s'étonner
+7 étouffer
+7 s'étouffer
+7 étouper
+7 étoupiller
+20 étourdir
+20 s'étourdir
+7 étrangler
+7 s'étrangler
+1 être
+20 étrécir
+20 s'étrécir
+62 étreindre
+62 s'étreindre
+7 étrenner
+7 étrésillonner
+7 étriller
+7 étripailler
+7 étriper
+7 s'étriper
+7 étriquer
+7 étronçonner
+16 étudier
+16 s'étudier
+7 étuver
+7 euphoriser
+7 européaniser
+7 s'européaniser
+7 évacuer
+7 s'évacuer
+7 s'évader
+7 évaluer
+7 évangéliser
+20 s'évanouir
+7 évaporer
+7 s'évaporer
+7 évaser
+7 s'évaser
+7 éveiller
+7 s'éveiller
+7 éventer
+7 s'éventer
+7 éventrer
+7 s'éventrer
+7 s'évertuer
+7 évider
+8 évincer
+7 éviter
+7 s'éviter
+7 évoluer
+7 s'évoluer
+7 évoquer
+7 exacerber
+7 s'exacerber
+11 exagérer
+11 s'exagérer
+7 exalter
+7 s'exalter
+7 examiner
+7 s'examiner
+11 exaspérer
+11 s'exaspérer
+8 exaucer
+7 excaver
+11 excéder
+7 exceller
+7 excentrer
+7 excepter
+7 exciper
+7 exciser
+7 exciter
+7 s'exciter
+7 s'exclamer
+77 exclure
+77 s'exclure
+16 excommunier
+16 excorier
+7 excracher
+11 excréter
+7 excursionner
+7 excuser
+7 s'excuser
+11 exécrer
+7 exécuter
+7 s'exécuter
+7 exemplifier
+7 exempter
+7 s'exempter
+8 exercer
+8 s'exercer
+7 exfiltrer
+16 exfolier
+16 s'exfolier
+7 exhaler
+7 s'exhaler
+7 exhausser
+11 exhéréder
+7 exhiber
+7 s'exhiber
+7 exhorter
+7 exhumer
+9 exiger
+7 exiler
+7 s'exiler
+7 exister
+7 s'exonder
+11 exonérer
+7 exorciser
+16 expatrier
+16 s'expatrier
+7 expectorer
+16 expédier
+7 expérimenter
+7 expertiser
+16 expier
+16 s'expier
+7 expirer
+7 expliciter
+7 expliquer
+7 s'expliquer
+7 exploiter
+7 explorer
+7 exploser
+7 exporter
+7 exposer
+7 s'exposer
+7 exprimer
+7 s'exprimer
+16 exproprier
+7 expulser
+9 expurger
+7 exsuder
+16 s'extasier
+7 exténuer
+7 s'exténuer
+7 extérioriser
+7 s'extérioriser
+7 exterminer
+7 externaliser
+7 externer
+7 extirper
+7 s'extirper
+7 extorquer
+7 extourner
+7 extrader
+66 extraire
+66 s'extraire
+7 extrapoler
+7 extravaguer
+7 extravaser
+7 s'extravaser
+7 extruder
+11 exulcérer
+7 exulter
+7 fabriquer
+7 se fabriquer
+7 fabuler
+7 facetter
+7 fâcher
+7 se fâcher
+7 faciliter
+7 se faciliter
+7 façonner
+7 factoriser
+7 facturer
+7 fader
+7 fagoter
+7 se fagoter
+20 faiblir
+7 faignanter
+7 se failler
+31 faillir
+7 fainéanter
+7 fainéantiser
+67 faire
+67 se faire
+7 faisander
+7 se faisander
+48 falloir
+48 s'en falloir
+7 faloter
+16 falsifier
+7 faluner
+7 familiariser
+7 se familiariser
+7 fanatiser
+7 se fanatiser
+7 faner
+7 se faner
+7 fanfaronner
+7 fanfrelucher
+7 se fantaliser
+7 fantasmer
+20 farcir
+20 se farcir
+7 farder
+7 se farder
+7 farfouiller
+7 farguer
+7 fariner
+7 farter
+7 fasciner
+7 fasciser
+17 faseyer
+7 fatiguer
+7 se fatiguer
+11 faubérer
+7 faucarder
+7 faucher
+7 fauconner
+7 faufiler
+7 se faufiler
+7 fausser
+7 se fausser
+7 fauter
+7 favoriser
+7 faxer
+7 fayoter
+7 féconder
+7 féculer
+7 fédéraliser
+7 se fédéraliser
+11 fédérer
+11 se fédérer
+7 feignanter
+62 feindre
+7 feinter
+7 fêler
+7 se fêler
+7 féliciter
+7 se féliciter
+7 féminiser
+7 se féminiser
+7 fendiller
+7 se fendiller
+58 fendre
+58 se fendre
+7 fenestrer
+7 fenêtrer
+0 férir	seulement dans les expressions sans coup férir ou féru de
+7 ferler
+7 fermenter
+7 fermer
+7 se fermer
+7 ferrailler
+7 ferrer
+7 ferrouter
+7 fertiliser
+7 fesser
+7 festonner
+18 festoyer
+7 fêter
+7 féticher
+7 fétichiser
+7 feuiller
+12 feuilleter
+7 feuilletiser
+7 feuler
+7 feutrer
+7 se feutrer
+7 fiabiliser
+8 fiancer
+8 se fiancer
+12 ficeler
+7 se fiche
+7 ficher
+7 se ficher
+7 fidéliser
+7 fieffer
+7 fienter
+7 se fier
+9 figer
+9 se figer
+7 fignoler
+7 figurer
+7 se figurer
+7 filer
+7 se filer
+13 fileter
+7 filialiser
+7 filigraner
+7 filmer
+7 filocher
+7 filouter
+7 filtrer
+7 finaliser
+8 financer
+7 financiariser
+7 finasser
+20 finir
+7 finlandiser
+7 se finlandiser
+7 fiscaliser
+7 fisionner
+7 fissurer
+7 se fissurer
+7 fixer
+7 se fixer
+7 flageller
+7 se flageller
+7 flageoler
+7 flagorner
+7 flairer
+7 flamber
+18 flamboyer
+7 flancher
+7 flâner
+7 flânocher
+7 flanquer
+7 se flanquer
+7 flaquer
+7 flasher
+7 flatter
+7 se flatter
+7 flauper
+11 flécher
+20 fléchir
+20 se fléchir
+7 flemmarder
+20 flétrir
+20 se flétrir
+7 fleurer
+20 fleurir
+20 se fleurir
+7 flexibiliser
+7 flibuster
+7 flingoter
+7 flinguer
+7 se flinguer
+7 flipper
+7 fliquer
+7 flirter
+7 floconner
+7 floculer
+7 floquer
+7 flotter
+7 flouer
+7 flouser
+7 fluber
+7 fluctuer
+7 fluer
+16 fluidifier
+7 fluidiser
+7 fluoriser
+7 flurer
+7 flûter
+7 fluxer
+7 focaliser
+7 se focaliser
+7 foirer
+7 foisonner
+7 folâtrer
+7 folichonner
+7 folioter
+7 folkloriser
+7 fomenter
+8 foncer
+7 fonctionnariser
+7 fonctionner
+7 fonder
+7 se fonder
+58 fondre
+58 se fondre
+8 forcer
+8 se forcer
+20 forcir
+0 forclore	seulement à l'infinitif et au participe passé (forclos, ose, oses)
+7 forer
+67 forfaire
+9 forger
+9 se forger
+12 forjeter
+8 forlancer
+7 forligner
+7 forlonger
+7 formaliser
+7 se formaliser
+7 formater
+7 former
+7 se former
+7 formicaliser
+7 formoler
+7 formuler
+7 se formuler
+7 forniquer
+16 fortifier
+16 se fortifier
+7 fossiliser
+7 se fossiliser
+18 fossoyer
+7 fouailler
+7 fouder
+18 foudroyer
+7 fouetter
+9 fouger
+7 fouiller
+7 se fouiller
+7 fouiner
+20 fouir
+7 fouler
+7 se fouler
+7 fourailler
+7 fourber
+20 fourbir
+7 fourcher
+7 fourgonner
+7 fourguer
+7 fourmiller
+20 fournir
+20 se fournir
+9 fourrager
+7 fourrer
+7 se fourrer
+18 fourvoyer
+18 se fourvoyer
+58 foutre
+58 se foutre
+7 fracasser
+7 se fracasser
+7 fractionner
+7 se fractionner
+7 fracturer
+7 se fracturer
+7 fragiliser
+7 fragmenter
+20 fraîchir
+7 fraiser
+7 framboiser
+20 franchir
+7 franchiser
+7 franciser
+7 francophoniser
+9 franger
+7 fransquillonner
+7 frapper
+7 se frapper
+7 fraterniser
+7 frauder
+17 frayer
+17 se frayer
+7 fredonner
+7 frégater
+7 freiner
+7 se freiner
+7 frelater
+20 frémir
+7 fréquenter
+7 se fréquenter
+11 fréter
+7 frétiller
+7 fretter
+7 fricasser
+7 fricoter
+7 frictionner
+7 se frictionner
+16 frigorifier
+9 frigorifuger
+7 frimer
+7 fringuer
+7 se fringuer
+7 friper
+7 se friper
+7 friponner
+7 friquer
+87 frire
+7 friser
+7 frisotter
+7 frissonner
+7 fristouiller
+7 fritter
+20 froidir
+7 froisser
+7 se froisser
+7 frôler
+7 se frôler
+8 froncer
+8 se froncer
+7 fronder
+7 frotter
+7 se frotter
+7 frouer
+7 froufrouter
+7 frousser
+16 fructifier
+7 frusquer
+7 se frusquer
+7 frustrer
+7 fuguer
+37 fuir
+37 se fuir
+7 fuiter
+7 fulgurer
+7 fulminer
+7 fumer
+9 fumiger
+13 fureter
+12 fuseler
+7 fuser
+7 fusiller
+7 fusionner
+9 fustiger
+7 gabarier
+7 gabionner
+7 gâcher
+7 gadgétiser
+7 gaffer
+7 gafouiller
+9 gager
+7 gagner
+7 se gagner
+7 gainer
+7 galber
+11 galéjer
+7 galérer
+7 galipoter
+7 galonner
+7 galoper
+7 galvaniser
+7 galvauder
+7 se galvauder
+7 gambader
+9 gamberger
+7 gambiller
+12 gameler
+12 se gameler
+7 gaminer
+10 gangrener
+10 se gangrener
+11 gangréner
+7 ganser
+7 ganter
+7 se ganter
+8 garancer
+20 garantir
+7 garder
+7 se garder
+7 garer
+7 se garer
+7 se gargariser
+7 gargoter
+7 gargouiller
+20 garnir
+20 se garnir
+7 garrotter
+7 gasconner
+7 gaspiller
+7 gâter
+7 se gâter
+16 gâtifier
+20 gauchir
+20 se gauchir
+7 gaufrer
+7 gauler
+7 se gausser
+7 gaver
+7 se gaver
+16 gazéifier
+7 gazer
+7 gazonner
+7 gazouiller
+62 geindre
+7 gélatiner
+7 gélatiniser
+13 geler
+13 se geler
+16 gélifier
+16 se gélifier
+7 géminer
+20 gémir
+7 gemmer
+7 se gendarmer
+7 gêner
+7 se gêner
+7 généraliser
+7 se généraliser
+11 générer
+7 géométriser
+7 gerber
+8 gercer
+8 se gercer
+11 gérer
+7 germaniser
+7 se germaniser
+7 germer
+39 gésir
+7 gesticuler
+18 giboyer
+7 gicler
+7 gifler
+7 gigoter
+7 gironner
+7 girouetter
+7 gîter
+7 givrer
+7 se givrer
+8 glacer
+8 se glacer
+7 glaglater
+7 glairer
+7 glaiser
+7 glander
+7 glandouiller
+7 glaner
+20 glapir
+20 glatir
+7 glavioter
+7 glaviotter
+7 gléner
+7 gletter
+7 glisser
+7 se glisser
+7 globaliser
+16 glorifier
+16 se glorifier
+7 gloser
+7 glouglouter
+7 glousser
+7 gloutonner
+7 glycériner
+7 goaler
+7 gober
+9 se goberger
+12 gobeter
+7 godailler
+7 goder
+7 godiller
+7 se godiner
+7 godronner
+7 goguenarder
+7 goinfrer
+7 se goinfrer
+7 se gominer
+7 gommer
+7 gomorrhiser
+7 gonder
+7 gondoler
+7 se gondoler
+7 gonfler
+7 se gonfler
+7 gongonner
+7 se gorgeonner
+9 gorger
+9 se gorger
+7 gouacher
+7 gouailler
+7 goualer
+7 gouaper
+7 goudronner
+7 gouger
+7 gougnoter
+7 gougnotter
+7 goujonner
+7 goupiller
+7 se goupiller
+7 goupillonner
+7 se gourancer
+7 se gourer
+7 gourmander
+7 goûter
+7 goutter
+7 gouttiner
+7 gouverner
+7 se gouverner
+16 gracier
+7 graduer
+7 se graffer
+7 graffiter
+7 grafigner
+7 grailler
+7 graillonner
+7 grainer
+7 graisser
+7 grammaticaliser
+7 se grammaticaliser
+20 grandir
+20 se grandir
+7 graniter
+7 granuler
+7 graphiter
+7 grappiller
+17 grasseyer
+7 graticuler
+16 gratifier
+7 gratiner
+7 gratouiller
+7 gratter
+7 se gratter
+7 grattouiller
+7 graver
+7 se graver
+7 gravillonner
+20 gravir
+7 graviter
+7 gréciser
+7 grecquer
+14 gréer
+7 greffer
+7 se greffer
+7 grêler
+7 grelotter
+7 grenailler
+12 greneler
+10 grener
+7 grenouiller
+11 gréser
+7 grésiller
+10 grever
+11 gréver
+7 gribouiller
+7 griffer
+7 griffonner
+7 grigner
+7 grignoter
+7 grigriser
+9 grillager
+7 griller
+7 se griller
+8 grimacer
+7 grimer
+7 se grimer
+7 grimper
+8 grincer
+7 grincher
+7 gringuer
+7 gripper
+7 se gripper
+7 grisailler
+7 griser
+7 se griser
+7 grisoler
+7 grisoller
+7 grisonner
+12 griveler
+7 grognasser
+7 grogner
+7 grognonner
+12 grommeler
+7 gronder
+20 grossir
+18 grossoyer
+7 grouiller
+7 se grouiller
+7 groûler
+7 groumer
+7 grouper
+7 se grouper
+9 gruger
+12 se grumeler
+14 guéer
+20 guérir
+20 se guérir
+18 guerroyer
+7 guêtrer
+7 se guêtrer
+7 guetter
+7 se guetter
+7 gueuler
+7 gueuletonner
+7 gueuser
+7 guider
+7 se guider
+7 guigner
+12 guillemeter
+7 guillocher
+7 guillotiner
+7 guincher
+7 guindailler
+7 guinder
+7 se guinder
+7 guiper
+7 habiliter
+7 habiller
+7 s'habiller
+7 habiter
+7 habituer
+7 s'habituer
+7 hâbler
+7 hacher
+7 hachurer
+21 haïr
+21 se haïr
+10 halener
+7 haler
+7 hâler
+7 se hâler
+13 haleter
+7 halkiner
+7 halluciner
+7 hameçonner
+7 hancher
+13 handeler
+7 handicaper
+7 hannetonner
+7 hanter
+7 happer
+7 haranguer
+7 harasser
+12 harceler
+13 harceler
+7 harder
+7 haricoter
+7 harmoniser
+7 s'harmoniser
+7 harnacher
+7 se harnacher
+7 harpailler
+7 harper
+7 harponner
+7 hasarder
+7 se hasarder
+7 hâter
+7 se hâter
+7 haubaner
+7 hausser
+7 se hausser
+7 haver
+20 havir
+9 héberger
+11 hébéter
+7 hébraïser
+11 héler
+11 se héler
+7 hélitreuiller
+7 helléniser
+20 hennir
+9 herbager
+7 herber
+7 herboriser
+7 hercher
+7 hérisser
+7 se hérisser
+7 hérissonner
+7 se hérissonner
+7 hériter
+7 herser
+7 hésiter
+7 heurter
+7 se heurter
+7 hiberner
+7 hiérarchiser
+7 hisser
+7 se hisser
+16 historier
+7 hiverner
+7 hocher
+16 holographier
+16 homogénéifier
+7 homogénéiser
+7 homologuer
+7 hongrer
+18 hongroyer
+20 honnir
+7 honorer
+7 s'honorer
+12 hoqueter
+16 horrifier
+7 horripiler
+7 hospitaliser
+7 houblonner
+7 houer
+7 houpper
+7 hourder
+20 hourdir
+7 houspiller
+7 housser
+7 houssiner
+7 hucher
+7 huer
+7 huiler
+0 huir	seulement à l'infinitif, au présent et aux temps composés
+7 hululer
+7 humaniser
+7 s'humaniser
+7 humecter
+7 s'humecter
+7 humer
+16 humidifier
+16 humilier
+16 s'humilier
+7 hurler
+7 hybrider
+7 s'hybrider
+7 hydrater
+7 s'hydrater
+9 hydrofuger
+11 hydrogéner
+7 hydrolyser
+16 hypertrophier
+16 s'hypertrophier
+7 hypnotiser
+7 s'hypnotiser
+16 hypostasier
+11 hypothéquer
+7 iconiser
+7 idéaliser
+7 s'idéaliser
+16 identifier
+16 s'identifier
+7 idéologiser
+7 idiotiser
+7 idolâtrer
+7 s'idolâtrer
+9 ignifuger
+7 ignorer
+7 s'ignorer
+7 illuminer
+7 s'illuminer
+7 illusionner
+7 s'illusionner
+7 illustrer
+7 s'illustrer
+9 imager
+7 imaginer
+7 s'imaginer
+7 imbiber
+7 s'imbiber
+7 imbriquer
+7 s'imbriquer
+7 imiter
+7 immatérialiser
+7 s'immatérialiser
+7 immatriculer
+9 immerger
+9 s'immerger
+7 immigrer
+8 s'immiscer
+7 immobiliser
+7 s'immobiliser
+7 immoler
+7 s'immoler
+7 immortaliser
+7 s'immortaliser
+7 immuniser
+7 s'immuniser
+7 impacter
+20 impartir
+7 impatienter
+7 s'impatienter
+7 impatroniser
+7 s'impatroniser
+7 imperméabiliser
+11 impétrer
+7 implanter
+7 s'implanter
+7 implémenter
+7 impliquer
+7 s'impliquer
+7 implorer
+7 imploser
+7 importer
+7 importuner
+7 imposer
+7 s'imposer
+11 imprégner
+11 s'imprégner
+7 impressionner
+7 imprimer
+7 s'imprimer
+7 improuver
+7 improviser
+7 s'improviser
+7 impulser
+7 imputer
+7 inactiver
+7 inaugurer
+11 incarcérer
+7 incarner
+7 s'incarner
+16 incendier
+11 incinérer
+7 inciser
+7 inciter
+7 incliner
+7 s'incliner
+77 inclure
+7 incomber
+7 incommoder
+7 incorporer
+7 s'incorporer
+7 incrémenter
+7 incriminer
+7 incruster
+7 s'incruster
+7 incuber
+7 inculper
+7 inculquer
+7 incurver
+7 s'incurver
+7 indaguer
+7 indemniser
+7 s'indemniser
+7 indexer
+8 indicer
+11 indifférer
+7 indigner
+7 s'indigner
+7 indiquer
+7 indisposer
+7 individualiser
+7 s'individualiser
+88 induire
+7 indurer
+7 industrialiser
+7 s'industrialiser
+7 infantiliser
+7 infatuer
+7 s'infatuer
+7 infecter
+7 s'infecter
+7 inféoder
+7 s'inféoder
+11 inférer
+7 inferioriser
+7 infester
+7 infiltrer
+7 s'infiltrer
+7 infirmer
+20 infléchir
+20 s'infléchir
+9 infliger
+8 influencer
+7 influer
+7 informatiser
+7 s'informatiser
+7 informer
+7 s'informer
+7 infuser
+16 s'ingénier
+11 ingérer
+11 s'ingérer
+7 ingurgiter
+7 inhaler
+7 inhiber
+7 inhumer
+7 initialer
+7 initialiser
+16 initier
+16 s'initier
+7 injecter
+7 s'injecter
+16 injurier
+16 s'injurier
+7 innerver
+7 innocenter
+7 innover
+7 inoculer
+7 s'inoculer
+7 inonder
+7 s'inonder
+11 inquiéter
+11 s'inquiéter
+86 inscrire
+86 s'inscrire
+7 insculper
+7 inséminer
+7 insensibiliser
+11 insérer
+11 s'insérer
+7 insinuer
+7 s'insinuer
+7 insister
+7 insoler
+7 insolubiliser
+7 insonoriser
+7 inspecter
+7 inspirer
+7 s'inspirer
+7 installer
+7 s'installer
+7 instaurer
+7 s'instaurer
+7 instiguer
+7 instiller
+7 instituer
+7 s'instituer
+7 institutionnaliser
+7 s'institutionnaliser
+88 instruire
+88 s'instruire
+7 instrumentaliser
+7 instrumenter
+7 insuffler
+7 insulter
+7 s'insulter
+7 insupporter
+9 s'insurger
+7 intailler
+11 intégrer
+11 s'intégrer
+7 intellectualiser
+16 intensifier
+16 s'intensifier
+7 intenter
+20 interagir
+7 intercaler
+7 s'intercaler
+11 intercéder
+7 intercepter
+7 interclasser
+7 interconnecter
+84 interdire
+84 s'interdire
+7 intéresser
+7 s'intéresser
+11 interférer
+11 s'interférer
+16 interfolier
+7 intérioriser
+12 interjeter
+7 interligner
+7 interloquer
+7 internationaliser
+7 s'internationaliser
+7 interner
+7 interpeller
+11 s'interpénétrer
+7 interpoler
+7 interposer
+7 s'interposer
+11 interpréter
+11 s'interpréter
+9 interroger
+9 s'interroger
+58 interrompre
+58 s'interrompre
+24 intervenir
+20 intervertir
+7 interviewer
+7 intimer
+7 intimider
+7 intituler
+7 s'intituler
+7 intoxiquer
+7 s'intoxiquer
+7 intriguer
+7 intriquer
+88 introduire
+88 s'introduire
+7 introniser
+7 intuber
+7 s'invaginer
+7 invalider
+7 invectiver
+7 inventer
+7 s'inventer
+16 inventorier
+7 inverser
+7 s'inverser
+20 invertir
+20 investir
+20 s'investir
+11 s'invétérer
+7 inviter
+7 s'inviter
+7 invoquer
+7 ioder
+7 iodler
+7 ioniser
+7 iouler
+7 iriser
+7 s'iriser
+7 ironiser
+16 irradier
+16 s'irradier
+7 irriguer
+7 irriter
+7 s'irriter
+7 islamiser
+7 s'islamiser
+7 isoler
+7 s'isoler
+0 issir	seulement au participe passé : issu, e
+11 itérer
+7 ivoiriser
+7 ixer
+7 jabler
+7 jaboter
+7 jacasser
+7 jacter
+7 jaffer
+20 jaillir
+7 jalonner
+7 jalouser
+7 se jalouser
+7 jambonner
+7 japoniser
+7 se japoniser
+7 japonner
+7 japper
+7 jardiner
+7 jargonner
+12 jarreter
+7 jaser
+7 jasper
+7 jaspiner
+9 jauger
+9 se jauger
+20 jaunir
+12 javeler
+7 javelliser
+7 javer
+12 jeter
+12 se jeter
+7 jeûner
+7 jobarder
+7 jocoler
+7 jodler
+7 jogger
+63 joindre
+63 se joindre
+18 jointoyer
+8 joncer
+7 joncher
+7 jongler
+7 jouailler
+7 jouer
+7 se jouer
+20 jouir
+7 jouter
+7 jouxter
+7 jubiler
+7 jucher
+7 se jucher
+7 judaïser
+9 juger
+9 se juger
+7 juguler
+7 jumeler
+7 juponner
+7 jurer
+7 se jurer
+16 justifier
+16 se justifier
+7 juter
+7 juxtaposer
+7 kaoter
+7 kaotiser
+7 kératiniser
+7 se kératiniser
+7 kidnapper
+11 kilométrer
+7 klaxonner
+7 koter
+7 labelliser
+7 labialiser
+7 se labialiser
+7 labourer
+7 se labourer
+7 lacaniser
+8 lacer
+8 se lacer
+11 lacérer
+7 lâcher
+7 laïciser
+7 se laïciser
+7 lainer
+7 laisser
+7 se laisser
+7 laitonner
+7 laïusser
+7 lambiner
+7 lambrisser
+7 lamenter
+7 se lamenter
+7 lamer
+7 laminer
+7 lamper
+7 lancequiner
+8 lancer
+8 se lancer
+7 lanciner
+9 langer
+7 langueyer
+20 languir
+20 se languir
+7 lansquiner
+7 lanterner
+7 laper
+7 lapider
+16 lapidifier
+16 se lapidifier
+7 lapiner
+7 laquer
+7 larder
+7 lardonner
+7 larguer
+18 larmoyer
+7 lasser
+7 se lasser
+7 latiniser
+7 latter
+7 laver
+7 se laver
+17 layer
+11 lécher
+11 se lécher
+7 légaliser
+7 légender
+11 légiférer
+7 légitimer
+11 léguer
+11 se léguer
+7 lemmatiser
+16 lénifier
+11 léser
+7 lésiner
+7 lessiver
+7 lester
+7 se lester
+7 leurrer
+7 se leurrer
+10 lever
+10 se lever
+7 léviger
+7 léviter
+7 levretter
+7 se lexicaliser
+7 lézarder
+7 se lézarder
+7 liaisonner
+7 liarder
+7 se libaniser
+7 libeller
+7 libéraliser
+7 se libéraliser
+11 libérer
+11 se libérer
+16 licencier
+7 licher
+7 lichetrogner
+7 liciter
+15 liéger
+16 lier
+16 se lier
+7 lifter
+7 ligaturer
+7 ligner
+16 se lignifier
+7 ligoter
+7 liguer
+7 se liguer
+7 limander
+7 limer
+7 se limer
+7 limiter
+7 se limiter
+9 limoger
+7 limoner
+7 limousiner
+9 linger
+9 se linger
+16 liquéfier
+16 se liquéfier
+7 liquider
+83 lire
+83 se lire
+7 lisbroquer
+10 liserer
+10 se liserer
+11 lisérer
+7 lisser
+7 lister
+7 liter
+16 lithographier
+7 litroner
+7 livrer
+7 se livrer
+7 lober
+7 lobotomiser
+7 localiser
+7 se localiser
+7 locher
+7 lockouter
+7 lock-outer
+7 lofer
+9 loger
+9 se loger
+7 loguer
+9 longer
+7 looser
+7 loquer
+7 se loquer
+7 lorgner
+7 lotionner
+20 lotir
+9 louanger
+7 loucher
+20 louchir
+7 louer
+7 se louer
+7 loufer
+7 louper
+7 se louper
+7 louquer
+7 lourder
+7 lourer
+7 louver
+12 louveter
+18 louvoyer
+7 lover
+7 se lover
+16 lubrifier
+9 luger
+88 luire
+7 luncher
+7 lustrer
+7 luter
+7 lutiner
+7 lutter
+7 luxer
+7 se luxer
+7 lyncher
+7 lyophiliser
+7 lyrer
+7 lyser
+7 macadamiser
+7 se macchaber
+11 macérer
+7 mâcher
+7 machicoter
+7 machiner
+7 mâchonner
+7 mâchouiller
+7 mâchurer
+7 macler
+7 maçonner
+7 macquer
+7 maculer
+16 madéfier
+7 madériser
+7 se madériser
+7 madrigaliser
+7 maganer
+7 se maganer
+7 magasiner
+7 se magner
+7 magnétiser
+7 magnétoscoper
+16 magnifier
+7 magoter
+7 magouiller
+20 maigrir
+7 mailler
+61 mainmettre
+24 maintenir
+24 se maintenir
+7 maîtriser
+7 se maîtriser
+7 majorer
+7 malaxer
+0 malfaire	seulement à l'infinitif
+7 malléabiliser
+7 mallouser
+10 malmener
+7 malter
+7 maltraiter
+7 mamelonner
+9 manager
+7 manchonner
+7 mandater
+7 mander
+15 manéger
+7 mangeotter
+9 manger
+9 se manger
+16 manier
+16 se manier
+11 maniérer
+11 se maniérer
+7 manifester
+7 se manifester
+8 manigancer
+8 se manigancer
+7 manipuler
+7 mannequiner
+7 manœuvrer
+7 manoquer
+7 manquer
+7 se manquer
+7 mansarder
+7 manucurer
+7 manufacturer
+7 manutentionner
+7 mapper
+7 maquer
+7 se maquer
+7 maquetter
+7 maquignonner
+7 maquiller
+7 se maquiller
+7 marabouter
+7 maratoner
+7 marauder
+7 maraver
+7 marbrer
+7 marchander
+7 marcher
+7 marcotter
+7 margauder
+9 marger
+7 marginaliser
+7 se marginaliser
+7 marginer
+7 margoter
+7 margotter
+16 marier
+16 se marier
+7 mariner
+7 marivauder
+7 marmiter
+7 marmonner
+7 marmoriser
+7 marmotter
+7 marner
+7 maronner
+7 maroquiner
+7 maroufler
+7 marquer
+7 se marquer
+12 marqueter
+7 se marrer
+7 marronner
+7 marsouiner
+13 marteler
+7 martyriser
+7 marxiser
+7 masculiniser
+7 masquer
+7 se masquer
+7 massacrer
+7 se massacrer
+7 masser
+7 se masser
+7 massicoter
+16 massifier
+11 mastéguer
+7 mastiquer
+7 masturber
+7 se masturber
+7 matabicher
+7 matcher
+7 matelasser
+7 mater
+7 mâter
+7 matérialiser
+7 se matérialiser
+7 materner
+7 materniser
+7 mathématiser
+7 mâtiner
+20 matir
+7 matouser
+7 matraquer
+8 matricer
+7 matriculer
+7 maturer
+20 maudire
+14 maugréer
+7 maximaliser
+7 maximiser
+7 mazouter
+7 mécaniser
+11 mécher
+7 se mécompter
+88 se méconduire
+69 méconnaître
+7 mécontenter
+74 mécroire
+7 médailler
+7 médiatiser
+7 médicaliser
+7 médicamenter
+84 médire
+7 médiser
+7 méditer
+7 méduser
+67 méfaire
+5 se méfier
+20 mégir
+7 mégisser
+7 mégoter
+9 méjuger
+9 se méjuger
+9 mélanger
+9 se mélanger
+7 mêler
+7 se mêler
+7 mémoriser
+8 menacer
+9 ménager
+9 se ménager
+16 mendier
+7 mendigoter
+10 mener
+7 menotter
+7 mensualiser
+7 mensurer
+7 mentionner
+26 mentir
+26 se mentir
+7 menuiser
+59 se méprendre
+7 mépriser
+7 se mépriser
+7 mercantiliser
+7 merceriser
+7 merder
+18 merdoyer
+7 meringuer
+7 mériter
+16 se mésallier
+7 mésestimer
+53 messeoir
+7 mesurer
+7 se mesurer
+7 mésuser
+7 métaboliser
+7 métalliser
+7 métamorphiser
+7 métamorphoser
+7 se métamorphoser
+7 métaphoriser
+7 météoriser
+7 métisser
+11 métrer
+61 mettre
+61 se mettre
+7 meubler
+7 se meubler
+7 meugler
+7 meuler
+20 meurtrir
+58 mévendre
+7 miauler
+7 michetonner
+7 microfilmer
+7 microniser
+7 mignarder
+7 mignoter
+7 se mignoter
+7 migrer
+7 mijoler
+7 mijoter
+7 se mijoter
+7 militariser
+7 militer
+7 millésimer
+7 mimer
+7 minauder
+20 mincir
+7 miner
+7 minéraliser
+7 miniaturer
+7 miniaturiser
+7 minimiser
+7 minorer
+7 minuter
+7 mirer
+7 se mirer
+7 miroiter
+7 miser
+11 misérer
+7 mitarder
+7 miter
+7 se miter
+7 mithridatiser
+7 se mithridatiser
+9 mitiger
+7 mitonner
+7 se mitonner
+7 mitrailler
+7 mixer
+7 mixtionner
+7 mobiliser
+7 se mobiliser
+13 modeler
+13 se modeler
+7 modéliser
+11 modérer
+11 se modérer
+7 moderniser
+7 se moderniser
+16 modifier
+16 se modifier
+7 moduler
+7 mofler
+7 moirer
+7 moiser
+20 moisir
+7 moissonner
+7 moiter
+20 moitir
+7 molester
+12 moleter
+7 mollarder
+7 molletonner
+20 mollir
+16 momifier
+16 se momifier
+7 monder
+7 mondialiser
+7 se mondialiser
+7 monétiser
+17 monnayer
+7 monologuer
+7 monopoliser
+7 monter
+7 se monter
+7 montrer
+7 se montrer
+7 moquer
+7 se moquer
+7 moquetter
+7 moraliser
+12 morceler
+8 mordancer
+7 mordiller
+7 mordorer
+58 mordre
+58 se mordre
+7 morfaler
+7 morfiler
+7 morfler
+58 se morfondre
+11 morigéner
+7 mornifier
+7 mortaiser
+16 mortifier
+16 se mortifier
+7 motamoter
+7 motionner
+7 motiver
+7 motoriser
+7 se motter
+7 moucharder
+7 moucher
+7 se moucher
+7 moucheronner
+12 moucheter
+80 moudre
+13 moueter
+7 mouetter
+12 moufeter
+7 moufter
+7 mouiller
+7 se mouiller
+7 mouler
+7 mouliner
+7 moulurer
+35 mourir
+35 se mourir
+7 mouronner
+7 se mouronner
+7 mousser
+7 moutonner
+7 mouvementer
+7 mouver
+7 se mouver
+46 mouvoir
+46 se mouvoir
+7 moyenner
+7 mucher
+7 muer
+7 se muer
+20 mugir
+12 mugueter
+7 muloter
+7 multiplexer
+16 multiplier
+16 se multiplier
+7 municipaliser
+20 munir
+20 se munir
+7 munitionner
+7 murailler
+7 murer
+7 se murer
+20 mûrir
+7 murmurer
+7 musarder
+7 muscler
+12 museler
+7 muser
+7 se muser
+7 musiquer
+7 musquer
+7 musser
+7 se musser
+7 muter
+7 mutiler
+7 se mutiler
+7 se mutiner
+7 mutualiser
+16 mystifier
+16 mythifier
+7 nacrer
+7 se nacrer
+9 nager
+70 naître
+7 nanifier
+20 nantir
+20 se nantir
+7 napper
+7 narguer
+7 narrer
+7 nasaliser
+7 se nasaliser
+7 nasiller
+7 natchaver
+7 nationaliser
+7 natter
+7 naturaliser
+9 naufrager
+7 se navaler
+7 naviguer
+7 navrer
+7 néantiser
+7 se néantiser
+7 nécessiter
+7 nécroser
+7 se nécroser
+9 négliger
+9 se négliger
+16 négocier
+16 se négocier
+7 négrifier
+7 neigeoter
+9 neiger
+7 nervurer
+18 nettoyer
+7 neutraliser
+7 se neutraliser
+7 niaiser
+7 nicher
+7 se nicher
+12 nickeler
+7 nicotiniser
+16 nidifier
+7 nieller
+16 nier
+7 nigérianiser
+7 nimber
+7 se nimber
+7 nipper
+7 se nipper
+7 nitrater
+7 nitrer
+16 nitrifier
+16 se nitrifier
+7 nitrurer
+7 nivaquiner
+12 niveler
+7 nobscuriter
+8 nocer
+20 noircir
+20 se noircir
+7 noliser
+7 nomadiser
+7 nombrer
+7 nominaliser
+7 nommer
+7 se nommer
+8 noncer
+7 noper
+20 nordir
+7 normaliser
+7 se normaliser
+7 noter
+16 notifier
+7 nouer
+7 se nouer
+20 nourrir
+20 se nourrir
+7 nover
+7 noyauter
+18 noyer
+18 se noyer
+8 nuancer
+7 nucléariser
+14 nucléer
+7 nuer
+88 nuire
+88 se nuire
+7 numériser
+7 numéroter
+7 se numéroter
+20 obéir
+11 obérer
+11 s'obérer
+7 objecter
+7 objectiver
+7 s'objectiver
+7 objurguer
+9 obliger
+9 s'obliger
+7 obliquer
+11 oblitérer
+7 obnubiler
+7 obombrer
+20 obscurcir
+20 s'obscurcir
+11 obséder
+7 observer
+7 s'observer
+7 s'obstiner
+7 obstruer
+7 s'obstruer
+11 obtempérer
+24 obtenir
+24 s'obtenir
+7 obturer
+24 obvenir
+16 obvier
+7 occasionner
+7 occidentaliser
+7 s'occidentaliser
+0 occire	seulement à l'infinitif, aux temps composés et au participe passé : occis, e
+77 occlure
+7 occulter
+7 occuper
+7 s'occuper
+7 ocrer
+16 octavier
+18 octroyer
+18 s'octroyer
+7 octupler
+7 œilletonner
+7 œuvrer
+7 offenser
+7 s'offenser
+7 officialiser
+16 officier
+28 offrir
+28 s'offrir
+7 offusquer
+7 s'offusquer
+63 oindre
+63 s'oindre
+12 oiseler
+9 ombrager
+7 ombrer
+61 omettre
+18 ondoyer
+7 onduler
+16 opacifier
+16 s'opacifier
+7 opaliser
+11 opérer
+11 s'opérer
+8 opiacer
+7 opiner
+7 s'opiniâtrer
+7 opposer
+7 s'opposer
+7 oppresser
+7 opprimer
+7 opter
+7 optimaliser
+7 optimiser
+7 oraliser
+9 oranger
+7 orbiter
+7 orchestrer
+8 ordonnancer
+7 ordonner
+7 s'ordonner
+7 organiser
+7 s'organiser
+7 organsiner
+7 orienter
+7 s'orienter
+7 oringuer
+7 ornementer
+7 orner
+7 s'orner
+16 orthographier
+16 s'orthographier
+7 osciller
+7 oser
+16 ossifier
+16 s'ossifier
+7 ostraciser
+7 ôter
+7 s'ôter
+7 ouater
+7 ouatiner
+16 oublier
+16 s'oublier
+7 ouiller
+38 ouïr
+7 s'ourder
+20 ourdir
+20 s'ourdir
+7 ourler
+7 outiller
+7 s'outiller
+9 outrager
+7 outrepasser
+7 outrer
+9 ouvrager
+7 ouvrer
+28 ouvrir
+28 s'ouvrir
+7 ovaliser
+7 ovationner
+7 ovuler
+7 oxyder
+7 s'oxyder
+11 oxygéner
+11 s'oxygéner
+7 ozoniser
+9 pacager
+16 pacifier
+7 pacquer
+7 pactiser
+7 se paddocker
+7 paganiser
+17 pagayer
+7 se pageoter
+9 pager
+9 se pager
+7 paginer
+7 se pagnoter
+7 paillarder
+7 se paillarder
+7 paillassonner
+7 pailler
+12 pailleter
+7 paillonner
+12 paisseler
+71 paître
+7 se pajoter
+7 palabrer
+7 palancrer
+7 palangrer
+7 palanguer
+7 palanquer
+7 palataliser
+7 paleter
+7 palettiser
+20 pâlir
+7 palissader
+7 palisser
+7 palissonner
+16 pallier
+7 palmer
+7 paloter
+7 palper
+7 palpiter
+7 se pâmer
+7 panacher
+7 se panacher
+7 paner
+16 panifier
+7 paniquer
+7 se paniquer
+7 panneauter
+7 panner
+7 panoramiquer
+12 panteler
+7 pantoufler
+7 papillonner
+7 papilloter
+7 papoter
+7 papouiller
+10 parachever
+7 parachuter
+7 parader
+7 parafer
+7 paraffiner
+7 paraisonner
+69 paraître
+7 paralléliser
+7 paralyser
+7 paramétrer
+7 parangonner
+7 parapher
+7 paraphraser
+7 parasiter
+7 parcellariser
+7 parceller
+7 parcelliser
+7 se parcelliser
+7 parcheminer
+7 se parcheminer
+34 parcourir
+7 pardonner
+7 se pardonner
+7 parementer
+7 parer
+7 se parer
+7 paresser
+67 parfaire
+7 parfiler
+58 parfondre
+7 parfumer
+7 se parfumer
+16 parier
+7 se parjurer
+7 parkériser
+7 parlementer
+7 parler
+7 se parler
+7 parloter
+16 parodier
+7 parquer
+12 parqueter
+7 parrainer
+10 parsemer
+9 partager
+9 se partager
+7 participer
+7 particulariser
+7 se particulariser
+0 partir	seulement à l'infinitif dans l'expression avoir maille à partir
+26 partir
+7 partouzer
+24 parvenir
+7 passementer
+7 passepoiler
+7 passer
+7 se passer
+7 passionner
+7 se passionner
+7 pasteller
+7 pasteuriser
+7 pasticher
+7 pastiller
+7 pastiquer
+7 patafioler
+9 patauger
+7 pateliner
+7 patenter
+7 pâter
+7 patienter
+7 se patienter
+7 patiner
+7 se patiner
+20 pâtir
+7 pâtisser
+7 patoiser
+7 patouiller
+7 patronner
+7 patrouiller
+7 patter
+7 pâturer
+7 paumer
+7 se paumer
+18 paumoyer
+7 paupériser
+7 pauser
+7 se pavaner
+7 paver
+7 pavoiser
+17 payer
+17 se payer
+7 peaufiner
+7 peausser
+11 pécher
+7 pêcher
+7 se pêcher
+7 pecquer
+7 pédaler
+7 peigner
+7 se peigner
+62 peindre
+62 se peindre
+7 peiner
+7 peinturer
+7 peinturlurer
+13 peler
+13 se peler
+7 peller
+12 pelleter
+7 peloter
+7 pelotonner
+7 se pelotonner
+7 pelucher
+7 pembeniser
+7 pénaliser
+7 pencher
+7 se pencher
+7 pendiller
+7 pendouiller
+58 pendre
+58 se pendre
+7 penduler
+11 pénétrer
+11 se pénétrer
+7 penser
+7 pensionner
+16 pépier
+8 percer
+40 percevoir
+7 percher
+7 se percher
+7 percuter
+58 perdre
+58 se perdre
+7 perdurer
+7 pérégriner
+7 pérenniser
+7 péréquater
+7 perfectionner
+7 se perfectionner
+7 perforer
+7 perfuser
+7 péricliter
+7 se périmer
+7 périphraser
+20 périr
+7 perler
+7 permanenter
+7 perméabiliser
+61 permettre
+61 se permettre
+7 permuter
+7 se permuter
+7 pérorer
+7 peroxyder
+11 perpétrer
+11 se perpétrer
+7 perpétuer
+7 se perpétuer
+7 perquisitionner
+7 persécuter
+11 persévérer
+7 persiffler
+7 persifler
+7 persiller
+7 persister
+7 personnaliser
+16 personnifier
+7 persuader
+7 se persuader
+7 perturber
+20 pervertir
+20 se pervertir
+7 pervibrer
+10 peser
+10 se peser
+7 pessigner
+7 pesteller
+7 pester
+11 pestiférer
+7 pétarader
+7 pétarder
+11 péter
+11 se péter
+7 pétiller
+7 petit-déjeuner
+7 pétitionner
+7 pétocher
+7 pétrarquiser
+16 pétrifier
+16 se pétrifier
+20 pétrir
+7 pétuner
+7 peupler
+7 se peupler
+7 phagocyter
+7 phantasmer
+7 phaser
+7 philosopher
+7 phosphater
+7 phosphorer
+16 photocopier
+16 photographier
+7 phraser
+7 phrasicoter
+7 piaffer
+7 piailler
+7 pianoter
+7 piauler
+7 picoler
+7 picorer
+7 picoter
+7 picter
+15 piéger
+7 pierrer
+11 piéter
+11 se piéter
+7 piétiner
+7 se pieuter
+7 pifer
+7 piffer
+7 pigeonner
+9 piger
+7 pigmenter
+7 pignocher
+7 piler
+7 pîler
+7 piller
+7 pilonner
+7 piloter
+7 piluler
+7 pimenter
+7 pimer
+7 pinailler
+8 pincer
+8 se pincer
+7 pindariser
+7 pindouler
+7 pingler
+7 pinter
+7 se pinter
+7 piocher
+9 pioger
+8 pioncer
+7 pionner
+7 piper
+7 pique-niquer
+7 piquer
+7 se piquer
+12 piqueter
+7 piquouser
+7 pirater
+7 pirouetter
+7 pisser
+7 pissoter
+7 se pistacher
+7 pister
+7 pistonner
+7 pitancher
+7 piter
+7 pitonner
+7 pivoter
+7 placarder
+8 placer
+8 se placer
+7 placoter
+7 plafonner
+16 plagier
+7 plaider
+64 plaindre
+64 se plaindre
+7 plainer
+68 plaire
+68 se plaire
+7 plaisanter
+16 planchéier
+7 plancher
+7 planer
+16 planifier
+7 planquer
+7 se planquer
+7 planter
+7 se planter
+7 plaquer
+7 se plaquer
+16 plasmifier
+16 plastifier
+7 plastiquer
+7 plastronner
+7 platiner
+7 platiniser
+7 plâtrer
+7 plébisciter
+7 plecquer
+7 pleurer
+7 pleurnicher
+7 pleuvasser
+7 pleuviner
+47 pleuvoir
+7 pleuvoter
+16 plier
+16 se plier
+7 plisser
+7 se plisser
+7 plomber
+7 se plomber
+9 plonger
+9 se plonger
+7 ploquer
+7 se ploquer
+18 ployer
+7 plucher
+7 plumer
+7 se plumer
+7 pluviner
+7 se pocharder
+7 pocher
+7 podzoliser
+7 poêler
+7 poétiser
+7 pogner
+7 poignarder
+7 se poiler
+7 poinçonner
+63 poindre
+7 pointer
+7 se pointer
+7 pointiller
+7 poireauter
+7 poiroter
+7 poisser
+7 poivrer
+7 se poivrer
+7 se poivroter
+7 polariser
+7 se polariser
+7 polémiquer
+8 policer
+20 polir
+20 se polir
+7 polissonner
+7 politiquer
+7 politiser
+7 se politiser
+7 polluer
+16 polycopier
+7 polymériser
+7 pommader
+7 se pommader
+12 se pommeler
+7 pommer
+7 pomper
+7 pomponner
+7 se pomponner
+8 poncer
+7 ponctionner
+7 ponctuer
+11 pondérer
+58 pondre
+7 ponter
+16 pontifier
+7 pontiller
+7 populariser
+7 se populariser
+7 poquer
+7 porphyriser
+7 porter
+7 se porter
+7 portraiturer
+7 poser
+7 se poser
+7 positionner
+7 se positionner
+7 positiver
+11 posséder
+11 se posséder
+7 postdater
+7 poster
+7 se poster
+7 posticher
+7 postillonner
+7 postposer
+7 postsynchroniser
+7 postuler
+7 potasser
+7 potentialiser
+7 poter
+7 potiner
+7 poudrer
+7 se poudrer
+18 poudroyer
+7 pouffer
+7 pouliner
+7 pouponner
+7 pourchasser
+7 se pourchasser
+58 pourfendre
+11 pourlécher
+11 se pourlécher
+7 se pourprer
+20 pourrir
+20 se pourrir
+81 poursuivre
+81 se poursuivre
+42 pourvoir
+42 se pourvoir
+7 pousser
+7 se pousser
+7 poutser
+45 pouvoir
+45 se pouvoir
+7 praliner
+7 pratiquer
+7 se pratiquer
+13 préacheter
+7 préaviser
+7 précariser
+7 se précariser
+7 précautionner
+7 se précautionner
+11 précéder
+7 préchauffer
+7 prêcher
+7 précipiter
+7 se précipiter
+7 préciser
+7 se préciser
+7 précompter
+7 préconiser
+7 prédestiner
+7 prédéterminer
+7 prédiquer
+84 prédire
+7 prédisposer
+7 prédominer
+7 préempter
+20 préétablir
+7 préexister
+8 préfacer
+11 préférer
+11 se préférer
+7 préfigurer
+7 préfixer
+7 préformer
+16 préjudicier
+9 préjuger
+7 se prélasser
+10 prélever
+7 préluder
+7 préméditer
+20 prémunir
+20 se prémunir
+59 prendre
+59 se prendre
+7 prénommer
+7 se prénommer
+7 préoccuper
+7 se préoccuper
+7 préparer
+7 se préparer
+17 prépayer
+7 prépensionner
+7 préposer
+7 prérégler
+9 présager
+86 prescrire
+86 se prescrire
+7 présélectionner
+7 présenter
+7 se présenter
+7 préserver
+7 se préserver
+7 présider
+26 pressentir
+7 presser
+7 se presser
+7 pressurer
+7 se pressurer
+7 pressuriser
+7 prester
+7 présumer
+7 présupposer
+7 présurer
+58 prétendre
+58 se prétendre
+7 prêter
+7 se prêter
+7 prétexter
+49 prévaloir
+49 se prévaloir
+7 prévariquer
+24 prévenir
+41 prévoir
+16 prier
+7 primariser
+7 primer
+7 priser
+7 privatiser
+7 priver
+7 se priver
+16 privilégier
+7 prober
+11 procéder
+7 processionner
+7 proclamer
+7 se proclamer
+14 procréer
+7 procurer
+7 se procurer
+7 prodiguer
+7 se prodiguer
+88 produire
+88 se produire
+7 profaner
+11 proférer
+7 professer
+7 professionnaliser
+7 se professionnaliser
+7 profiler
+7 se profiler
+7 profiter
+7 programmer
+7 progresser
+7 prohiber
+12 projeter
+12 se projeter
+7 prolétariser
+11 proliférer
+9 prolonger
+9 se prolonger
+10 promener
+10 se promener
+61 promettre
+61 se promettre
+7 promotionner
+46 promouvoir
+7 promulguer
+7 prôner
+8 prononcer
+8 se prononcer
+7 pronostiquer
+9 propager
+9 se propager
+7 prophétiser
+7 proportionner
+7 se proportionner
+7 proposer
+7 se proposer
+7 propulser
+7 se propulser
+9 proroger
+9 se proroger
+86 proscrire
+16 prosodier
+7 prospecter
+11 prospérer
+7 prosterner
+7 se prosterner
+7 prostituer
+7 se prostituer
+15 protéger
+15 se protéger
+7 protester
+7 prouter
+7 prouver
+7 se prouver
+24 provenir
+7 proverbialiser
+7 provigner
+7 provisionner
+7 provoquer
+7 se provoquer
+7 pruner
+16 psalmodier
+7 psychanalyser
+7 psychiatriser
+16 publier
+7 puddler
+7 puer
+7 puiser
+7 pulluler
+7 pulser
+7 pulvériser
+7 punaiser
+20 punir
+9 purger
+9 se purger
+16 purifier
+16 se purifier
+16 putréfier
+16 se putréfier
+7 pyramider
+7 pyrograver
+7 quadriller
+7 quadrupler
+16 qualifier
+16 se qualifier
+16 quantifier
+7 quarderonner
+7 quarrer
+9 quartager
+7 quarter
+7 quémander
+7 quereller
+7 se quereller
+0 quérir	seulement à l'infinitif
+7 questionner
+7 se questionner
+7 quêter
+7 queuter
+7 quiller
+7 quimper
+16 quintessencier
+7 quintupler
+8 quittancer
+7 quitter
+7 se quitter
+7 quotter
+7 rabâcher
+7 rabaisser
+7 se rabaisser
+7 rabanter
+60 rabattre
+60 se rabattre
+7 rabibocher
+7 se rabibocher
+7 rabioter
+7 rabistoquer
+7 râbler
+20 rabonnir
+7 raboter
+20 rabougrir
+20 se rabougrir
+7 rabouter
+7 rabrouer
+32 racabouillir
+7 raccommoder
+7 se raccommoder
+7 raccompagner
+7 raccorder
+7 se raccorder
+20 raccourcir
+20 se raccourcir
+7 raccoutrer
+7 raccoutumer
+7 se raccoutumer
+7 raccrocher
+7 se raccrocher
+7 raccuser
+7 raccuspoter
+13 racheter
+13 se racheter
+7 raciner
+7 racketter
+7 racler
+7 se racler
+7 racoler
+7 raconter
+7 se raconter
+20 racornir
+20 se racornir
+7 se racrapoter
+7 rader
+7 radicaliser
+7 se radicaliser
+16 radier
+7 radiner
+7 se radiner
+7 radiobaliser
+7 radiodiffuser
+16 radiographier
+7 radioguider
+7 radioscoper
+16 radiotélégraphier
+7 radoter
+7 radouber
+20 radoucir
+20 se radoucir
+20 rafantir
+20 raffermir
+20 se raffermir
+7 raffiner
+7 raffoler
+7 raffûter
+7 rafistoler
+7 rafler
+20 rafraîchir
+20 se rafraîchir
+20 ragaillardir
+9 rager
+7 ragoter
+7 ragoûter
+7 ragrafer
+14 ragréer
+7 raguer
+20 raidir
+20 se raidir
+7 railler
+7 se railler
+7 rainer
+12 raineter
+7 rainurer
+66 raire
+7 raisonner
+7 se raisonner
+20 rajeunir
+20 se rajeunir
+7 rajouter
+7 rajuster
+7 se rajuster
+20 ralentir
+20 se ralentir
+7 râler
+7 ralinguer
+9 ralléger
+16 rallier
+16 se rallier
+9 rallonger
+9 se rallonger
+7 rallumer
+7 se rallumer
+9 ramager
+7 ramailler
+7 ramander
+7 ramarrer
+7 ramasser
+7 se ramasser
+7 ramastiquer
+7 rambiner
+7 ramender
+10 ramener
+10 se ramener
+7 ramer
+12 rameter
+7 rameuter
+7 se rameuter
+16 ramifier
+16 se ramifier
+20 ramollir
+20 se ramollir
+7 ramoner
+7 ramper
+7 rancarder
+7 se rancarder
+20 rancir
+20 se rancir
+7 rançonner
+7 randonner
+9 ranger
+9 se ranger
+7 ranimer
+7 se ranimer
+7 raouster
+7 rapapilloter
+16 rapatrier
+16 se rapatrier
+7 râper
+7 rapetasser
+7 rapetisser
+7 se rapetisser
+8 rapiécer
+13 rapiéceter
+7 rapiner
+7 rapipoter
+20 raplatir
+20 rapointir
+7 rappareiller
+16 rapparier
+12 rappeler
+12 se rappeler
+7 rapper
+7 rappliquer
+20 rappointir
+7 rapporter
+7 se rapporter
+59 rapprendre
+7 rapprocher
+7 se rapprocher
+7 rapproprier
+7 rapprovisionner
+7 se rapprovisionner
+7 raquer
+16 raréfier
+16 se raréfier
+11 raser
+11 se raser
+16 rassasier
+16 se rassasier
+7 rassembler
+7 se rassembler
+51 rasseoir
+51 se rasseoir
+11 rasséréner
+11 se rasséréner
+0 rassir	rare, et surtout à l'infinitif et au participe passé (rassi, e, is, ies)
+0 se rassir	rare, et surtout à l'infinitif et au participe passé (rassi, e, is, ies)
+20 rassortir
+7 rassurer
+7 se rassurer
+7 ratatiner
+7 se ratatiner
+7 ratatouiller
+12 râteler
+7 rater
+7 se rater
+7 ratiboiser
+16 ratifier
+7 ratiner
+7 ratiociner
+7 rationaliser
+7 rationner
+7 se rationner
+7 ratisser
+7 rattacher
+7 se rattacher
+7 rattraper
+7 se rattraper
+7 raturer
+7 raugmenter
+7 rauquer
+9 ravager
+7 ravaler
+7 se ravaler
+7 ravauder
+7 ravigoter
+20 ravilir
+7 raviner
+20 ravir
+7 se raviser
+7 ravitailler
+7 se ravitailler
+7 raviver
+7 se raviver
+0 ravoir	seulement à l'infinitif
+17 rayer
+17 se rayer
+7 rayonner
+16 razzier
+7 réabonner
+7 se réabonner
+7 réabsorber
+7 réaccoutumer
+7 se réaccoutumer
+7 réactiver
+7 réactualiser
+7 réadapter
+7 se réadapter
+61 réadmettre
+7 réaffirmer
+7 réaffûter
+20 réagir
+7 réajuster
+7 se réajuster
+11 réaléser
+7 réaliser
+7 se réaliser
+7 réaménager
+8 réamorcer
+7 réanimer
+69 réapparaître
+59 réapprendre
+7 réapprovisionner
+7 se réapprovisionner
+7 réargenter
+7 se réargenter
+7 réarmer
+7 se réarmer
+9 réarranger
+7 réassigner
+20 réassortir
+20 se réassortir
+7 réassurer
+7 se réassurer
+7 rebaisser
+7 rebander
+7 rebaptiser
+20 rebâtir
+60 rebattre
+7 rebecter
+7 se rebeller
+7 se rebiffer
+7 rebiquer
+20 reblanchir
+7 reboiser
+20 rebondir
+12 rebonneter
+7 reborder
+7 reboucher
+7 se reboucher
+7 rebouiser
+7 rebouter
+7 reboutonner
+7 se reboutonner
+7 rebraguetter
+7 se rebraguetter
+7 rebroder
+7 rebrousser
+7 se rebrousser
+7 rebuter
+7 se rebuter
+12 recacheter
+16 recalcifier
+7 recaler
+7 récapituler
+7 recarder
+12 recarreler
+7 recaser
+7 se recaser
+7 recauser
+11 recéder
+13 receler
+11 recéler
+7 recenser
+7 recentrer
+11 recéper
+7 réceptionner
+7 recercler
+40 recevoir
+40 se recevoir
+20 rechampir
+20 réchampir
+9 rechanger
+9 se rechanger
+7 rechanter
+7 rechaper
+7 réchapper
+9 recharger
+7 rechasser
+7 réchauffer
+7 se réchauffer
+7 rechausser
+7 se rechausser
+7 rechercher
+7 rechigner
+7 rechristianiser
+7 rechuter
+7 récidiver
+7 réciproquer
+7 réciter
+7 réclamer
+7 se réclamer
+7 reclaper
+7 reclasser
+7 récliner
+7 reclouer
+0 reclure	seulement à l'infinitif et au participe passé (reclus, e, es)
+7 recoiffer
+7 se recoiffer
+7 récoler
+7 recoller
+7 se recoller
+7 recolorer
+7 récolter
+7 se récolter
+7 recommander
+7 se recommander
+8 recommencer
+69 recomparaître
+7 récompenser
+7 se récompenser
+7 recomposer
+7 se recomposer
+7 recompter
+16 réconcilier
+16 se réconcilier
+7 recondamner
+88 reconduire
+7 réconforter
+7 se réconforter
+13 recongeler
+69 reconnaître
+69 se reconnaître
+7 reconnecter
+7 se reconnecter
+25 reconquérir
+11 reconsidérer
+7 reconsolider
+7 reconstituer
+7 se reconstituer
+88 reconstruire
+20 reconvertir
+20 se reconvertir
+16 recopier
+7 recoquiller
+7 se recoquiller
+7 recorder
+9 recorriger
+7 recoucher
+7 se recoucher
+79 recoudre
+79 se recoudre
+7 recouper
+7 se recouper
+7 recouponner
+7 recourber
+7 se recourber
+34 recourir
+7 recouvrer
+28 recouvrir
+28 se recouvrir
+7 recracher
+14 recréer
+14 récréer
+14 se récréer
+20 recrépir
+7 recreuser
+16 se récrier
+7 récriminer
+86 récrire
+7 recristalliser
+7 recroiser
+73 recroître
+7 recroller
+7 se recroqueviller
+7 recruter
+7 se recruter
+16 rectifier
+29 recueillir
+29 se recueillir
+88 recuire
+7 reculer
+7 se reculer
+7 reculotter
+7 se reculotter
+11 récupérer
+7 récurer
+7 récuser
+7 se récuser
+7 recycler
+7 se recycler
+28 redécouvrir
+67 redéfaire
+20 redéfinir
+7 redemander
+7 redémarrer
+20 redémolir
+58 redescendre
+24 redevenir
+44 redevoir
+7 rediffuser
+9 rédiger
+7 rédimer
+7 se rédimer
+84 redire
+7 rediscuter
+7 redistribuer
+7 redonder
+7 redonner
+7 se redonner
+7 redorer
+7 redoubler
+7 redouter
+7 redresser
+7 se redresser
+88 réduire
+88 se réduire
+86 réécrire
+16 réédifier
+7 rééditer
+7 rééduquer
+83 réélire
+7 réembaucher
+18 réemployer
+7 réemprunter
+9 réengager
+9 se réengager
+8 réensemencer
+58 réentendre
+7 rééquilibrer
+14 réer
+7 réescompter
+17 réessayer
+7 réévaluer
+7 réexaminer
+16 réexpédier
+7 réexporter
+7 refaçonner
+67 refaire
+67 se refaire
+58 refendre
+8 référencer
+11 référer
+11 se référer
+7 refermer
+7 se refermer
+7 refiler
+20 réfléchir
+20 se réfléchir
+11 refléter
+11 se refléter
+20 refleurir
+7 refluer
+58 refondre
+9 reforger
+7 reformer
+7 se reformer
+7 réformer
+7 se réformer
+7 reformuler
+7 refouiller
+7 refouler
+7 refourguer
+7 refourrer
+58 refoutre
+7 réfracter
+11 refréner
+11 réfréner
+11 se réfréner
+11 réfrigérer
+20 refroidir
+20 se refroidir
+16 se réfugier
+7 refuser
+7 se refuser
+7 réfuter
+7 regagner
+7 régaler
+7 se régaler
+7 regarder
+7 se regarder
+20 regarnir
+7 régater
+7 regazonner
+13 regeler
+11 régénérer
+11 se régénérer
+7 régenter
+7 regimber
+7 se regimber
+7 régionaliser
+20 régir
+7 réglementer
+11 régler
+11 se régler
+11 régner
+7 regonfler
+9 regorger
+7 regratter
+14 regréer
+7 regreffer
+7 régresser
+7 regretter
+7 regrimper
+20 regrossir
+7 regrouper
+7 se regrouper
+7 régulariser
+7 réguler
+7 se réguler
+7 régurgiter
+7 réhabiliter
+7 se réhabiliter
+7 réhabituer
+7 se réhabituer
+7 rehausser
+7 se rehausser
+7 rehydrater
+16 réifier
+7 réimperméabiliser
+7 réimplanter
+7 réimporter
+7 réimposer
+7 réimprimer
+11 réincarcérer
+7 se réincarner
+7 réincorporer
+7 réinfecter
+7 se réinfecter
+7 réinjecter
+86 réinscrire
+86 se réinscrire
+11 réinsérer
+11 se réinsérer
+7 réinstaller
+7 se réinstaller
+11 réintégrer
+11 réinterpréter
+88 réintroduire
+7 réinventer
+20 réinvestir
+7 réinviter
+11 réitérer
+20 rejaillir
+12 rejeter
+12 se rejeter
+63 rejoindre
+63 se rejoindre
+18 rejointoyer
+7 rejouer
+20 réjouir
+20 se réjouir
+7 relâcher
+7 se relâcher
+7 se relaisser
+8 relancer
+20 rélargir
+7 relater
+7 relativiser
+7 relaver
+7 relaxer
+7 se relaxer
+17 relayer
+17 se relayer
+11 reléguer
+10 relever
+10 se relever
+16 relier
+83 relire
+83 se relire
+9 reloger
+9 se reloger
+7 relooker
+7 relouer
+88 reluire
+7 reluquer
+7 remâcher
+7 remailler
+9 remanger
+16 remanier
+7 remaquiller
+7 se remaquiller
+7 remarcher
+16 remarier
+16 se remarier
+7 remarquer
+7 se remarquer
+7 remastiquer
+7 remballer
+7 rembarquer
+7 se rembarquer
+7 rembarrer
+7 rembaucher
+7 rembiner
+7 se rembiner
+7 remblaver
+17 remblayer
+7 rembobiner
+7 remboîter
+9 rembouger
+7 rembourrer
+7 rembourser
+7 rembroquer
+20 rembrunir
+20 se rembrunir
+7 rembucher
+7 se rembucher
+16 remédier
+7 remembrer
+7 remémorer
+7 se remémorer
+16 remercier
+61 remettre
+61 se remettre
+7 remeubler
+7 remilitariser
+7 se remilitariser
+7 remiser
+7 se remiser
+7 remmailler
+7 remmailloter
+7 remmancher
+10 remmener
+13 remodeler
+7 remonter
+7 se remonter
+7 remontrer
+7 se remontrer
+58 remordre
+7 remorquer
+7 remoucher
+7 se remoucher
+80 remoudre
+7 remouiller
+7 rempailler
+12 rempaqueter
+7 remparder
+7 remparer
+11 rempiéter
+7 rempiler
+8 remplacer
+8 se remplacer
+16 remplier
+20 remplir
+20 se remplir
+18 remployer
+7 remplumer
+7 se remplumer
+7 rempocher
+7 rempoissonner
+7 remporter
+7 rempoter
+7 remprunter
+7 remuer
+7 se remuer
+11 rémunérer
+7 renâcler
+70 renaître
+7 renarder
+7 renauder
+7 rencaisser
+7 rencarder
+7 renchaîner
+20 renchérir
+7 rencogner
+7 se rencogner
+7 rencontrer
+7 se rencontrer
+33 rendormir
+33 se rendormir
+7 rendosser
+58 rendre
+58 se rendre
+9 reneiger
+7 renfaîter
+7 renfermer
+7 se renfermer
+7 renfiler
+7 renflammer
+7 renfler
+7 se renfler
+7 renflouer
+8 renfoncer
+8 renforcer
+8 se renforcer
+20 renformir
+7 se renfrogner
+9 rengager
+9 se rengager
+7 rengainer
+9 se rengorger
+16 rengracier
+10 rengrener
+11 rengréner
+16 renier
+16 se renier
+7 renifler
+7 renommer
+8 renoncer
+7 renouer
+7 se renouer
+12 renouveler
+12 se renouveler
+7 rénover
+7 renquiller
+7 renseigner
+7 se renseigner
+7 rentabiliser
+7 rentamer
+7 renter
+7 rentoiler
+66 rentraire
+17 rentrayer
+7 rentrer
+28 rentrouvrir
+7 renvelopper
+7 renvenimer
+9 renverger
+7 renverser
+7 se renverser
+7 renvider
+16 renvier
+19 renvoyer
+19 se renvoyer
+7 réoccuper
+11 réopérer
+7 réorchestrer
+8 réordonnancer
+7 réordonner
+7 réorganiser
+7 se réorganiser
+7 réorienter
+7 se réorienter
+7 repairer
+72 repaître
+72 se repaître
+58 répandre
+58 se répandre
+69 reparaître
+7 réparer
+7 reparler
+7 se reparler
+9 repartager
+26 repartir
+20 répartir
+20 se répartir
+7 repasser
+7 se repasser
+7 repatiner
+7 repaver
+17 repayer
+7 repêcher
+7 repeigner
+7 se repeigner
+62 repeindre
+58 rependre
+7 repenser
+26 se repentir
+8 repercer
+7 répercuter
+7 se répercuter
+58 reperdre
+11 repérer
+11 se repérer
+16 répertorier
+11 répéter
+11 se répéter
+7 repeupler
+7 se repeupler
+8 repincer
+7 repiquer
+8 replacer
+8 se replacer
+7 replanter
+7 se replanter
+7 replâtrer
+47 repleuvoir
+16 replier
+16 se replier
+7 répliquer
+7 se répliquer
+7 replisser
+9 replonger
+9 se replonger
+18 reployer
+20 repolir
+58 répondre
+58 se répondre
+7 reporter
+7 se reporter
+7 reposer
+7 se reposer
+7 repositionner
+7 se repositionner
+7 repousser
+7 se repousser
+59 reprendre
+59 se reprendre
+7 représenter
+7 se représenter
+7 réprimander
+7 réprimer
+7 repriser
+7 reprocher
+7 se reprocher
+88 reproduire
+88 se reproduire
+7 reprogrammer
+16 reprographier
+7 reprouver
+7 réprouver
+7 républicaniser
+16 répudier
+7 répugner
+7 réputer
+16 requalifier
+16 se requalifier
+25 requérir
+7 requinquer
+7 se requinquer
+7 réquisitionner
+7 resaler
+20 resalir
+20 se resalir
+7 resaluer
+7 rescinder
+7 resemer
+7 se resemer
+11 réséquer
+7 réserver
+7 se réserver
+7 résider
+7 résigner
+7 se résigner
+16 résilier
+7 résiner
+16 résinifier
+7 résister
+7 résonner
+7 résorber
+7 se résorber
+78 résoudre
+78 se résoudre
+7 respecter
+7 se respecter
+7 respirer
+20 resplendir
+7 responsabiliser
+7 resquiller
+7 ressaigner
+20 ressaisir
+20 se ressaisir
+7 ressasser
+7 ressauter
+17 ressayer
+7 ressembler
+7 se ressembler
+12 ressemeler
+7 ressemer
+7 se ressemer
+26 ressentir
+26 se ressentir
+7 resserrer
+7 se resserrer
+36 resservir
+36 se resservir
+20 ressortir
+26 ressortir
+7 ressouder
+7 se ressouder
+8 ressourcer
+8 se ressourcer
+24 se ressouvenir
+7 ressuer
+20 ressurgir
+7 ressusciter
+18 ressuyer
+18 se ressuyer
+7 restaurer
+7 se restaurer
+7 rester
+7 restituer
+62 restreindre
+62 se restreindre
+7 restructurer
+7 restyler
+7 résulter
+7 résumer
+7 se résumer
+20 resurgir
+20 rétablir
+20 se rétablir
+7 retailler
+7 rétamer
+7 se rétamer
+7 retaper
+7 se retaper
+7 retapisser
+7 retarder
+7 retâter
+62 reteindre
+7 retéléphoner
+58 retendre
+24 retenir
+24 se retenir
+7 retenter
+20 retentir
+8 retercer
+7 reterser
+7 réticuler
+7 retirer
+7 se retirer
+7 retisser
+7 retomber
+58 retondre
+7 retoquer
+58 retordre
+7 rétorquer
+7 retoucher
+7 retourner
+7 se retourner
+8 retracer
+7 rétracter
+7 se rétracter
+88 retraduire
+66 retraire
+7 retraiter
+7 retrancher
+7 se retrancher
+86 retranscrire
+61 retransmettre
+7 retravailler
+7 retraverser
+20 rétrécir
+20 se rétrécir
+62 retreindre
+62 rétreindre
+7 retremper
+7 se retremper
+7 rétribuer
+20 rétroagir
+11 rétrocéder
+7 rétrograder
+7 retrousser
+7 se retrousser
+7 retrouver
+7 se retrouver
+7 retuber
+16 réunifier
+20 réunir
+20 se réunir
+20 réussir
+7 réutiliser
+7 revacciner
+49 revaloir
+7 revaloriser
+7 se revancher
+7 rêvasser
+7 réveiller
+7 se réveiller
+7 réveillonner
+11 révéler
+11 se révéler
+7 revendiquer
+7 se revendiquer
+58 revendre
+58 se revendre
+24 revenir
+24 s'en revenir
+7 rêver
+11 réverbérer
+11 se réverbérer
+20 reverdir
+11 révérer
+20 revernir
+7 reverser
+27 revêtir
+27 se revêtir
+7 revigorer
+7 revirer
+7 réviser
+7 revisiter
+7 revisser
+7 revitaliser
+16 revivifier
+82 revivre
+41 revoir
+41 se revoir
+7 revoler
+7 révolter
+7 se révolter
+7 révolutionner
+7 révolvériser
+7 révoquer
+7 revoter
+50 revouloir
+7 révulser
+7 se révulser
+7 rewriter
+7 rhabiller
+7 se rhabiller
+7 rhumer
+7 ribler
+7 ribouler
+7 ricaner
+7 ricocher
+7 rider
+7 se rider
+7 ridiculiser
+7 se ridiculiser
+7 riffauder
+7 rifler
+16 rigidifier
+7 rigoler
+7 rimailler
+7 rimer
+8 rincer
+8 se rincer
+7 ringarder
+7 ripailler
+7 ripatonner
+7 riper
+7 ripoliner
+7 riposter
+85 rire
+85 se rire
+7 risquer
+7 se risquer
+7 rissoler
+7 ristourner
+7 ritualiser
+7 rivaliser
+7 river
+12 riveter
+7 rober
+7 robotiser
+7 rocher
+7 rocquer
+7 rôdailler
+7 roder
+7 rôder
+7 rogner
+7 rognonner
+20 roidir
+20 se roidir
+8 romancer
+7 romaniser
+7 se romaniser
+58 rompre
+58 se rompre
+7 ronchonner
+20 rondir
+7 ronéoter
+7 ronéotyper
+7 ronflaguer
+7 ronfler
+9 ronger
+9 se ronger
+7 ronronner
+7 ronsardiser
+7 roquer
+7 roser
+20 rosir
+7 rosser
+7 roter
+20 rôtir
+20 se rôtir
+7 roucouler
+7 rouer
+7 roufler
+18 rougeoyer
+20 rougir
+7 rougnotter
+7 rouiller
+7 se rouiller
+20 rouir
+7 rouler
+7 se rouler
+7 roulotter
+7 roupiller
+7 rouscailler
+11 rouspéter
+20 roussir
+20 roustir
+7 router
+28 rouvrir
+28 se rouvrir
+7 rubaner
+16 rubéfier
+7 rucher
+7 rudenter
+18 rudoyer
+7 ruer
+7 se ruer
+20 rugir
+7 ruiler
+7 ruiner
+7 se ruiner
+12 ruisseler
+7 ruminer
+7 rupiner
+7 ruser
+16 russifier
+7 rustiquer
+7 rûter
+7 rutiler
+7 rythmer
+7 sabler
+7 sablonner
+7 saborder
+7 se saborder
+7 saboter
+7 sabouler
+7 se sabouler
+7 sabrer
+7 sacagner
+7 saccader
+9 saccager
+16 saccharifier
+7 sacquer
+7 sacraliser
+7 sacrer
+16 sacrifier
+16 se sacrifier
+7 safraner
+7 saietter
+7 saigner
+7 se saigner
+20 saillir (s'accoupler)
+30 saillir (sortir, s'élancer)
+20 saisir
+20 se saisir
+7 saisonner
+7 salarier
+7 saler
+7 salifier
+7 saligoter
+20 salir
+20 se salir
+7 saliver
+7 salonguer
+7 saloper
+7 salpêtrer
+7 saluer
+7 se saluer
+16 sanctifier
+7 sanctionner
+7 sanctuariser
+7 sandwicher
+7 sangler
+7 se sangler
+7 sangloter
+7 santer
+7 santonner
+7 saouler
+7 se saouler
+7 saper
+7 se saper
+16 saponifier
+7 saquer
+7 sarcler
+7 sarter
+7 sasser
+7 sataner
+7 sataniser
+7 satelliser
+7 se satelliser
+7 satiner
+7 satiriser
+67 satisfaire
+67 se satisfaire
+7 satonner
+7 saturer
+8 saucer
+7 saucissonner
+7 saumurer
+7 sauner
+7 saupoudrer
+7 saurer
+20 saurir
+7 sauter
+7 sautiller
+7 sauvegarder
+7 sauver
+7 se sauver
+7 savater
+43 savoir
+43 se savoir
+7 savonner
+7 se savonner
+7 savourer
+7 scalper
+7 scandaliser
+7 se scandaliser
+7 scander
+7 scanner
+7 scannériser
+16 scarifier
+7 sceller
+7 scénariser
+7 schématiser
+7 schlinguer
+7 schlitter
+7 schmecter
+7 schnouper
+7 schpiler
+16 scier
+7 scinder
+7 se scinder
+7 scintiller
+7 sciotter
+7 scissionner
+7 scléroser
+7 se scléroser
+7 scolariser
+16 scorifier
+7 scotcher
+7 scrafer
+7 scratcher
+7 scribouiller
+7 scruter
+7 sculpter
+11 sécher
+11 se sécher
+7 seconder
+7 secouer
+7 se secouer
+34 secourir
+11 secréter
+11 sécréter
+7 sectionner
+7 se sectionner
+7 sectoriser
+7 séculariser
+7 sécuriser
+7 sédentariser
+7 se sédentariser
+7 sédimenter
+88 séduire
+7 segmenter
+7 se segmenter
+11 ségréguer
+7 séjourner
+7 se séjourner
+7 sélecter
+7 sélectionner
+7 seller
+7 sembler
+10 semer
+8 semoncer
+7 sénégaliser
+7 sensibiliser
+7 se sensibiliser
+26 sentir
+26 se sentir
+52 seoir
+7 séparer
+7 se séparer
+7 septupler
+8 séquencer
+7 séquestrer
+8 sérancer
+20 serfouir
+7 sérialiser
+16 sérier
+7 seriner
+7 seringuer
+7 sermonner
+7 serpenter
+7 serrer
+7 se serrer
+20 sertir
+7 serviotter
+36 servir
+36 se servir
+20 sévir
+7 sevrer
+7 sextupler
+7 sexualiser
+7 shampooiner
+7 shampouiner
+7 shooter
+7 shunter
+11 sidérer
+15 siéger
+7 siester
+7 siffler
+7 siffloter
+7 sigler
+7 signaler
+7 se signaler
+7 signaliser
+7 signer
+7 se signer
+16 signifier
+7 silhouetter
+7 se silhouetter
+7 se silicatiser
+7 siliconer
+7 sillonner
+7 similiser
+16 simplifier
+16 se simplifier
+7 simuler
+9 singer
+7 singulariser
+7 se singulariser
+7 siniser
+7 se siniser
+7 siphonner
+7 siroter
+7 situer
+7 se situer
+16 skier
+7 slalomer
+7 slaviser
+7 slicer
+7 smasher
+7 smiller
+7 smurfer
+7 snifer
+7 sniffer
+7 snober
+7 socialiser
+7 socratiser
+7 sodomiser
+7 soigner
+7 se soigner
+7 soirer
+7 solariser
+7 solder
+7 se solder
+7 solenniser
+16 solfier
+7 solidariser
+7 se solidariser
+16 solidifier
+16 se solidifier
+7 solifluer
+7 soliloquer
+7 solliciter
+7 solmiser
+7 solubiliser
+7 solutionner
+7 somatiser
+7 sombrer
+7 sommeiller
+7 sommer
+7 somnoler
+7 sonder
+9 songer
+7 sonnailler
+7 sonner
+7 sonoriser
+7 sonrer
+7 sophistiquer
+7 se sophistiquer
+12 soqueter
+20 sortir (terme juridique)
+26 sortir
+26 se sortir
+60 soubattre
+7 soubresauter
+12 soucheter
+10 souchever
+16 soucier
+16 se soucier
+7 souder
+7 se souder
+18 soudoyer
+7 souffler
+12 souffleter
+28 souffrir
+28 se souffrir
+7 soufrer
+7 souhaiter
+7 souiller
+9 soulager
+9 se soulager
+7 soûler
+7 se soûler
+10 soulever
+10 se soulever
+7 souligner
+61 soumettre
+61 se soumettre
+7 soumissionner
+7 soupçonner
+7 souper
+10 soupeser
+7 soupirer
+7 souquer
+7 sourciller
+7 sourdiner
+0 sourdre	seulement aux 3es personnes de l'indicatif (sourd/sourdent, soudait/sourdaient)
+85 sourire
+85 se sourire
+7 sous-alimenter
+86 souscrire
+18 sous-employer
+58 sous-entendre
+7 sous-estimer
+7 sous-évaluer
+7 sous-exploiter
+7 sous-exposer
+20 sous-investir
+7 sous-louer
+7 sous-payer
+7 sous-rémunérer
+58 sous-tendre
+7 sous-titrer
+66 soustraire
+66 se soustraire
+7 sous-traiter
+7 sous-utiliser
+7 sous-virer
+7 soutacher
+24 soutenir
+24 se soutenir
+7 soutirer
+24 souvenir
+24 se souvenir
+7 soviétiser
+16 spathifier
+7 spatialiser
+7 se spatialiser
+7 spécialiser
+7 se spécialiser
+16 spécifier
+7 spéculer
+7 speeder
+11 sphacéler
+7 spiritualiser
+7 spitter
+7 splitter
+16 spolier
+7 sponsoriser
+7 sporuler
+7 sprinter
+7 squatter
+7 squeezer
+7 stabiliser
+7 se stabiliser
+7 staffer
+7 stagner
+7 staliniser
+7 standardiser
+7 stariser
+7 stater
+7 stationner
+7 statuer
+16 statufier
+16 sténographier
+7 sténotyper
+7 stéréotyper
+11 stérer
+7 stériliser
+7 stigmatiser
+7 stimuler
+7 se stimuler
+16 stipendier
+7 stipuler
+7 stocker
+7 stopper
+7 stranguler
+16 stratifier
+7 stresser
+7 se stresser
+7 striduler
+16 strier
+7 stripper
+7 striquer
+7 structurer
+7 se structurer
+0 stupéfaire	seulement aux 3es personnes du singulier de l'indicatif présent et des temps composés, participe passé : stupéfait, e
+16 stupéfier
+7 stuquer
+7 styler
+7 styliser
+11 subdéléguer
+7 subdiviser
+7 se subdiviser
+20 subir
+7 subjuguer
+7 sublimer
+9 submerger
+7 subodorer
+7 subordonner
+7 se subordonner
+7 suborner
+9 subroger
+16 subsidier
+7 subsister
+7 substantiver
+7 substituer
+7 se substituer
+7 subsumer
+7 subtiliser
+7 se subtiliser
+24 subvenir
+7 subventionner
+20 subvertir
+11 succéder
+11 se succéder
+7 succomber
+8 sucer
+8 se sucer
+7 suçoter
+7 sucrer
+7 se sucrer
+7 suer
+87 suffire
+87 se suffire
+7 suffixer
+7 suffoquer
+11 suggérer
+7 suggestionner
+7 se suicider
+7 suifer
+7 suiffer
+7 suinter
+81 suivre
+81 se suivre
+13 sukkeler
+7 sulfater
+7 sulfiter
+7 sulfoner
+7 sulfurer
+20 superfinir
+7 superposer
+7 se superposer
+7 superviser
+7 supplanter
+7 se supplanter
+14 suppléer
+7 supplémenter
+16 supplicier
+16 supplier
+7 supporter
+7 se supporter
+7 supposer
+7 supprimer
+7 se supprimer
+7 suppurer
+7 supputer
+7 surabonder
+7 surajouter
+7 se surajouter
+7 suralimenter
+7 se suralimenter
+7 suraller
+7 surarmer
+7 surbaisser
+7 surboucher
+7 surbroder
+9 surcharger
+7 surchauffer
+7 surclasser
+7 surcoller
+7 surcomprimer
+7 surcontrer
+7 surcoter
+7 surcouper
+7 surcreuser
+7 surdorer
+16 surédifier
+10 surélever
+20 surenchérir
+7 surentraîner
+7 suréquiper
+7 surestimer
+7 se surestimer
+7 surévaluer
+7 surexciter
+7 surexploiter
+7 surexposer
+8 surfacer
+7 surfacturer
+67 surfaire
+7 surfer
+7 surfiler
+20 surfleurir
+7 surfrapper
+13 surgeler
+7 surgeonner
+20 surgir
+8 surglacer
+7 surgreffer
+7 surhausser
+7 surimposer
+7 se surimposer
+7 suriner
+7 surinterpréter
+20 surinvestir
+20 surir
+7 surjaler
+12 surjeter
+16 surlier
+7 surligner
+7 surmédicaliser
+10 surmener
+10 se surmener
+7 surmonter
+7 se surmonter
+7 surmouler
+9 surnager
+7 surnommer
+7 suroxyder
+7 surpasser
+7 se surpasser
+17 surpayer
+7 surpiquer
+7 surplomber
+59 surprendre
+59 se surprendre
+88 surproduire
+9 surprotéger
+7 sursaturer
+7 sursauter
+10 sursemer
+54 surseoir
+7 sursouffler
+7 surtailler
+7 surtaxer
+58 surtondre
+7 surveiller
+7 se surveiller
+24 survenir
+27 survêtir
+7 survirer
+82 survivre
+82 se survivre
+7 survoler
+7 survolter
+7 susciter
+7 suspecter
+7 se suspecter
+58 suspendre
+58 se suspendre
+7 sustenter
+7 se sustenter
+7 susurrer
+7 suturer
+7 swinguer
+7 syllaber
+7 symboliser
+7 symétriser
+7 sympathiser
+7 synchroniser
+7 syncoper
+7 syncristalliser
+7 syndicaliser
+7 syndiquer
+7 se syndiquer
+7 synthétiser
+7 syntoniser
+7 systématiser
+7 se systématiser
+7 tabasser
+7 se tabasser
+7 tabler
+7 tabouiser
+7 tabuler
+7 tacher
+7 se tacher
+7 tâcher
+12 tacheter
+7 taguer
+7 taillader
+7 tailler
+7 se tailler
+68 taire
+68 se taire
+7 taler
+7 taller
+7 talocher
+7 talonner
+7 talquer
+7 tambouler
+7 tambouriner
+7 tamiser
+7 tamponner
+7 se tamponner
+8 tancer
+7 tanguer
+7 taniser
+7 tanner
+7 tanniser
+9 tapager
+7 taper
+7 se taper
+7 tapiner
+20 se tapir
+7 tapisser
+7 taponner
+7 tapoter
+7 taquer
+7 taquiner
+7 se taquiner
+7 tarabiscoter
+7 tarabuster
+7 tarauder
+7 tarder
+7 tarer
+7 se targuer
+7 tarifer
+20 tarir
+20 se tarir
+7 tarter
+7 tartiner
+20 tartir
+7 tasser
+7 se tasser
+7 tâter
+7 se tâter
+7 tatillonner
+7 tâtonner
+7 tatouer
+7 tauper
+12 taveler
+12 se taveler
+7 taveller
+7 taxer
+7 tayloriser
+7 tchadiser
+7 tchatcher
+7 techniciser
+7 techniser
+7 technocratiser
+7 se technocratiser
+7 tecker
+7 teiller
+62 teindre
+62 se teindre
+7 teinter
+7 se teinter
+7 télécommander
+16 télécopier
+7 télédiffuser
+16 télégraphier
+7 téléguider
+11 télémétrer
+7 téléphoner
+7 se téléphoner
+7 télescoper
+7 se télescoper
+7 téléviser
+7 télexer
+7 témoigner
+11 tempérer
+11 se tempérer
+7 tempêter
+7 temporiser
+7 tenailler
+58 tendre
+58 se tendre
+24 tenir
+24 se tenir
+7 tenonner
+7 ténoriser
+7 tenter
+8 tercer
+7 tergiverser
+7 terminer
+7 se terminer
+20 ternir
+20 se ternir
+7 terrasser
+7 terreauter
+7 terrer
+7 se terrer
+16 terrifier
+20 terrir
+7 terroriser
+7 terser
+12 teseter
+7 tester
+7 tétaniser
+7 se tétaniser
+11 téter
+7 têter
+7 textualiser
+7 texturer
+7 texturiser
+7 théâtraliser
+7 thématiser
+7 théoriser
+7 thésauriser
+7 tictaquer
+20 tiédir
+8 tiercer
+7 tigrer
+7 tiller
+7 timbrer
+7 tinter
+7 tintinnabuler
+7 tiquer
+7 tirailler
+7 tirebouchonner
+7 se tirebouchonner
+7 tire-bouchonner
+7 se tire-bouchonner
+7 tirer
+7 se tirer
+7 tisaner
+7 tiser
+7 tisonner
+7 tisser
+0 tistre	participe passé tissu, e, et temps composés
+7 titiller
+0 titre	participe passé tissu, e, et temps composés
+7 titrer
+7 tituber
+7 titulariser
+7 toaster
+7 togoliser
+7 toiler
+7 toiletter
+7 se toiletter
+7 toiser
+7 se toiser
+11 tolérer
+11 se tolérer
+7 tomber
+7 tomer
+58 tondre
+16 tonifier
+7 tonitruer
+7 tonner
+7 tonsurer
+7 tontiner
+7 toper
+7 topicaliser
+7 toquer
+7 se toquer
+7 torcher
+7 se torcher
+7 torchonner
+58 tordre
+58 se tordre
+14 toréer
+7 toronner
+7 torpiller
+16 torréfier
+7 torsader
+7 tortiller
+7 se tortiller
+7 tortorer
+7 torturer
+7 se torturer
+7 tosser
+7 totaliser
+7 toubabiser
+7 toucher
+7 se toucher
+7 touer
+7 se touer
+7 touiller
+7 toupiller
+7 toupiner
+7 tourber
+7 tourbillonner
+7 tourillonner
+7 tourmenter
+7 se tourmenter
+7 tournailler
+7 tournasser
+7 tournebouler
+7 tourner
+7 se tourner
+7 tournicoter
+7 tourniller
+7 tourniquer
+18 tournoyer
+7 toussailler
+7 tousser
+7 toussoter
+7 toüter
+7 trabouler
+7 tracaner
+7 tracasser
+7 se tracasser
+9 tracer
+7 tracter
+88 traduire
+88 se traduire
+7 traficoter
+7 trafiquer
+20 trahir
+20 se trahir
+7 traînailler
+7 traînasser
+7 traîner
+7 se traîner
+66 traire
+7 traiter
+7 se traiter
+7 tramer
+7 se tramer
+7 tranchefiler
+7 trancher
+7 tranquilliser
+7 se tranquilliser
+7 transbahuter
+7 transborder
+7 transcender
+7 se transcender
+7 transcoder
+86 transcrire
+11 transférer
+7 transfigurer
+7 transfiler
+7 transformer
+7 se transformer
+7 transfuser
+7 transgresser
+7 transhumer
+9 transiger
+20 transir
+7 transistoriser
+7 transiter
+7 translater
+11 translittérer
+61 transmettre
+61 se transmettre
+7 transmigrer
+7 transmuer
+7 se transmuer
+7 transmuter
+7 se transmuter
+69 transparaître
+8 transpercer
+7 transpirer
+7 transplanter
+7 se transplanter
+7 transporter
+7 se transporter
+7 transposer
+16 transsubstantier
+7 transsuder
+7 transvaser
+7 transvider
+7 traquer
+7 traumatiser
+7 travailler
+7 se travailler
+7 travailloter
+7 traverser
+20 travestir
+20 se travestir
+7 trébucher
+7 tréfiler
+58 tréfondre
+9 treillager
+7 treillisser
+7 trémater
+7 trembler
+7 trembloter
+7 se trémousser
+7 tremper
+7 se tremper
+7 trémuler
+7 trépaner
+7 trépasser
+7 trépider
+7 trépigner
+30 tressaillir
+7 tressauter
+7 tresser
+7 treuiller
+7 trévirer
+7 trianguler
+7 triballer
+7 tricher
+7 tricocher
+7 tricoter
+16 trier
+7 trifouiller
+7 triller
+7 trimarder
+7 trimbaler
+7 se trimbaler
+7 trimballer
+7 se trimballer
+7 trimer
+7 tringler
+7 trinquer
+7 triompher
+7 tripatouiller
+7 tripler
+7 tripoter
+7 triquer
+11 triséquer
+7 trisser
+7 se trisser
+7 triturer
+7 troler
+7 tromper
+7 se tromper
+12 trompeter
+7 tronçonner
+7 trôner
+7 tronquer
+7 tropicaliser
+7 troquer
+7 trotter
+7 se trotter
+7 trottiner
+7 troubler
+7 se troubler
+7 trouer
+7 se trouer
+7 trouilloter
+7 troussequiner
+7 trousser
+7 se trousser
+7 trouver
+7 se trouver
+7 truander
+7 trucider
+7 truffer
+7 truquer
+7 trusquiner
+7 truster
+7 tuber
+7 tuberculiner
+7 tuberculiniser
+7 tuberculiser
+7 tuder
+7 tuer
+7 se tuer
+7 tuiler
+16 tuméfier
+16 se tuméfier
+7 turbiner
+7 turlupiner
+7 turluter
+12 tûteler
+7 tûter
+7 tuteurer
+7 tutorer
+18 tutoyer
+18 se tutoyer
+7 tututer
+7 tuyauter
+7 twister
+7 tympaniser
+7 typer
+7 typiser
+16 typographier
+7 tyranniser
+11 ulcérer
+11 s'ulcérer
+7 ululer
+16 unifier
+16 s'unifier
+7 uniformiser
+20 unir
+20 s'unir
+7 universaliser
+7 s'universaliser
+7 urbaniser
+7 s'urbaniser
+9 urger
+7 uriner
+7 user
+7 s'user
+7 usiner
+7 usurper
+7 utiliser
+7 vacciner
+7 vaciller
+7 vacuoliser
+7 vadrouiller
+7 vagabonder
+20 vagir
+7 vaguer
+65 vaincre
+65 se vaincre
+7 vaironner
+7 valdinguer
+12 valeter
+7 valider
+7 valiser
+7 se vallonner
+49 valoir
+49 se valoir
+7 valoriser
+7 se valoriser
+7 valouser
+7 valser
+7 vamper
+7 vampiriser
+7 vandaliser
+7 vanner
+7 vanter
+7 se vanter
+7 vaporiser
+7 vaquer
+7 varapper
+16 varier
+7 varloper
+7 vaseliner
+7 vaser
+7 vasouiller
+7 vassaliser
+7 vaticiner
+7 se vautrer
+11 végéter
+7 véhiculer
+7 se véhiculer
+7 veiller
+7 veiner
+7 vélariser
+7 vêler
+7 velouter
+7 se velouter
+9 vendanger
+58 vendre
+58 se vendre
+11 vénérer
+9 venger
+9 se venger
+24 venir
+24 s'en venir
+7 venter
+7 ventiler
+7 ventouser
+7 verbaliser
+9 verbiager
+20 verdir
+18 verdoyer
+7 verduniser
+7 verger
+8 verglacer
+16 vérifier
+16 se vérifier
+7 verjuter
+7 vermiculer
+7 vermiller
+7 vermillonner
+7 se vermouler
+20 vernir
+7 vernisser
+7 verrouiller
+7 se verrouiller
+7 verser
+7 se verser
+16 versifier
+7 vesser
+7 vétiller
+27 vêtir
+27 se vêtir
+7 vexer
+7 se vexer
+7 viabiliser
+7 viander
+7 se viander
+7 vibrer
+7 vibrionner
+16 vicier
+9 vidanger
+7 vider
+7 se vider
+7 vidimer
+20 vieillir
+20 se vieillir
+7 vieller
+7 vigiler
+7 vilipender
+7 villégiaturer
+7 vinaigrer
+7 viner
+16 vinifier
+8 violacer
+8 se violacer
+7 violenter
+7 violer
+7 violoner
+20 vioquir
+7 virer
+7 virevolter
+7 virguler
+7 viriliser
+7 viroler
+7 viser
+7 visionner
+7 visiter
+7 visser
+7 se visser
+7 visualiser
+7 vitrer
+16 vitrifier
+7 vitrioler
+11 vitupérer
+16 vivifier
+7 vivoter
+82 vivre
+7 vocaliser
+11 vociférer
+7 voguer
+7 voiler
+7 se voiler
+41 voir
+41 se voir
+7 voisiner
+7 voiturer
+7 volatiliser
+7 se volatiliser
+7 volcaniser
+7 voler
+7 se voler
+12 voleter
+9 voliger
+17 volleyer
+7 volter
+9 voltiger
+20 vomir
+7 voter
+7 vouer
+7 se vouer
+50 vouloir
+50 se vouloir
+50 s'en vouloir
+18 vousoyer
+18 se vousoyer
+18 voussoyer
+18 se voussoyer
+7 voûter
+7 se voûter
+18 vouvoyer
+18 se vouvoyer
+9 voyager
+7 vriller
+20 vrombir
+7 vulcaniser
+7 vulganiser
+7 vulgariser
+7 warranter
+7 week-ender
+7 wolophiser
+7 yailler
+7 yodiser
+7 yoper
+7 yoyoter
+7 zaïrianiser
+7 zapper
+11 zébrer
+7 zerver
+7 zester
+17 zézayer
+7 ziber
+7 zieuter
+7 zigouiller
+7 ziguer
+7 zigzaguer
+7 zinguer
+7 zinzinuler
+7 zipper
+7 zoner
+7 se zoner
+7 zonzonner
+7 zoomer
+7 zouaver
+7 zouker
+7 zozoter
+7 zûner
+7 zwanzer
+7 zyeuter
