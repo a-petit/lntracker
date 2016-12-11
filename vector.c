@@ -2,32 +2,36 @@
 #include <stdio.h>
 #include "vector.h"
 
-#define VEC_NSLOTS_MIN  2
+#define VEC_NSLOTS_MIN  1
 #define VEC_RESIZE_MUL  2
+
+#define PTRSIZE (sizeof(void *))
+
+//--- Structure vector ---------------------------------------------------------
 
 struct vector {
   void **value;
   size_t nslots;
   size_t nentries;
-  void *playhead;
 };
 
-#define PTRSIZE       (sizeof(void *))
+#define VALUE(t)      ((t) -> value)
+#define NSLOTS(t)     ((t) -> nslots)
+#define NENTRIES(t)   ((t) -> nentries)
 
-#define VALUE(t, i)   ((t) -> value[i])
+#define IS_EMPTY(t)   (NENTRIES(t) <= 0)
+#define IS_FILLED(t)  (NENTRIES(t) >= NSLOTS(t))
 
-//------------------------------------------------------------------------------
+//--- Fonctions locales --------------------------------------------------------
 
 static int vector_resize(vector *t, size_t nslots) {
-  //printf("vector_resize to %zu\n", nslots);
-  void **a = realloc(t->value, nslots * PTRSIZE);
+  void **a = realloc(VALUE(t), nslots * PTRSIZE);
   if (a == NULL) {
     printf("*** realloc error\n");
     return 1;
   }
-  t->value = a;
-  t->nslots = nslots;
-  t->playhead = t->value;
+  VALUE(t) = a;
+  NSLOTS(t) = nslots;
   return 0;
 }
 
@@ -38,98 +42,52 @@ vector *vector_empty(void) {
   if (t == NULL) {
     return NULL;
   }
-  t->value = malloc(PTRSIZE * VEC_NSLOTS_MIN);
-  if (t->value == NULL) {
+  VALUE(t) = malloc(PTRSIZE * VEC_NSLOTS_MIN);
+  if (VALUE(t) == NULL) {
     free(t);
     return NULL;
   }
-  t->nslots = VEC_NSLOTS_MIN;
-  t->nentries = 0;
+  NSLOTS(t) = VEC_NSLOTS_MIN;
+  NENTRIES(t) = 0;
   return t;
 }
 
 const void *vector_push(vector *t, const void * x) {
-  //printf("vector_push at %zu/%zu\n", t->nentries, t->nslots);
-  if (t->nentries >= t->nslots) {
-    size_t n =  t->nslots * VEC_RESIZE_MUL;
-    if (t->nslots >= SIZE_MAX / VEC_RESIZE_MUL || vector_resize(t, n)) {
+  if (IS_FILLED(t)) {
+    size_t n =  NSLOTS(t) * VEC_RESIZE_MUL;
+    if (NSLOTS(t) >= SIZE_MAX / VEC_RESIZE_MUL || vector_resize(t, n) != 0) {
       return NULL;
     }
   }
-
-  t->value[t->nentries] = (void *) x;
-  ++t->nentries;
+  VALUE(t)[NENTRIES(t)] = (void *) x;
+  ++NENTRIES(t);
   return x;
 }
 
 const void *vector_get(const vector *t, size_t i) {
-  //printf("*** WARNING : vector_get is now deprecated\n");
-  //printf("vector_get at %zu / %zu\n", i, t->nentries);
-  if (i >= t->nentries) {
+  if (i >= NENTRIES(t)) {
     return NULL;
   }
-  return t->value[i];
-}
-
-size_t vector_length(const vector *t) {
-  //printf("*** WARNING : vector_length is now deprecated\n");
-  return t->nentries;
-}
-
-const void *vector_rsearch(vector *t, const void *key,
-  int (*cmp)(const void *, const void *)) {
-  //printf("*** WARNING : vector_rsearch is now deprecated\n");
-  size_t k = 0;
-  size_t n = t->nentries;
-  // IB :
-  // QC : k
-  while (k < n && cmp(VALUE(t, n - k - 1), key) != 0) {
-    ++k;
-  }
-  return k == n ? NULL : VALUE(t, k);
-}
-
-
-
-static int vector_hasnext(vector *t) {
-  return (size_t)((char *) t->playhead - (char *) t->value + 1) < t->nentries;
-}
-
-void vector_reset_iterator(vector *t) {
-  t->playhead = t->value[0];
-}
-
-const void *vector_iterate(vector *t) {
-  if (vector_hasnext(t) == 0) {
-    return NULL;
-  }
-  const void *x = t->playhead;
-  t->playhead = (char *) t->playhead + PTRSIZE;
-  return x;
+  return VALUE(t)[i];
 }
 
 const void *vector_fst(const vector *t) {
-  if (t->nentries == 0) {
+  if (IS_EMPTY(t)) {
     return NULL;
   }
-  return t->value[0];
+  return VALUE(t)[0];
 }
 
 const void *vector_lst(const vector *t) {
-  if (t->nentries == 0) {
+  if (IS_EMPTY(t)) {
     return NULL;
   }
-  return t->value[t->nentries -1];
+  return VALUE(t)[NENTRIES(t) -1];
 }
 
-//const void *vector_next(vector *t) {
-  //printf("vector_next\n");
-  //if (! vector_hasnext(t)) {
-    //return NULL;
-  //}
-  //t->playhead = (char *) t->playhead + PTRSIZE;
-  //return t->playhead;
-//}
+size_t vector_length(const vector *t) {
+  return NENTRIES(t);
+}
 
 void vector_dispose(vector **ptrt) {
   if (*ptrt == NULL) {
