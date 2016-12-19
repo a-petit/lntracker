@@ -7,7 +7,21 @@
 
 struct scanopt {
   transform t;
-  filter f;
+  bool filters[FILTER_COUNT];
+  //vector filters;
+};
+
+//static int funcompar(void *f1, void *f2) {
+  //return f1 == f2;
+//}
+
+static int (*funfilters[FILTER_COUNT]) (int) = {
+  isalnum,
+  isalpha,
+  iscntrl,
+  isdigit,
+  ispunct,
+  isspace
 };
 
 //--- fonctions de scanopt -----------------------------------------------------
@@ -18,16 +32,42 @@ scanopt *scanopt_default() {
     return NULL;
   }
   opt->t = TRANSFORM_NONE;
-  opt->f = FILTER_NONE;
+  for (int i = 0; i < FILTER_COUNT; ++i) {
+    opt->filters[i] = false;
+  }
   return opt;
 }
 
-void scanopt_settransform(scanopt *opt, transform trans) {
+void scanopt_set_transform(scanopt *opt, transform trans) {
   opt->t = trans;
 }
 
-void scanopt_setfilter(scanopt *opt, filter fltr) {
-  opt->f = fltr;
+void scanopt_activate_filter(scanopt *opt, filter fltr) {
+  //int (*ptrf)(int) = NULL;
+  //switch (opt->f) {
+    //case FILTER_NONE  : break;
+    //case FILTER_ALNUM : ptrf = isalnum; break;
+    //case FILTER_ALPHA : ptrf = isalpha; break;
+    //case FILTER_CNTRL : ptrf = iscntrl; break;
+    //case FILTER_DIGIT : ptrf = isdigit; break;
+    //case FILTER_PUNCT : ptrf = ispunct; break;
+    //case FILTER_SPACE : ptrf = isspace; break;
+  //}
+  //if (ptrf && ! vector_search(opt->filters, funcompar, ptrf)) {
+    //vector_push(opt->filters, ptrf);
+  //}
+  opt -> filters[fltr] = true;
+}
+
+bool scanopt_has_active_filter(const scanopt *opt) {
+  int i = 0;
+  while (i < FILTER_COUNT) {
+    if (opt->filters[i]) {
+      return true;
+    }
+    ++i;
+  }
+  return false;
 }
 
 void scanopt_dispose(scanopt **ptro) {
@@ -50,25 +90,25 @@ void scanopt_dispose(scanopt **ptro) {
 DEFUN_STR_TRANSFORM(str_toupper, toupper)
 DEFUN_STR_TRANSFORM(str_tolower, tolower)
 
-#define DEFUN_STR_FILTER(fun, pattern)        \
-    static void fun(char *s) {                \
-      char *p = s;                            \
-      while (*s) {                            \
-        if (pattern(*s)) {                    \
-          *p = (char) *s;                     \
-          ++p;                                \
-        }                                     \
-        ++s;                                  \
-      }                                       \
-      *p = *s;                                \
+static void str_filter(const scanopt *opt, char *s) {
+  char *p = s;
+  while (*s) {
+    int i = 0;
+    // IB : 0 <= i <= FILTER_COUNT
+    //    && les filtres référencés dans funfilters aux indices inférieurs à i
+    //    sont soit désactivés, soit négatifs.
+    // QC : i
+    while (! (opt->filters[i] && (*funfilters[i]) (*s)) && i < FILTER_COUNT) {
+      ++i;
     }
-
-DEFUN_STR_FILTER(str_alnum, isalnum)
-DEFUN_STR_FILTER(str_alpha, isalpha)
-DEFUN_STR_FILTER(str_cntrl, iscntrl)
-DEFUN_STR_FILTER(str_digit, isdigit)
-DEFUN_STR_FILTER(str_punct, ispunct)
-DEFUN_STR_FILTER(str_space, isspace)
+    if (i < FILTER_COUNT) {
+      *p = (char) *s;
+      ++p;
+    }
+    ++s;
+  }
+  *p = *s;
+}
 
 //--- fonctions de lnscan ------------------------------------------------------
 
@@ -79,8 +119,8 @@ int lnscan_getline(const scanopt *opt, FILE *stream, char *s, size_t m) {
   }
   char *p = s;
   // IB : s < p < s + m - 1
-  //      && (p - s) caractères différents du caractère de fin de ligne ont été
-  //         lus sur l'entrée et recopiés dans s
+  //    && (p - s) caractères différents du caractère de fin de ligne ont été
+  //    lus sur l'entrée et recopiés dans s
   // QC : (size_t)(p - s)
   while (c != '\n' && (size_t)(p - s) < m - 1) {
     *p = (char) c;
@@ -95,14 +135,8 @@ int lnscan_getline(const scanopt *opt, FILE *stream, char *s, size_t m) {
     case TRANSFORM_LOWER : str_tolower(s); break;
   }
 
-  switch (opt->f) {
-    case FILTER_NONE  : break;
-    case FILTER_ALNUM : str_alnum(s); break;
-    case FILTER_ALPHA : str_alpha(s); break;
-    case FILTER_CNTRL : str_cntrl(s); break;
-    case FILTER_DIGIT : str_digit(s); break;
-    case FILTER_PUNCT : str_punct(s); break;
-    case FILTER_SPACE : str_space(s); break;
+  if (scanopt_has_active_filter(opt)) {
+    str_filter(opt, s);
   }
 
   return  c == '\n' ? FUN_SUCCESS : FUN_FAILURE;

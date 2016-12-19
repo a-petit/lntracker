@@ -23,24 +23,6 @@ ftrack *ftrack_create(size_t fileid) {
   return ft;
 }
 
-const long int *ftrack_addline(ftrack *ft, long int n) {
-  long int *x = malloc(sizeof *x);
-  if (x == NULL) {
-    return NULL;
-  }
-  *x = n;
-  vector_push(ft->lines, x);
-  return x;
-}
-
-const vector *ftrack_getlines(const ftrack *ft) {
-  return (const vector *) ft->lines;
-}
-
-size_t ftrack_id(const ftrack *ft) {
-  return ft->id;
-}
-
 void ftrack_dispose(ftrack **ptrt) {
   if (*ptrt == NULL) {
     return;
@@ -57,5 +39,26 @@ void ftrack_dispose(ftrack **ptrt) {
   vector_dispose(&(*ptrt)->lines);
   free(*ptrt);
   *ptrt = NULL;
+}
+
+const long int *ftrack_addline(ftrack *ft, long int n) {
+  long int *x = malloc(sizeof *x);
+  if (x == NULL) {
+    return NULL;
+  }
+  *x = n;
+  if (vector_push(ft->lines, x) != x) {
+    free(x);
+    return NULL;
+  }
+  return x;
+}
+
+const vector *ftrack_getlines(const ftrack *ft) {
+  return (const vector *) ft->lines;
+}
+
+size_t ftrack_id(const ftrack *ft) {
+  return ft->id;
 }
 

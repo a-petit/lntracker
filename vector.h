@@ -1,9 +1,6 @@
 /*
  * Vector
  * Tableau dynamique sur le type void *
- *
- * push, pop, last, first next ?
- * or apply context
  */
 #ifndef VECTOR_H
 #define VECTOR_H
@@ -35,6 +32,9 @@ extern const void *vector_lst(const vector *t);
 
 // vector_length : renvoie la longueur du tableau associé à t
 extern size_t vector_length(const vector *t);
+
+extern void vector_qsort(vector *t,
+    int (*compar)(const void *, const void *));
 
 // vector_dispose : libère les ressources allouées à *ptrt et donne à *ptrt
 //   la valeur NULL. tolère que *ptrt vaille NULL

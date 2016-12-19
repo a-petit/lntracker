@@ -22,13 +22,14 @@
       goto label;                             \
     }
 
-typedef struct lntracker {
+struct lntracker {
   vector *filenames;
   vector *klist;
-  vector *vlist; // TODO - conserver la trace des valeurs de la htable
+  vector *vlist;
   scanopt *opt;
+  sorting sort;
   hashtable *ht;
-} lntracker;
+};
 
 #define FILES(t)      ((t) -> filenames)
 #define HTABL(t)      ((t) -> ht)
@@ -46,8 +47,8 @@ static int lnt_parselines(lntracker *t, FILE *stream, size_t id, bool gen) {
   char buf[STRINGLEN_MAX + 1];
   long int n = 0;
 
-  vector *ftl = NULL;
   char *s     = NULL;
+  vector *ftl = NULL;
   ftrack *ft  = NULL;
 
   // IB :
@@ -120,7 +121,7 @@ static int lnt_parsefile(lntracker *t, const char *fname, size_t id, bool gen) {
 #define PRINT_COLUMN_SEPARATOR "\t"
 #define PRINT_LINEID_SEPARATOR ","
 
-static void lnt_display_single(lntracker *t) {
+static void lnt_display_single(const lntracker *t) {
 
   size_t n = HKEYS_LEN(t);
   for (size_t i = 0; i < n; ++i) {
@@ -144,7 +145,7 @@ static void lnt_display_single(lntracker *t) {
   }
 }
 
-static void lnt_display_multiple(lntracker *t) {
+static void lnt_display_multiple(const lntracker *t) {
 
   size_t n = HKEYS_LEN(t);
   for (size_t i = 0; i < n; ++i) {
@@ -185,6 +186,8 @@ lntracker *lntracker_create(size_t (*str_hashfun)(const char *)) {
       (int (*)(const void *, const void *)) strcmp),
       NULL, error);
 
+  t->sort = SORT_PLAIN;
+
   goto endfun;
 
 error:
@@ -196,7 +199,6 @@ endfun:
 }
 
 int lntracker_addfile(lntracker *t, char *filename) {
-  // ? controler les doublons ?
   if (vector_push(t->filenames, filename) == NULL) {
     return FUN_FAILURE;
   }
@@ -214,7 +216,7 @@ int lntracker_parsefiles(lntracker *t) {
   return FUN_SUCCESS;
 }
 
-void lntracker_display(lntracker *t) {
+void lntracker_display(const lntracker *t) {
   if (FILES_LEN(t) == 0) {
     printf("*** Warning : no files to display\n");
     return;
@@ -236,6 +238,10 @@ void lntracker_display(lntracker *t) {
     lnt_display_multiple(t);
   }
   putchar('\n');
+}
+
+void lntracker_set_sort(lntracker *tracker, sorting s) {
+  tracker->sort = s;
 }
 
 void lntracker_dispose(lntracker **ptrt) {
@@ -272,4 +278,9 @@ void lntracker_dispose(lntracker **ptrt) {
   scanopt_dispose(&SCOPT(*ptrt));
   free(*ptrt);
   *ptrt = NULL;
+}
+
+
+scanopt *lntracker_getopt(lntracker *tracker) {
+  return tracker->opt;
 }

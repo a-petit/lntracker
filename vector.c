@@ -1,5 +1,6 @@
 #include <stdint.h>
 #include <stdio.h>
+#include "quick_sort.h"
 #include "vector.h"
 
 #define VEC_NSLOTS_MIN  1
@@ -87,6 +88,10 @@ const void *vector_lst(const vector *t) {
 
 size_t vector_length(const vector *t) {
   return NENTRIES(t);
+}
+
+void vector_qsort(vector *t, int (*compar)(const void *, const void *)) {
+  quick_sort(VALUE(t), NENTRIES(t), PTRSIZE, compar);
 }
 
 void vector_dispose(vector **ptrt) {
