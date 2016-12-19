@@ -112,17 +112,17 @@ static void str_filter(const scanopt *opt, char *s) {
 
 //--- fonctions de lnscan ------------------------------------------------------
 
-int lnscan_getline(const scanopt *opt, FILE *stream, char *s, size_t m) {
+int lnscan_getline(const scanopt *opt, FILE *stream, char *s, size_t n) {
   int c = fgetc(stream);
   if (c == EOF) {
-    return FUN_FAILURE;
+    return EOF;
   }
   char *p = s;
   // IB : s < p < s + m - 1
   //    && (p - s) caractères différents du caractère de fin de ligne ont été
   //    lus sur l'entrée et recopiés dans s
   // QC : (size_t)(p - s)
-  while (c != '\n' && (size_t)(p - s) < m - 1) {
+  while (c != '\n' && (size_t)(p - s) < n) {
     *p = (char) c;
     c = fgetc(stream);
     ++p;
@@ -139,5 +139,5 @@ int lnscan_getline(const scanopt *opt, FILE *stream, char *s, size_t m) {
     str_filter(opt, s);
   }
 
-  return  c == '\n' ? FUN_SUCCESS : FUN_FAILURE;
+  return  c;
 }

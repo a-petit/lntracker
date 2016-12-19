@@ -40,7 +40,7 @@ int getoptions(int argc, char **argv, lntracker *tracker) {
       break;
     }
 
-    printf("*** %c option found: %s\n", c, optarg);
+    //printf("*** %c option found: %s\n", c, optarg);
 
     switch (c) {
       case 'h':
@@ -124,6 +124,7 @@ int main(int argc, char **argv) {
 
   if (lntracker_parsefiles(tracker) != 0) {
     printf("*** error: parsing files\n");
+    lntracker_display(tracker);
     lntracker_dispose(&tracker);
     return EXIT_FAILURE;
   }

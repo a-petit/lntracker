@@ -46,6 +46,7 @@ struct lntracker {
 static int lnt_parselines(lntracker *t, FILE *stream, size_t id, bool gen) {
   char buf[STRINGLEN_MAX + 1];
   long int n = 0;
+  int c;
 
   char *s     = NULL;
   vector *ftl = NULL;
@@ -53,7 +54,16 @@ static int lnt_parselines(lntracker *t, FILE *stream, size_t id, bool gen) {
 
   // IB :
   // QC : nombre d'appels à lnscan_getline, majoré par LONG_MAX
-  while (lnscan_getline(SCOPT(t), stream, buf, STRINGLEN_MAX + 1) == 0) {
+  while ((c = lnscan_getline(SCOPT(t), stream, buf, STRINGLEN_MAX)) != EOF) {
+    ++n;
+
+    if (c != '\n') {
+      fprintf(stderr, "*** Warning: string  %.30s... cut (line %ld)\n", buf, n);
+      while (c != '\n') {
+        c = fgetc(stream);
+      }
+    }
+
     ftl = (vector *) hashtable_value(HTABL(t), buf);
     if (ftl == NULL && gen) {
       ON_VALUE_GOTO(ftl = vector_empty(),             NULL, error_phase1);
@@ -77,43 +87,45 @@ static int lnt_parselines(lntracker *t, FILE *stream, size_t id, bool gen) {
 
       ON_VALUE_GOTO(ftrack_addline(ft, n),            NULL, error_phase3);
     }
-    ++n;
   }
 
-  goto success;
+  return FUN_SUCCESS;
 
 error_phase1:
-  printf("***error : création de l'entrée dans la table de hashage\n");
+  printf("*** error : création de l'entrée dans la table de hashage\n");
   free(s);
   vector_dispose(&ftl);
 
 error_phase2:
-  printf("***error : création du relevé d'occurences pour le fichier\n");
+  printf("*** error : création du relevé d'occurences pour le fichier\n");
   ftrack_dispose(&ft);
 
 error_phase3:
-  printf("***error : ajout d'une occurence\n");
-  return EXIT_FAILURE;
-
-success:
-  return FUN_SUCCESS;
+  printf("*** error : ajout d'une occurence\n");
+  return FUN_FAILURE;
 }
 
 static int lnt_parsefile(lntracker *t, const char *fname, size_t id, bool gen) {
   FILE *f = fopen(fname, "r");
   if (f == NULL) {
+    printf("*** error: impossible d'ouvrir le fichier\n");
     return FUN_FAILURE;
   }
 
   int r = FUN_SUCCESS;
-  if (lnt_parselines(t, f, id, gen) != 0)
+  if (lnt_parselines(t, f, id, gen) != 0) {
+    printf("*** error: parsing\n");
     r = FUN_FAILURE;
+  }
 
-  if (! feof(f))
+  if (! feof(f)) {
+    printf("*** error: parcours incomplet\n");
     r = FUN_FAILURE;
-
-  if (fclose(f) != 0)
+  }
+  if (fclose(f) != 0) {
+    printf("*** error: fermeture du fichier\n");
     r = FUN_FAILURE;
+  }
 
   return r;
 }
