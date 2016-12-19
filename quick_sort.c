@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-void memswap(void *a, void *b, size_t size) {
+void memswap(void * a, void * b, size_t size) {
   if (size == 0u) {
     return;
   }
@@ -16,7 +16,7 @@ void memswap(void *a, void *b, size_t size) {
   memswap(e1 + 1, e2 + 1, size - 1u);
 }
 
-void * partition(void *base, size_t j, size_t k, size_t size,
+void * partition(void * base, size_t j, size_t k, size_t size,
     int (*compar)(const void *, const void *))
 {
   char * x = (char *) base + k * size;
