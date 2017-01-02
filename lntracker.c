@@ -105,7 +105,8 @@ error_phase3:
   return FUN_FAILURE;
 }
 
-static int lnt_parsefile(lntracker *t, const char *fname, size_t id, bool gen) {
+static int lnt_open_and_parse_file(lntracker *t, const char *fname,
+    size_t id, bool gen) {
   FILE *f = fopen(fname, "r");
   if (f == NULL) {
     printf("*** error: impossible d'ouvrir le fichier\n");
@@ -233,10 +234,14 @@ static int str_compar(const char **s1, const char **s2) {
 
 int lntracker_parsefiles(lntracker *t) {
   size_t n = FILES_LEN(t);
-  for (size_t i = 0; i < n; ++i) {
-    const char *fname = vector_get(FILES(t), i);
-    if (lnt_parsefile(t, fname, i, i == 0) != FUN_SUCCESS) {
-      return FUN_FAILURE;
+  if (n == 0) {
+    lnt_parselines(t, stdin, 0, true);
+  } else {
+    for (size_t i = 0; i < n; ++i) {
+      const char *fname = vector_get(FILES(t), i);
+      if (lnt_open_and_parse_file(t, fname, i, i == 0) != FUN_SUCCESS) {
+        return FUN_FAILURE;
+      }
     }
   }
   if (t->sort == SORT_CONTENTS) {
@@ -254,10 +259,12 @@ scanopt *lntracker_getopt(lntracker *tracker) {
 }
 
 void lntracker_display(const lntracker *t) {
+  /*
   if (FILES_LEN(t) == 0) {
     printf("*** Warning : no files to display\n");
     return;
   }
+  */
 
   size_t n = FILES_LEN(t);
   for (size_t i = 0; i < n; ++i) {
@@ -269,10 +276,10 @@ void lntracker_display(const lntracker *t) {
   }
   putchar('\n');
 
-  if (n == 1) {
-    lnt_display_single(t);
-  } else {
+  if (n > 1) {
     lnt_display_multiple(t);
+  } else {
+    lnt_display_single(t);
   }
   putchar('\n');
 }
