@@ -101,7 +101,7 @@ const void *hashtable_add(hashtable *ht, const void *key, const void *value) {
   size_t hkey;
   clist **pp = hashtable_search(ht, key, &hkey);
   if (*pp != NULL) {
-    (*pp) -> value = value;
+    (*pp) -> value = value; // set ???????????????????????????????????????????!!
   } else {
     if (ht -> nentries + 1 > HT_LDFACT_MAX * (double) ht -> nslots) {
       if (ht -> nslots >= (SIZE_MAX - HT_RESIZE_ADD) / HT_RESIZE_MUL
