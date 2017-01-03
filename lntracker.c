@@ -15,7 +15,7 @@
 // Peut être amélioré. Cependant, Si les prefixes de deux lignes de 4095 crctrs
 // sont identiques, il est fort à supposer que les lignes sont identiques dans
 // leur intégralité.
-#define STRINGLEN_MAX (4096 - 1)
+#define STRINGLEN_MAX 4095
 
 #define ON_VALUE_GOTO(expr, value, label)     \
     if ((expr) == (value)) {                  \
@@ -45,7 +45,7 @@ struct lntracker {
 
 static int lnt_parselines(lntracker *t, FILE *stream, size_t id, bool gen) {
   char buf[STRINGLEN_MAX + 1];
-  long int n = 0;
+  long int n = 1;
   int c;
 
   char *s     = NULL;
@@ -55,7 +55,6 @@ static int lnt_parselines(lntracker *t, FILE *stream, size_t id, bool gen) {
   // IB :
   // QC : nombre d'appels à lnscan_getline, majoré par LONG_MAX
   while ((c = lnscan_getline(SCOPT(t), stream, buf, STRINGLEN_MAX)) != EOF) {
-    ++n;
 
     if (c != '\n') {
       fprintf(stderr, "*** Warning: string  %.30s... cut (line %ld)\n", buf, n);
@@ -87,6 +86,8 @@ static int lnt_parselines(lntracker *t, FILE *stream, size_t id, bool gen) {
 
       ON_VALUE_GOTO(ftrack_addline(ft, n),            NULL, error_phase3);
     }
+
+    ++n;
   }
 
   return FUN_SUCCESS;

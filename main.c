@@ -1,9 +1,11 @@
-#include <stdlib.h>
-#include <stdio.h>
 #include <getopt.h>
+#include <stdio.h>
+#include <stdlib.h>
 #include <string.h>
 #include <strings.h>
+
 #include "lntracker.h"
+#include "lnscan.h"
 
 
 // proposer une meilleure fonction de hashage ?
@@ -76,8 +78,6 @@ int getoptions(int argc, char **argv, lntracker *tracker) {
           lntracker_set_sort(tracker, SORT_PLAIN);
         } else if (strcasecmp(optarg, "contents") == 0) {
           lntracker_set_sort(tracker, SORT_CONTENTS);
-        } else if (strcasecmp(optarg, "reapeated") == 0) {
-          lntracker_set_sort(tracker, SORT_REPEATED);
         }
         break;
 

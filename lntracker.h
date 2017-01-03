@@ -11,8 +11,7 @@
 
 typedef enum sorting {
   SORT_PLAIN,
-  SORT_CONTENTS,
-  SORT_REPEATED
+  SORT_CONTENTS
 } sorting;
 
 typedef struct lntracker lntracker;

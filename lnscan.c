@@ -6,14 +6,9 @@
 #define FUN_FAILURE -1
 
 struct scanopt {
-  transform t;
+  transform tranformation;
   bool filters[FILTER_COUNT];
-  //vector filters;
 };
-
-//static int funcompar(void *f1, void *f2) {
-  //return f1 == f2;
-//}
 
 static int (*funfilters[FILTER_COUNT]) (int) = {
   isalnum,
@@ -38,25 +33,12 @@ scanopt *scanopt_default() {
   return opt;
 }
 
-void scanopt_set_transform(scanopt *opt, transform trans) {
-  opt->t = trans;
+void scanopt_set_transform(scanopt *opt, transform t) {
+  opt->tranformation = t;
 }
 
-void scanopt_activate_filter(scanopt *opt, filter fltr) {
-  //int (*ptrf)(int) = NULL;
-  //switch (opt->f) {
-    //case FILTER_NONE  : break;
-    //case FILTER_ALNUM : ptrf = isalnum; break;
-    //case FILTER_ALPHA : ptrf = isalpha; break;
-    //case FILTER_CNTRL : ptrf = iscntrl; break;
-    //case FILTER_DIGIT : ptrf = isdigit; break;
-    //case FILTER_PUNCT : ptrf = ispunct; break;
-    //case FILTER_SPACE : ptrf = isspace; break;
-  //}
-  //if (ptrf && ! vector_search(opt->filters, funcompar, ptrf)) {
-    //vector_push(opt->filters, ptrf);
-  //}
-  opt -> filters[fltr] = true;
+void scanopt_activate_filter(scanopt *opt, filter f) {
+  opt->filters[f] = true;
 }
 
 bool scanopt_has_active_filter(const scanopt *opt) {
@@ -95,8 +77,8 @@ static void str_filter(const scanopt *opt, char *s) {
   while (*s) {
     int i = 0;
     // IB : 0 <= i <= FILTER_COUNT
-    //    && les filtres référencés dans funfilters aux indices inférieurs à i
-    //    sont soit désactivés, soit négatifs.
+    //    && les filtres de funfilters associés aux indices allant de 0 à i-1
+    //    sont négatifs pour le caractère *s, ou bien déactivés.
     // QC : i
     while (! (opt->filters[i] && (*funfilters[i]) (*s)) && i < FILTER_COUNT) {
       ++i;
