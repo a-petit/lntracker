@@ -170,6 +170,25 @@ avantage : accès à la longueur calculé en temps constant
 
 
 
+## Filtrage des lignes
+
+Au premier abord, on a pensé le filtrage comme non combinatoire. Après relecture du sujet, on comprend ue les filtres ont un comportement additif, cumulatif. Il faut donc reconstruire l'algorithme de filtrage.
+
+à ce stade, plusieurs options apparaissent : 
+
+- On dispose déjà de procédures qui filtrent un motif sur une chaine de caractère. On pourrait garder ses fonctions, et appliquer à l'inverse, tout les filtres qui ne sont pas activés. Cependant, il n'est pas dit que l'ensemble des filtres disponibles forment une partition complète de l'alphabet en oeuvre. Ce raisonnement peut donc conduire à conserver des lettres qui ne seraient désignés par aucun filtre.
+- Une seconde approche constiste à appliquer chaque filtre activés à chaque lettre. Si aucun filtre n'est activé, la chaine est directement conservée. Sinon pour chaque caractère de la chaine, on évalue le motif et dès qu'une réponse affirmative est renvoyée, le choix de conserver le caractère est validé. Sinon si aucun filtre ne renvoie de réponse favorable alors le caractère est mis de côté. La question qui se pose à présent est celle de l'implantation de cette série de test. 
+  - selon un tableau de flags, aller chercher les filtres correspondants et les apppliquer au chaines
+  - empiler les pointeurs vers les fonctions de filtrage puis les appliquer. cela implique cependant de pouvoir rechercher si une fonction a déjà été ajoutée donc implanter une fonction de recherche (et comparer les adresses)
+
+## qsort
+
+N'est-il pas étrange, quelque part, que la fonction qsort soit incompatible avec la fonction de comparaison standard strcmp ?
+
+
+
+
+
 
 ## Questions
 
