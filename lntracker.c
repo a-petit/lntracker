@@ -11,26 +11,9 @@
 #define FUN_FAILURE 1
 #define FUN_SUCCESS 0
 
-// STRINGLEN_MAX : longuer maximale des lignes lues.
-// Peut être amélioré. Cependant, Si les prefixes de deux lignes de
-// STRINGLEN_MAX caractères sont identiques, il est fort à supposer que les
-// lignes sont identiques dans leur intégralité.
-// Déjà la probabilité que deux lignes de 65535 caractères soit identique est de
-// 1 pour 65535 ^ 256. Alors plus ..
-#define STRINGLEN_MAX 4096
+#define STRINGLEN_MAX 4095
 
-#define ON_VALUE_GOTO(expr, value, label)     \
-    if (rand() % 10 == 0) {                   \
-      goto label;                             \
-    }                                         \
-    if ((expr) == (value)) {                  \
-      goto label;                             \
-    }
-
-
-#define LOG_ERR(msg)                                                    \
-    fprintf(stderr, "*** Erreur - fichier %s, ligne %d : " msg "\n",    \
-        __FILE__, __LINE__);
+//--- Structure lntracker ------------------------------------------------------
 
 struct lntracker {
   vector *filenames;
@@ -40,6 +23,14 @@ struct lntracker {
   sorting sort;
   hashtable *ht;
 };
+
+//--- utilitaires ------------------------------------------------
+
+#define LOG_ERR(msg)                                                    \
+    fprintf(stderr, "*** Erreur - fichier %s, ligne %d : " msg "\n",    \
+        __FILE__, __LINE__);
+
+//--- Raccourcis ---------------------------------------------------------------
 
 #define FILES(t)      ((t) -> filenames)
 #define HTABL(t)      ((t) -> ht)
@@ -228,7 +219,7 @@ lntracker *lntracker_create(size_t (*str_hashfun)(const char *)) {
   goto endfun;
 
 error:
-  LOG_ERR("Ask a wizard to enlarge me.");
+  LOG_ERR("Création du tracker, espace insuffisant.");
   lntracker_dispose(&t);
 
 endfun:

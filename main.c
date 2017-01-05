@@ -48,10 +48,7 @@ static int getfiles(int argc, char **argv, lntracker *tracker);
 
 //--- Programme principal ------------------------------------------------------
 
-#include <time.h>
 int main(int argc, char **argv) {
-  printf("%ld\n", time(NULL));
-  srand((unsigned int) time(NULL));
 
   lntracker *tracker = lntracker_create((size_t (*)(const char *)) str_hashfun);
   ON_VALUE_EXITERR(tracker, NULL, tracker, "allocation d'un tracker.");
