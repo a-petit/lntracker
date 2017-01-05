@@ -19,46 +19,6 @@ static int (*funfilters[FILTER_COUNT]) (int) = {
   isspace
 };
 
-//--- fonctions de lnscanner ---------------------------------------------------
-
-lnscanner *lnscanner_default() {
-  lnscanner *opt = malloc(sizeof *opt);
-  if (opt == NULL) {
-    return NULL;
-  }
-  opt->tranformation = TRANSFORM_NONE;
-  for (int i = 0; i < FILTER_COUNT; ++i) {
-    opt->filters[i] = false;
-  }
-  return opt;
-}
-
-void lnscanner_set_transform(lnscanner *opt, transform t) {
-  opt->tranformation = t;
-}
-
-void lnscanner_activate_filter(lnscanner *opt, filter f) {
-  opt->filters[f] = true;
-}
-
-bool lnscanner_has_active_filter(const lnscanner *opt) {
-  int i = 0;
-  while (i < FILTER_COUNT) {
-    if (opt->filters[i]) {
-      return true;
-    }
-    ++i;
-  }
-  return false;
-}
-
-void lnscanner_dispose(lnscanner **ptro) {
-  if (*ptro == NULL) {
-    return;
-  }
-  free(*ptro);
-}
-
 //--- fonctions locales --------------------------------------------------------
 
 #define DEFUN_STR_TRANSFORM(fun, trans)       \
@@ -93,6 +53,44 @@ static void str_filter(const lnscanner *opt, char *s) {
 }
 
 //--- fonctions de lnscanner ---------------------------------------------------
+
+lnscanner *lnscanner_default() {
+  lnscanner *opt = malloc(sizeof *opt);
+  if (opt == NULL) {
+    return NULL;
+  }
+  opt->tranformation = TRANSFORM_NONE;
+  for (int i = 0; i < FILTER_COUNT; ++i) {
+    opt->filters[i] = false;
+  }
+  return opt;
+}
+
+void lnscanner_dispose(lnscanner **ptro) {
+  if (*ptro == NULL) {
+    return;
+  }
+  free(*ptro);
+}
+
+void lnscanner_set_transform(lnscanner *opt, transform t) {
+  opt->tranformation = t;
+}
+
+void lnscanner_activate_filter(lnscanner *opt, filter f) {
+  opt->filters[f] = true;
+}
+
+bool lnscanner_has_active_filter(const lnscanner *opt) {
+  int i = 0;
+  while (i < FILTER_COUNT) {
+    if (opt->filters[i]) {
+      return true;
+    }
+    ++i;
+  }
+  return false;
+}
 
 int lnscanner_getline(const lnscanner *opt, FILE *stream, char *s, size_t n) {
   int c = fgetc(stream);

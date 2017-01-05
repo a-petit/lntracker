@@ -36,7 +36,7 @@ static int vector_resize(vector *t, size_t nslots) {
   return 0;
 }
 
-//------------------------------------------------------------------------------
+//--- Fonctions de vector ------------------------------------------------------
 
 vector *vector_empty(void) {
   vector *t = malloc(sizeof *t);

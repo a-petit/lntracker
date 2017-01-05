@@ -13,9 +13,11 @@
 
 // STRINGLEN_MAX : longuer maximale des lignes lues.
 // Peut être amélioré. Cependant, Si les prefixes de deux lignes de
-// STRINGLEN_MAX crctrs sont identiques, il est fort à supposer que les lignes
-// sont identiques dans leur intégralité.
-#define STRINGLEN_MAX 65535
+// STRINGLEN_MAX caractères sont identiques, il est fort à supposer que les
+// lignes sont identiques dans leur intégralité.
+// Déjà la probabilité que deux lignes de 65535 caractères soit identique est de
+// 1 pour 65535 ^ 256. Alors plus ..
+#define STRINGLEN_MAX 4096
 
 #define ON_VALUE_GOTO(expr, value, label)     \
     if ((expr) == (value)) {                  \
@@ -235,7 +237,7 @@ static int str_compar(const char **s1, const char **s2) {
   return strcmp(*s1, *s2);
 }
 
-int lntracker_parsefiles(lntracker *t) {
+int lntracker_compute(lntracker *t) {
   size_t n = FILES_LEN(t);
   if (n == 0) {
     lnt_parselines(t, stdin, 0, true);
