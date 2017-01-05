@@ -2,7 +2,7 @@ CC = gcc
 CFLAGS = -std=c11 -g -Wall -Wconversion -Werror -Wextra -Wpedantic
 LDFLAGS =
 objects = main.o lntracker.o vector.o hashtbl.o lnscan.o ftrack.o quick_sort.o
-executable = main
+executable = lntracker
 
 all: $(executable)
 
