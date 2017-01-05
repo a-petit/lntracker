@@ -1,11 +1,11 @@
 #include <ctype.h>
 #include <stdio.h>
-#include "lnscan.h"
+#include "lnscanner.h"
 
 #define FUN_SUCCESS 0
 #define FUN_FAILURE -1
 
-struct lnscanopt {
+struct lnscanner {
   transform tranformation;
   bool filters[FILTER_COUNT];
 };
@@ -19,10 +19,10 @@ static int (*funfilters[FILTER_COUNT]) (int) = {
   isspace
 };
 
-//--- fonctions de lnscanopt ---------------------------------------------------
+//--- fonctions de lnscanner ---------------------------------------------------
 
-lnscanopt *lnscanopt_default() {
-  lnscanopt *opt = malloc(sizeof *opt);
+lnscanner *lnscanner_default() {
+  lnscanner *opt = malloc(sizeof *opt);
   if (opt == NULL) {
     return NULL;
   }
@@ -33,15 +33,15 @@ lnscanopt *lnscanopt_default() {
   return opt;
 }
 
-void lnscanopt_set_transform(lnscanopt *opt, transform t) {
+void lnscanner_set_transform(lnscanner *opt, transform t) {
   opt->tranformation = t;
 }
 
-void lnscanopt_activate_filter(lnscanopt *opt, filter f) {
+void lnscanner_activate_filter(lnscanner *opt, filter f) {
   opt->filters[f] = true;
 }
 
-bool lnscanopt_has_active_filter(const lnscanopt *opt) {
+bool lnscanner_has_active_filter(const lnscanner *opt) {
   int i = 0;
   while (i < FILTER_COUNT) {
     if (opt->filters[i]) {
@@ -52,7 +52,7 @@ bool lnscanopt_has_active_filter(const lnscanopt *opt) {
   return false;
 }
 
-void lnscanopt_dispose(lnscanopt **ptro) {
+void lnscanner_dispose(lnscanner **ptro) {
   if (*ptro == NULL) {
     return;
   }
@@ -72,7 +72,7 @@ void lnscanopt_dispose(lnscanopt **ptro) {
 DEFUN_STR_TRANSFORM(str_toupper, toupper)
 DEFUN_STR_TRANSFORM(str_tolower, tolower)
 
-static void str_filter(const lnscanopt *opt, char *s) {
+static void str_filter(const lnscanner *opt, char *s) {
   char *p = s;
   while (*s) {
     int i = 0;
@@ -92,12 +92,15 @@ static void str_filter(const lnscanopt *opt, char *s) {
   *p = *s;
 }
 
-//--- fonctions de lnscan ------------------------------------------------------
+//--- fonctions de lnscanner ---------------------------------------------------
 
-int lnscan_getline(const lnscanopt *opt, FILE *stream, char *s, size_t n) {
+int lnscanner_getline(const lnscanner *opt, FILE *stream, char *s, size_t n) {
   int c = fgetc(stream);
   if (c == EOF) {
     return EOF;
+  }
+  while (isspace(c)) {
+    c = fgetc(stream);
   }
   char *p = s;
   // IB : s < p < s + m - 1
@@ -117,7 +120,7 @@ int lnscan_getline(const lnscanopt *opt, FILE *stream, char *s, size_t n) {
     case TRANSFORM_LOWER : str_tolower(s); break;
   }
 
-  if (lnscanopt_has_active_filter(opt)) {
+  if (lnscanner_has_active_filter(opt)) {
     str_filter(opt, s);
   }
 

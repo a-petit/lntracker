@@ -6,7 +6,7 @@
 #define LNTRACKER_H
 
 #include <stdlib.h>
-#include "lnscan.h"
+#include "lnscanner.h"
 
 
 typedef enum sorting {
@@ -24,7 +24,7 @@ extern int lntracker_parsefiles(lntracker *tracker);
 
 extern void lntracker_set_sort(lntracker *tracker, sorting s);
 
-extern lnscanopt *lntracker_getopt(lntracker *tracker);
+extern lnscanner *lntracker_getopt(lntracker *tracker);
 
 extern void lntracker_display(const lntracker *tracker);
 

@@ -5,17 +5,17 @@
 #include <string.h>
 #include "hashtbl.h"
 #include "ftrack.h"
-#include "lnscan.h"
+#include "lnscanner.h"
 #include "vector.h"
 
 #define FUN_FAILURE 1
 #define FUN_SUCCESS 0
 
 // STRINGLEN_MAX : longuer maximale des lignes lues.
-// Peut être amélioré. Cependant, Si les prefixes de deux lignes de 4095 crctrs
-// sont identiques, il est fort à supposer que les lignes sont identiques dans
-// leur intégralité.
-#define STRINGLEN_MAX 4095
+// Peut être amélioré. Cependant, Si les prefixes de deux lignes de
+// STRINGLEN_MAX crctrs sont identiques, il est fort à supposer que les lignes
+// sont identiques dans leur intégralité.
+#define STRINGLEN_MAX 65535
 
 #define ON_VALUE_GOTO(expr, value, label)     \
     if ((expr) == (value)) {                  \
@@ -26,7 +26,7 @@ struct lntracker {
   vector *filenames;
   vector *klist;
   vector *vlist;
-  lnscanopt *opt;
+  lnscanner *opt;
   sorting sort;
   hashtable *ht;
 };
@@ -53,8 +53,8 @@ static int lnt_parselines(lntracker *t, FILE *stream, size_t id, bool gen) {
   ftrack *ft  = NULL;
 
   // IB :
-  // QC : nombre d'appels à lnscan_getline, majoré par LONG_MAX
-  while ((c = lnscan_getline(SCOPT(t), stream, buf, STRINGLEN_MAX)) != EOF) {
+  // QC : nombre d'appels à lnscanner_getline, majoré par LONG_MAX
+  while ((c = lnscanner_getline(SCOPT(t), stream, buf, STRINGLEN_MAX)) != EOF) {
 
     if (c != '\n') {
       fprintf(stderr, "*** Warning: string  %.30s... cut (line %ld)\n", buf, n);
@@ -168,23 +168,25 @@ static void lnt_display_multiple(const lntracker *t) {
 
     size_t lastfileID = 0;
     size_t m = vector_length(ftl);
-    for (size_t k = 0; k < m; ++k) {
-      const ftrack *ft = (const ftrack *) vector_get(ftl, k);
+    if (m > 1) {
+      for (size_t k = 0; k < m; ++k) {
+        const ftrack *ft = (const ftrack *) vector_get(ftl, k);
 
-      while (lastfileID < ftrack_id(ft)) {
+        while (lastfileID < ftrack_id(ft)) {
+          printf(PRINT_COLUMN_SEPARATOR);
+          ++lastfileID;
+        }
+
+        const vector *lines = ftrack_getlines(ft);
+        printf("%zu", vector_length(lines));
+      }
+
+      while (lastfileID < FILES_LEN(t)) {
         printf(PRINT_COLUMN_SEPARATOR);
         ++lastfileID;
       }
-
-      const vector *lines = ftrack_getlines(ft);
-      printf("%zu", vector_length(lines));
+      printf("%s\n", s);
     }
-
-    while (lastfileID < FILES_LEN(t)) {
-      printf(PRINT_COLUMN_SEPARATOR);
-      ++lastfileID;
-    }
-    printf("%s\n", s);
   }
 }
 
@@ -201,10 +203,10 @@ lntracker *lntracker_create(size_t (*str_hashfun)(const char *)) {
   SCOPT(t) = NULL;
   HTABL(t) = NULL;
 
-  ON_VALUE_GOTO(FILES(t) = vector_empty(),    NULL, error);
-  ON_VALUE_GOTO(HKEYS(t) = vector_empty(),    NULL, error);
-  ON_VALUE_GOTO(HVALS(t) = vector_empty(),    NULL, error);
-  ON_VALUE_GOTO(SCOPT(t) = lnscanopt_default(), NULL, error);
+  ON_VALUE_GOTO(FILES(t) = vector_empty(),      NULL, error);
+  ON_VALUE_GOTO(HKEYS(t) = vector_empty(),      NULL, error);
+  ON_VALUE_GOTO(HVALS(t) = vector_empty(),      NULL, error);
+  ON_VALUE_GOTO(SCOPT(t) = lnscanner_default(), NULL, error);
   ON_VALUE_GOTO(HTABL(t) = hashtable_empty(
       (size_t (*)(const void *)) str_hashfun,
       (int (*)(const void *, const void *)) strcmp),
@@ -255,7 +257,7 @@ void lntracker_set_sort(lntracker *tracker, sorting s) {
   tracker->sort = s;
 }
 
-lnscanopt *lntracker_getopt(lntracker *tracker) {
+lnscanner *lntracker_getopt(lntracker *tracker) {
   return tracker->opt;
 }
 
@@ -310,7 +312,7 @@ void lntracker_dispose(lntracker **ptrt) {
   vector_dispose(&HKEYS(*ptrt));
   vector_dispose(&HVALS(*ptrt));
   hashtable_dispose(&HTABL(*ptrt));
-  lnscanopt_dispose(&SCOPT(*ptrt));
+  lnscanner_dispose(&SCOPT(*ptrt));
   free(*ptrt);
   *ptrt = NULL;
 }
