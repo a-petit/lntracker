@@ -26,7 +26,7 @@ scanopt *scanopt_default() {
   if (opt == NULL) {
     return NULL;
   }
-  opt->t = TRANSFORM_NONE;
+  opt->tranformation = TRANSFORM_NONE;
   for (int i = 0; i < FILTER_COUNT; ++i) {
     opt->filters[i] = false;
   }
@@ -111,7 +111,7 @@ int lnscan_getline(const scanopt *opt, FILE *stream, char *s, size_t n) {
   }
   *p = '\0';
 
-  switch (opt->t) {
+  switch (opt->tranformation) {
     case TRANSFORM_NONE  : break;
     case TRANSFORM_UPPER : str_toupper(s); break;
     case TRANSFORM_LOWER : str_tolower(s); break;
