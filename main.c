@@ -3,26 +3,18 @@
 #include <stdlib.h>
 #include <string.h>
 #include <strings.h>
-
 #include "lntracker.h"
 #include "lnscan.h"
 
-
-// proposer une meilleure fonction de hashage ?
 static size_t str_hashfun(const char *s);
 
 #define FUN_FAILURE 1
 #define FUN_SUCCESS 0
 
+//--- Traitement des options ---------------------------------------------------
+
 #define FILE_FLAG_SHRT "-"
 #define FILE_FLAG_LONG "--"
-
-enum options_type {
-  OPT_HELP,
-  OPT_CASE,
-  OPT_FILTER,
-  OPT_SORT
-};
 
 int getoptions(int argc, char **argv, lntracker *tracker) {
   int c;
@@ -51,22 +43,22 @@ int getoptions(int argc, char **argv, lntracker *tracker) {
 
       case 'c':
         if (strcasecmp(optarg, "upper") == 0) {
-          scanopt_set_transform(lntracker_getopt(tracker), TRANSFORM_UPPER);
+          lnscanopt_set_transform(lntracker_getopt(tracker), TRANSFORM_UPPER);
         } else if (strcasecmp(optarg, "lower") == 0) {
-          scanopt_set_transform(lntracker_getopt(tracker), TRANSFORM_LOWER);
+          lnscanopt_set_transform(lntracker_getopt(tracker), TRANSFORM_LOWER);
         }
         break;
 
       case 'f':
         while (*optarg != '\0') {
-          scanopt *opt = (scanopt *) lntracker_getopt(tracker);
+          lnscanopt *opt = (lnscanopt *) lntracker_getopt(tracker);
           switch (*optarg) {
-            case 'a': scanopt_activate_filter(opt, FILTER_ALPHA); break;
-            case 'c': scanopt_activate_filter(opt, FILTER_CNTRL); break;
-            case 'd': scanopt_activate_filter(opt, FILTER_DIGIT); break;
-            case 'n': scanopt_activate_filter(opt, FILTER_ALNUM); break;
-            case 'p': scanopt_activate_filter(opt, FILTER_PUNCT); break;
-            case 's': scanopt_activate_filter(opt, FILTER_SPACE); break;
+            case 'a': lnscanopt_activate_filter(opt, FILTER_ALPHA); break;
+            case 'c': lnscanopt_activate_filter(opt, FILTER_CNTRL); break;
+            case 'd': lnscanopt_activate_filter(opt, FILTER_DIGIT); break;
+            case 'n': lnscanopt_activate_filter(opt, FILTER_ALNUM); break;
+            case 'p': lnscanopt_activate_filter(opt, FILTER_PUNCT); break;
+            case 's': lnscanopt_activate_filter(opt, FILTER_SPACE); break;
             default: printf("invalid arg: '%c'\n", *optarg);
           }
           ++optarg;
@@ -111,6 +103,8 @@ int getoptions(int argc, char **argv, lntracker *tracker) {
   }
   return FUN_SUCCESS;
 }
+
+//--- Programme principal ------------------------------------------------------
 
 int main(int argc, char **argv) {
 

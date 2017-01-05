@@ -26,7 +26,7 @@ struct lntracker {
   vector *filenames;
   vector *klist;
   vector *vlist;
-  scanopt *opt;
+  lnscanopt *opt;
   sorting sort;
   hashtable *ht;
 };
@@ -204,7 +204,7 @@ lntracker *lntracker_create(size_t (*str_hashfun)(const char *)) {
   ON_VALUE_GOTO(FILES(t) = vector_empty(),    NULL, error);
   ON_VALUE_GOTO(HKEYS(t) = vector_empty(),    NULL, error);
   ON_VALUE_GOTO(HVALS(t) = vector_empty(),    NULL, error);
-  ON_VALUE_GOTO(SCOPT(t) = scanopt_default(), NULL, error);
+  ON_VALUE_GOTO(SCOPT(t) = lnscanopt_default(), NULL, error);
   ON_VALUE_GOTO(HTABL(t) = hashtable_empty(
       (size_t (*)(const void *)) str_hashfun,
       (int (*)(const void *, const void *)) strcmp),
@@ -255,17 +255,11 @@ void lntracker_set_sort(lntracker *tracker, sorting s) {
   tracker->sort = s;
 }
 
-scanopt *lntracker_getopt(lntracker *tracker) {
+lnscanopt *lntracker_getopt(lntracker *tracker) {
   return tracker->opt;
 }
 
 void lntracker_display(const lntracker *t) {
-  /*
-  if (FILES_LEN(t) == 0) {
-    printf("*** Warning : no files to display\n");
-    return;
-  }
-  */
 
   size_t n = FILES_LEN(t);
   for (size_t i = 0; i < n; ++i) {
@@ -316,7 +310,7 @@ void lntracker_dispose(lntracker **ptrt) {
   vector_dispose(&HKEYS(*ptrt));
   vector_dispose(&HVALS(*ptrt));
   hashtable_dispose(&HTABL(*ptrt));
-  scanopt_dispose(&SCOPT(*ptrt));
+  lnscanopt_dispose(&SCOPT(*ptrt));
   free(*ptrt);
   *ptrt = NULL;
 }

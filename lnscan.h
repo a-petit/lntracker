@@ -26,16 +26,16 @@ typedef enum filter {
 
 //--- scanner options
 
-typedef struct scanopt scanopt;
+typedef struct lnscanopt lnscanopt;
 
-extern scanopt *scanopt_default();
-extern void scanopt_set_transform(scanopt *opt, transform trans);
-extern void scanopt_activate_filter(scanopt *opt, filter fltr);
-extern bool scanopt_has_active_filter(const scanopt *opt);
-extern void scanopt_dispose(scanopt **ptro);
+extern lnscanopt *lnscanopt_default();
+extern void lnscanopt_set_transform(lnscanopt *opt, transform trans);
+extern void lnscanopt_activate_filter(lnscanopt *opt, filter fltr);
+extern bool lnscanopt_has_active_filter(const lnscanopt *opt);
+extern void lnscanopt_dispose(lnscanopt **ptro);
 
-//--- scanner funcions
+//--- scanner functions
 
-extern int lnscan_getline(const scanopt *opt, FILE *stream, char *s, size_t m);
+extern int lnscan_getline(const lnscanopt *opt, FILE *stream, char *s, size_t m);
 
 #endif  // LN_SCAN_H

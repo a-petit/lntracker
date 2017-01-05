@@ -24,7 +24,7 @@ extern int lntracker_parsefiles(lntracker *tracker);
 
 extern void lntracker_set_sort(lntracker *tracker, sorting s);
 
-extern scanopt *lntracker_getopt(lntracker *tracker);
+extern lnscanopt *lntracker_getopt(lntracker *tracker);
 
 extern void lntracker_display(const lntracker *tracker);
 

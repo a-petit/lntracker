@@ -5,7 +5,7 @@
 #define FUN_SUCCESS 0
 #define FUN_FAILURE -1
 
-struct scanopt {
+struct lnscanopt {
   transform tranformation;
   bool filters[FILTER_COUNT];
 };
@@ -19,10 +19,10 @@ static int (*funfilters[FILTER_COUNT]) (int) = {
   isspace
 };
 
-//--- fonctions de scanopt -----------------------------------------------------
+//--- fonctions de lnscanopt ---------------------------------------------------
 
-scanopt *scanopt_default() {
-  scanopt *opt = malloc(sizeof *opt);
+lnscanopt *lnscanopt_default() {
+  lnscanopt *opt = malloc(sizeof *opt);
   if (opt == NULL) {
     return NULL;
   }
@@ -33,15 +33,15 @@ scanopt *scanopt_default() {
   return opt;
 }
 
-void scanopt_set_transform(scanopt *opt, transform t) {
+void lnscanopt_set_transform(lnscanopt *opt, transform t) {
   opt->tranformation = t;
 }
 
-void scanopt_activate_filter(scanopt *opt, filter f) {
+void lnscanopt_activate_filter(lnscanopt *opt, filter f) {
   opt->filters[f] = true;
 }
 
-bool scanopt_has_active_filter(const scanopt *opt) {
+bool lnscanopt_has_active_filter(const lnscanopt *opt) {
   int i = 0;
   while (i < FILTER_COUNT) {
     if (opt->filters[i]) {
@@ -52,7 +52,7 @@ bool scanopt_has_active_filter(const scanopt *opt) {
   return false;
 }
 
-void scanopt_dispose(scanopt **ptro) {
+void lnscanopt_dispose(lnscanopt **ptro) {
   if (*ptro == NULL) {
     return;
   }
@@ -72,7 +72,7 @@ void scanopt_dispose(scanopt **ptro) {
 DEFUN_STR_TRANSFORM(str_toupper, toupper)
 DEFUN_STR_TRANSFORM(str_tolower, tolower)
 
-static void str_filter(const scanopt *opt, char *s) {
+static void str_filter(const lnscanopt *opt, char *s) {
   char *p = s;
   while (*s) {
     int i = 0;
@@ -94,7 +94,7 @@ static void str_filter(const scanopt *opt, char *s) {
 
 //--- fonctions de lnscan ------------------------------------------------------
 
-int lnscan_getline(const scanopt *opt, FILE *stream, char *s, size_t n) {
+int lnscan_getline(const lnscanopt *opt, FILE *stream, char *s, size_t n) {
   int c = fgetc(stream);
   if (c == EOF) {
     return EOF;
@@ -117,7 +117,7 @@ int lnscan_getline(const scanopt *opt, FILE *stream, char *s, size_t n) {
     case TRANSFORM_LOWER : str_tolower(s); break;
   }
 
-  if (scanopt_has_active_filter(opt)) {
+  if (lnscanopt_has_active_filter(opt)) {
     str_filter(opt, s);
   }
 
