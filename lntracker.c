@@ -20,9 +20,17 @@
 #define STRINGLEN_MAX 4096
 
 #define ON_VALUE_GOTO(expr, value, label)     \
+    if (rand() % 10 == 0) {                   \
+      goto label;                             \
+    }                                         \
     if ((expr) == (value)) {                  \
       goto label;                             \
     }
+
+
+#define LOG_ERR(msg)                                                    \
+    fprintf(stderr, "*** Erreur - fichier %s, ligne %d : " msg "\n",    \
+        __FILE__, __LINE__);
 
 struct lntracker {
   vector *filenames;
@@ -95,16 +103,18 @@ static int lnt_parselines(lntracker *t, FILE *stream, size_t id, bool gen) {
   return FUN_SUCCESS;
 
 error_phase1:
-  printf("*** error : création de l'entrée dans la table de hashage\n");
+  LOG_ERR("Création de l'entrée dans la table de hashage.");
   free(s);
   vector_dispose(&ftl);
+  return FUN_FAILURE;
 
 error_phase2:
-  printf("*** error : création du relevé d'occurences pour le fichier\n");
+  LOG_ERR("Création du relevé d'occurences pour le fichier.");
   ftrack_dispose(&ft);
+  return FUN_FAILURE;
 
 error_phase3:
-  printf("*** error : ajout d'une occurence\n");
+  LOG_ERR("Ajout d'une occurence");
   return FUN_FAILURE;
 }
 
@@ -112,22 +122,21 @@ static int lnt_open_and_parse_file(lntracker *t, const char *fname,
     size_t id, bool gen) {
   FILE *f = fopen(fname, "r");
   if (f == NULL) {
-    printf("*** error: impossible d'ouvrir le fichier\n");
+    LOG_ERR("Impossible d'ouvrir le fichier");
     return FUN_FAILURE;
   }
 
   int r = FUN_SUCCESS;
   if (lnt_parselines(t, f, id, gen) != 0) {
-    printf("*** error: parsing\n");
     r = FUN_FAILURE;
   }
 
   if (! feof(f)) {
-    printf("*** error: parcours incomplet\n");
+    LOG_ERR("Parcours du fichier incomplet.");
     r = FUN_FAILURE;
   }
   if (fclose(f) != 0) {
-    printf("*** error: fermeture du fichier\n");
+    LOG_ERR("Fermeture du fichier.");
     r = FUN_FAILURE;
   }
 
@@ -219,7 +228,7 @@ lntracker *lntracker_create(size_t (*str_hashfun)(const char *)) {
   goto endfun;
 
 error:
-  fprintf(stderr, "*** Error: ask a wizard to enlarge me\n");
+  LOG_ERR("Ask a wizard to enlarge me.");
   lntracker_dispose(&t);
 
 endfun:
