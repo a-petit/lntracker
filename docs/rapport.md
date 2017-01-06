@@ -14,6 +14,8 @@ UFR des sciences et technique de Rouen
 
 ## Analyse préalable
 
+### Conventions
+
 Dans une implantation classique, la taille d'un fichier est limitée à `LONG_MAX = 2147483647` caractères. 
 L'alphabet usuel, l'ASCII comprend `UCHAR_MAX + 1 = 256` caractères distincts. 
 
@@ -135,7 +137,6 @@ Ci-dessous figure une illustration de l'état de l'application après analyse de
 ```
 dune
 dune005
-8484YAGA
 yAgA$$$
 ```
 
@@ -143,8 +144,8 @@ yAgA$$$
 
 ```
 DUNE45
-vrille
 45DUNE
+vrille
 ```
 
 *fichier3*
@@ -157,9 +158,9 @@ Cerf
 
 Dans cet exemple, le programme a été initialisé avec l'option de transformation en capitales de majuscules et un filtre restreint aux caractères alphabétiques. Les schémas reprennent en grande partie les conventions développées lors du cours d'algorithmique. Une seule entorce a été faite à ces conventions pour simplifier l'affichage des tableaux dynamique (tracés en vert) lorsque les valeurs pointées sont de type *char \** (type représenté en bleu) ou *long int*. Les données mémorisées par les tableau dynamiques étant homogènes pour chaque utilisation, le type des données est explicité dans le type du tableau dynamique à la façon des objets *vector* en *C++*. 
 
- ![lntracker_v2](lntracker_v2.svg)
+ ![lntracker](lntracker.svg)
 
-L'image du tableau dynamique qui contient la liste des noms de fichier met en évidence la façon dont le tableau est redimensionné au fur et à mesure que les données s'accumulent. Ici, la tableau est parti d'une capacité de 1 élément pour évoluer vers une capacité de 2 lorsque le deuxième fichier a été détécté, puis 4 pour faire place au troisième fichier.
+Le tableau dynamique qui contient la liste des noms de fichier met en évidence la façon dont le tableau est redimensionné au fur et à mesure que les données s'accumulent. Ici, la tableau est parti d'une capacité de 1 élément pour évoluer vers une capacité de 2 lorsque le deuxième fichier a été détécté, puis 4 pour faire place au troisième fichier.
 
 ## Limites
 

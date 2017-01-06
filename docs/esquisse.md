@@ -185,7 +185,38 @@ Au premier abord, on a pensé le filtrage comme non combinatoire. Après relectu
 
 N'est-il pas étrange, quelque part, que la fonction qsort soit incompatible avec la fonction de comparaison standard strcmp ?
 
+## Remarques
 
+// STRINGLEN_MAX : longuer maximale des lignes lues.
+// Peut être amélioré. Cependant, Si les prefixes de deux lignes de
+// STRINGLEN_MAX caractères sont identiques, il est fort à supposer que les
+// lignes sont identiques dans leur intégralité.
+// Déjà la probabilité que deux lignes de 65535 caractères soit identique est de
+// 1 pour 65535 ^ 256. Alors plus ..
+
+
+
+valeur gardée bas pour deux raison :
+
+- chances de rencontrer deux chaines identique extremement faible à ce niveau. 
+- économise les ressources si les filtres sont activés
+
+## Astuces
+
+```c
+#include <time.h>
+printf("%ld\n", time(NULL));
+srand((unsigned int) time(NULL));
+
+
+#define ON_VALUE_GOTO(expr, value, label)     \
+    if (rand() % 10 == 0) {                   \
+      goto label;                             \
+    }                                         \
+    if ((expr) == (value)) {                  \
+      goto label;                             \
+    }
+```
 
 
 
