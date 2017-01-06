@@ -10,7 +10,7 @@
 #define FTRACK_H
 
 #include <stdlib.h>
-#include "vector.h"
+#include "dyna.h"
 
 typedef struct ftrack ftrack;
 
@@ -27,7 +27,7 @@ extern void ftrack_dispose(ftrack **ptrt);
 extern const long int *ftrack_addline(ftrack *ft, long int n);
 
 // ftrack_getlines : renvoie le tableau des occurences (numéros de lignes) de ft
-extern const vector *ftrack_getlines(const ftrack *ft);
+extern const dyna *ftrack_getlines(const ftrack *ft);
 
 // ftrack_id : renvoie l'identifiant fichier de ft
 extern size_t ftrack_id(const ftrack *ft);

@@ -1,16 +1,16 @@
 #include <stdint.h>
 #include <stdio.h>
 #include "quick_sort.h"
-#include "vector.h"
+#include "dyna.h"
 
 #define VEC_NSLOTS_MIN  1
 #define VEC_RESIZE_MUL  2
 
 #define PTRSIZE (sizeof(void *))
 
-//--- Structure vector ---------------------------------------------------------
+//--- Structure dyna ---------------------------------------------------------
 
-struct vector {
+struct dyna {
   void **value;
   size_t nslots;
   size_t nentries;
@@ -25,7 +25,7 @@ struct vector {
 
 //--- Fonctions locales --------------------------------------------------------
 
-static int vector_resize(vector *t, size_t nslots) {
+static int dyna_resize(dyna *t, size_t nslots) {
   void **a = realloc(VALUE(t), nslots * PTRSIZE);
   if (a == NULL) {
     printf("*** realloc error\n");
@@ -36,10 +36,10 @@ static int vector_resize(vector *t, size_t nslots) {
   return 0;
 }
 
-//--- Fonctions de vector ------------------------------------------------------
+//--- Fonctions de dyna ------------------------------------------------------
 
-vector *vector_empty(void) {
-  vector *t = malloc(sizeof *t);
+dyna *dyna_empty(void) {
+  dyna *t = malloc(sizeof *t);
   if (t == NULL) {
     return NULL;
   }
@@ -53,10 +53,10 @@ vector *vector_empty(void) {
   return t;
 }
 
-const void *vector_push(vector *t, const void * x) {
+const void *dyna_push(dyna *t, const void * x) {
   if (IS_FILLED(t)) {
     size_t n =  NSLOTS(t) * VEC_RESIZE_MUL;
-    if (NSLOTS(t) >= SIZE_MAX / VEC_RESIZE_MUL || vector_resize(t, n) != 0) {
+    if (NSLOTS(t) >= SIZE_MAX / VEC_RESIZE_MUL || dyna_resize(t, n) != 0) {
       return NULL;
     }
   }
@@ -65,36 +65,36 @@ const void *vector_push(vector *t, const void * x) {
   return x;
 }
 
-const void *vector_get(const vector *t, size_t i) {
+const void *dyna_get(const dyna *t, size_t i) {
   if (i >= NENTRIES(t)) {
     return NULL;
   }
   return VALUE(t)[i];
 }
 
-const void *vector_fst(const vector *t) {
+const void *dyna_fst(const dyna *t) {
   if (IS_EMPTY(t)) {
     return NULL;
   }
   return VALUE(t)[0];
 }
 
-const void *vector_lst(const vector *t) {
+const void *dyna_lst(const dyna *t) {
   if (IS_EMPTY(t)) {
     return NULL;
   }
   return VALUE(t)[NENTRIES(t) -1];
 }
 
-size_t vector_length(const vector *t) {
+size_t dyna_length(const dyna *t) {
   return NENTRIES(t);
 }
 
-void vector_qsort(vector *t, int (*compar)(const void *, const void *)) {
+void dyna_qsort(dyna *t, int (*compar)(const void *, const void *)) {
   quick_sort(VALUE(t), NENTRIES(t), PTRSIZE, compar);
 }
 
-void vector_dispose(vector **ptrt) {
+void dyna_dispose(dyna **ptrt) {
   if (*ptrt == NULL) {
     return;
   }

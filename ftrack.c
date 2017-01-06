@@ -4,7 +4,7 @@
 
 typedef struct ftrack {
   size_t id;
-  vector *lines;
+  dyna *lines;
 } ftrack;
 
 //--- fonctions de ftrack ------------------------------------------------------
@@ -14,7 +14,7 @@ ftrack *ftrack_create(size_t fileid) {
   if (ft == NULL) {
     return NULL;
   }
-  ft->lines = vector_empty();
+  ft->lines = dyna_empty();
   if (ft->lines == NULL) {
     free(ft);
     return NULL;
@@ -29,14 +29,14 @@ void ftrack_dispose(ftrack **ptrt) {
   }
 
   size_t k = 0;
-  size_t m = vector_length((*ptrt)->lines);
+  size_t m = dyna_length((*ptrt)->lines);
   while (k < m) {
-    long int *n = (long int *) vector_get((*ptrt)->lines, k);
+    long int *n = (long int *) dyna_get((*ptrt)->lines, k);
     free(n);
     ++k;
   }
 
-  vector_dispose(&(*ptrt)->lines);
+  dyna_dispose(&(*ptrt)->lines);
   free(*ptrt);
   *ptrt = NULL;
 }
@@ -47,15 +47,15 @@ const long int *ftrack_addline(ftrack *ft, long int n) {
     return NULL;
   }
   *x = n;
-  if (vector_push(ft->lines, x) != x) {
+  if (dyna_push(ft->lines, x) != x) {
     free(x);
     return NULL;
   }
   return x;
 }
 
-const vector *ftrack_getlines(const ftrack *ft) {
-  return (const vector *) ft->lines;
+const dyna *ftrack_getlines(const ftrack *ft) {
+  return (const dyna *) ft->lines;
 }
 
 size_t ftrack_id(const ftrack *ft) {
