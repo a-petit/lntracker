@@ -1,6 +1,8 @@
-# Projet d'algorithmique : Lignes répétées
+# Lignes répétées
 
 
+
+<u>Projet d'algorithmique</u>
 
 Alexandre Petit
 
@@ -8,13 +10,9 @@ Licence Informatique, 2ème année
 
 UFR des sciences et technique de Rouen
 
+==test des filtres : tableascii.txt==
 
-
-
-
-## Analyse préalable
-
-### Conventions
+## Analyse préalable au développement du programme
 
 Dans une implantation classique, la taille d'un fichier est limitée à `LONG_MAX = 2147483647` caractères. 
 L'alphabet usuel, l'ASCII comprend `UCHAR_MAX + 1 = 256` caractères distincts. 
@@ -51,34 +49,32 @@ Dans la suite la mention *de référence* (ou *du fichier de référence*) sera 
 
 - La taille du fichier est considérée comme maximale dans l'ensemble de l'analyse.
 - Le nombre de lignes est considéré comme
-  - **cas extrême (minoration)** : une unique ligne de `LONG_MAX`  caractères ;
-  - **cas extrême (majoration)** : `LONG_MAX`  lignes composées d'un unique caractère ;
+  - **cas extrême A (minoration)** : une unique ligne de `LONG_MAX`  caractères ;
+  - **cas extrême B (majoration)** : `LONG_MAX`  lignes composées d'un unique caractère ;
   - dans les cas moyens, on considèrera des lignes allant de 10 à 80 caractères.
 - Le nombre de motifs (nombre d'entrées dans la table) :
-  - **cas extrême (minoration)** : un unique motif est répété à chaque ligne du fichier.
-  - **cas extrême (majoration)** : dans sa majoration, le *nombre de motifs potentiels* découle directement de la taille des lignes et de leur nombre.
+  - **cas extrême 1 (minoration)** : un unique motif est répété à chaque ligne du fichier.
+  - **cas extrême 2 (majoration)** : dans sa majoration, le *nombre de motifs potentiels* découle directement de la taille des lignes et de leur nombre.
   - dans les cas moyens, on se propose d'évaluer le système pour plusieurs valeurs intermédiaires ;
 - Le nombre d'occurrences des motifs est sans aucun doute la valeur la plus incertaine et donc la plus délicate à approcher. Cela étant, elle nous intéresse.
-  - **cas extrême (c)** : parmis l'ensemble des motifs potentiels, un unique motif est répété à chaque ligne du fichier. Le nombre d'occurence est alors maximal.
-
-  - **cas extrême (d)** : chaque motif est distinct (dans la limite du nombre de motifs potentiels). Le nombre d'occurrence de chaque motif est alors minimal.
-
+  - **cas extrême $\alpha$ (max)** : parmis l'ensemble des motifs potentiels, un unique motif est répété à chaque ligne du fichier. Le nombre d'occurence est alors maximal.
+  - **cas extrême $\beta$ (min)** : chaque motif est distinct (dans la limite du nombre de motifs potentiels). Le nombre d'occurrence de chaque motif est alors minimal.
   - cas maximal pour un motif quelconque : majoré par le nombre de lignes ;
-
   - cas minimal pour un motif quelconque : minoré par 1 de façon constante ;
-
   - cas moyens : distribution linéaire, exponentielle, quadratique, aléatoire
 
-    ​
 
+*Remarque : les cas extrême A et B proposent des situation de choix pour tester les limites du programme. L'archive du projet contient deux sous-programmes - placés dans le dossier `tools/`- qui permettent de générer des fichiers textes que l'on pourra assimiler à ces cas de figure.*
 
 **Application numérique**
 
-Posons $l_{max} = $ `LONG_MAX`  et $a_{max} = $ `UCHAR_MAX + 1` . 
+Posons 	$l_{max} = $ `LONG_MAX`  
+
+et 		$a_{max} = $ `UCHAR_MAX + 1` . 
 
 | nombre de caractères / lignes | nombre de lignes  | motifs potentiels        | nombre moyen d'occurrences de chaque motif potentiel | nombre maximal d'occurences d'un motif effectif |
 | :---------------------------: | :---------------: | :----------------------- | :--------------------------------------- | ---------------------------------------- |
-|              $c$              | $n = l_{max} / c$ | $m_p = (a_{max})^c$      | $n / m_p$                                | n                                        |
+|              $c$              | $n = l_{max} / c$ | $m_p = (a_{max})^c$      | $n / m_p$                                | $n$                                      |
 |           $l_{max}$           |         1         | $256^{l_{max}} = \infty$ | 0                                        | 1                                        |
 |               1               |    2147483647     | $256^1 =256$             | 8388607                                  | 2147483647                               |
 |               2               |    1073741824     | $256^{2} \simeq 7.10^4$  | 16384                                    | 1073741824                               |
@@ -90,7 +86,7 @@ Posons $l_{max} = $ `LONG_MAX`  et $a_{max} = $ `UCHAR_MAX + 1` .
 
 **Conclusion**
 
-Il en ressort que pour une composition parfaitement aléatoire, les chances pour un motif potentiel d'apparaître une fois dans le texte sont infiniment petites dès lors que les motifs ont une longueur moyenne supérieure à 5 caractères, ce qui est peu. Aussi, le nombre d'occurrences peut atteindre une très grande valeur  même pour des motifs de longueur relativement élevée.
+Il en ressort que pour une composition parfaitement aléatoire, les chances pour un motif potentiel d'apparaître même une fois dans le texte sont infiniment petites dès lors que les motifs ont une longueur moyenne de 5 caractères, ce qui est peu. D'autre part, on remarque que le nombre d'occurrences peut atteindre de très grandes valeurs, et ce même pour des motifs de longueur relativement élevée.
 
 Sans plus de précision sur la nature des données, on peut supposer, avec une certaine précaution, que le nombre d'occurrences d'un motif a de fortes chances d'être de faible valeur. Inutile donc de prévoir à l'avance des espaces de stockage de grande taille pour le référencement du nombre d'occurrences.
 
@@ -98,7 +94,7 @@ Sans plus de précision sur la nature des données, on peut supposer, avec une c
 
 ## Choix des structures de donnée
 
-Résumons l'objet de notre projet. La principale tache du programme est d'identifier la position des lignes de texte qui sont répétées plusieurs fois, au sein d'un même fichier, ou à travers différents fichiers. **Pour chaque ligne**, il sera donc nécessaire de mémoriser les fichiers dans lesquelles elle apparaît, puis pour chacun de ces fichiers, les lignes auxquelles elle apparaît. Afin de structurer ces informations, il semble intéressant de faire appel à une table de hashage. En effet, une table de hashage permet d'accéder à des informations par association, autrement dit par clé. Nous articulerons donc les informations relatives aux motifs relevés autour de cette structure. Aussi, afin de conserver une trace des clés de la table, les motifs seront stockés dans une liste.
+En vue de parvenir à choisir des structures de données adaptés aux besoins du programme, résumons l'objet du projet. La principale tache du programme est d'identifier la position des lignes de texte qui sont répétées plusieurs fois, au sein d'un même fichier, ou à travers différents fichiers. <u>Pour chaque ligne</u>, il sera donc nécessaire de mémoriser les fichiers dans lesquelles elle apparaît, puis pour chacun de ces fichiers, les lignes auxquelles elle apparaît. Afin de structurer ces informations, il semble intéressant de faire appel à une table de hashage. En effet, une table de hashage permet d'accéder à des informations par association, autrement dit par clé. Nous articulerons donc les informations relatives aux motifs relevés autour de cette structure. Aussi, afin de conserver une trace des clés de la table, les motifs seront stockés dans une liste.
 
 Une fois le stockage des motif passé en revue, on peut désormais s'intéresser aux autres données essentielles du programme qui sont les noms de fichiers et les listes d'occurences des motifs pour chaque fichier.
 
@@ -126,7 +122,14 @@ Notons que la table de hashage sera utilisée pour des insertions exclusivement,
 
 Pour les listes, bien que chacune travail avec un type de donnée différent, elles se présentent comme similaire dans l'usage. On choisira donc d'implanter un tableau dynamique polymorphe qui servira à l'ensemble. Des solutions alternatives pourront toujours être apportées en cours de projet en cas de manquement.
 
+## Modules développés
 
+- **ftrack** : relevé d'informations (liste des occurences d'un motif pour un fichier) ;
+- **dyna** (dynamic array) : tableau dynamique polymorphe avec implantation du tri-rapide ;
+- **hashtbl** : *repris du cours d'algorithmique et inchangé* ;
+- **lntracker** : le module principal, offre une structure de donnée pour stocker les paramètres du programme et implante les algorithmes d'analyse et d'affichage ;
+- **lnscanner** : le module consacré à la récupération de lignes de texte dans un flot donné, propose des fonctionnalités de transformation et de filtrage du contenu lu ;
+- **quick_sort** : implante le tri rapide. Ce module est repris du *tp 3* d'algorithmique et semblable à la fonction standard `qsort`.
 
 ## Illustration
 
