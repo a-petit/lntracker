@@ -39,7 +39,7 @@ static int getfiles(int argc, char **argv, lntracker *tracker);
       return EXIT_FAILURE;                            \
     }
 
-#define ON_NOT_VALUE_EXITERR(x, value, tracker, msg)      \
+#define ON_NOT_VALUE_EXITERR(x, value, tracker, msg)  \
     if ((x) != (value)) {                             \
       fprintf(stderr, "*** Erreur : " msg "\n");      \
       lntracker_dispose(&tracker);                    \
@@ -89,6 +89,8 @@ size_t str_hashfun(const char *s) {
 int getoptions(int argc, char **argv, lntracker *tracker) {
   int c;
 
+  lnscanner *opt = (lnscanner *) lntracker_getopt(tracker);
+
   while (1) {
     int option_index = 0;
     static struct option long_options[] = {
@@ -121,14 +123,14 @@ int getoptions(int argc, char **argv, lntracker *tracker) {
 
       case 'f':
         while (*optarg != '\0') {
-          lnscanner *opt = (lnscanner *) lntracker_getopt(tracker);
           switch (*optarg) {
-            case 'a': lnscanner_activate_filter(opt, FILTER_ALPHA); break;
-            case 'c': lnscanner_activate_filter(opt, FILTER_CNTRL); break;
-            case 'd': lnscanner_activate_filter(opt, FILTER_DIGIT); break;
-            case 'n': lnscanner_activate_filter(opt, FILTER_ALNUM); break;
-            case 'p': lnscanner_activate_filter(opt, FILTER_PUNCT); break;
-            case 's': lnscanner_activate_filter(opt, FILTER_SPACE); break;
+            case '*': break;
+            case 'a': lnscanner_set_filter(opt, FILTER_ALPHA, true); break;
+            case 'c': lnscanner_set_filter(opt, FILTER_CNTRL, true); break;
+            case 'd': lnscanner_set_filter(opt, FILTER_DIGIT, true); break;
+            case 'n': lnscanner_set_filter(opt, FILTER_ALNUM, true); break;
+            case 'p': lnscanner_set_filter(opt, FILTER_PUNCT, true); break;
+            case 's': lnscanner_set_filter(opt, FILTER_SPACE, true); break;
             default: return GETFUN_FAILURE;
           }
           ++optarg;
@@ -154,6 +156,8 @@ int getoptions(int argc, char **argv, lntracker *tracker) {
         return GETFUN_FAILURE;
     }
   }
+
+  lnscanner_build_table(opt);
 
   return GETFUN_SUCCESS;
 }

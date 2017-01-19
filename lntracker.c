@@ -62,6 +62,10 @@ static int lnt_parselines(lntracker *t, FILE *stream, size_t id, bool gen) {
   // QC : nombre d'appels à lnscanner_getline, majoré par LONG_MAX
   while ((c = lnscanner_getline(SCOPT(t), stream, buf, STRINGLEN_MAX)) != EOF) {
 
+    if (*buf == '\0') {
+      continue;
+    }
+
     if (c != '\n') {
       fprintf(stderr, "*** Warning: string  %.30s... cut (line %ld)\n", buf, n);
       while (c != '\n') {
@@ -285,7 +289,6 @@ void lntracker_display(const lntracker *t) {
   } else {
     lnt_display_single(t);
   }
-  putchar('\n');
 }
 
 void lntracker_dispose(lntracker **ptrt) {

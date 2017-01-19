@@ -1,13 +1,18 @@
 #include <ctype.h>
 #include <stdio.h>
+#include <limits.h>
 #include "lnscanner.h"
 
 #define FUN_SUCCESS 0
 #define FUN_FAILURE -1
 
+#define CHAR_DISABLED 0
+#define TABLE_LENGTH (UCHAR_MAX + 1)
+
 struct lnscanner {
   transform tranformation;
   bool filters[FILTER_COUNT];
+  int table[TABLE_LENGTH];
 };
 
 static int (*funfilters[FILTER_COUNT]) (int) = {
@@ -19,37 +24,8 @@ static int (*funfilters[FILTER_COUNT]) (int) = {
   isspace
 };
 
-//--- fonctions locales --------------------------------------------------------
-
-#define DEFUN_STR_TRANSFORM(fun, trans)       \
-    static void fun(char *s) {                \
-      while (*s) {                            \
-        *s = (char) trans(*s);                \
-        ++s;                                  \
-      }                                       \
-    }
-
-DEFUN_STR_TRANSFORM(str_toupper, toupper)
-DEFUN_STR_TRANSFORM(str_tolower, tolower)
-
-static void str_filter(const lnscanner *opt, char *s) {
-  char *p = s;
-  while (*s) {
-    int i = 0;
-    // IB : 0 <= i <= FILTER_COUNT
-    //    && les filtres de funfilters associés aux indices allant de 0 à i-1
-    //    sont négatifs pour le caractère *s, ou bien déactivés.
-    // QC : i
-    while (! (opt->filters[i] && (*funfilters[i]) (*s)) && i < FILTER_COUNT) {
-      ++i;
-    }
-    if (i < FILTER_COUNT) {
-      *p = (char) *s;
-      ++p;
-    }
-    ++s;
-  }
-  *p = *s;
+static int identity(int c) {
+  return c;
 }
 
 //--- fonctions de lnscanner ---------------------------------------------------
@@ -63,6 +39,7 @@ lnscanner *lnscanner_default() {
   for (int i = 0; i < FILTER_COUNT; ++i) {
     opt->filters[i] = false;
   }
+  lnscanner_build_table(opt);
   return opt;
 }
 
@@ -77,8 +54,8 @@ void lnscanner_set_transform(lnscanner *opt, transform t) {
   opt->tranformation = t;
 }
 
-void lnscanner_activate_filter(lnscanner *opt, filter f) {
-  opt->filters[f] = true;
+void lnscanner_set_filter(lnscanner *opt, filter f, bool b) {
+  opt->filters[f] = b;
 }
 
 bool lnscanner_has_active_filter(const lnscanner *opt) {
@@ -92,35 +69,59 @@ bool lnscanner_has_active_filter(const lnscanner *opt) {
   return false;
 }
 
+void lnscanner_build_table(lnscanner *opt) {
+  int k = 0;
+
+  bool haf = lnscanner_has_active_filter(opt);
+
+  int (*trans)(int);
+  switch (opt->tranformation) {
+    case TRANSFORM_NONE  : trans = identity;  break;
+    case TRANSFORM_UPPER : trans = toupper;   break;
+    case TRANSFORM_LOWER : trans = tolower;   break;
+  }
+
+  while (k < TABLE_LENGTH) {
+    int i = 0;
+    if (haf) {
+      // IB : 0 <= i <= FILTER_COUNT
+      //   && les filtres de funfilters associés aux indices allant de 0 à i-1
+      //      sont négatifs pour le caractère *s ou bien désactivés.
+      // QC : i
+      while (! (opt->filters[i] && (*funfilters[i]) (k)) && i < FILTER_COUNT) {
+        ++i;
+      }
+    }
+    if (i < FILTER_COUNT) {
+      opt->table[k] = trans(k);
+    } else {
+      opt->table[k] = CHAR_DISABLED;
+    }
+
+    ++k;
+  }
+}
+
 int lnscanner_getline(const lnscanner *opt, FILE *stream, char *s, size_t n) {
   int c = fgetc(stream);
   if (c == EOF) {
     return EOF;
   }
-  while (isspace(c)) {
-    c = fgetc(stream);
-  }
+
   char *p = s;
   // IB : s < p < s + m - 1
   //    && (p - s) caractères différents du caractère de fin de ligne ont été
   //    lus sur l'entrée et recopiés dans s
   // QC : (size_t)(p - s)
   while (c != '\n' && (size_t)(p - s) < n) {
-    *p = (char) c;
+    c = *(opt->table + c);
+    if (c != CHAR_DISABLED) {
+      *p = (char) c;
+      ++p;
+    }
     c = fgetc(stream);
-    ++p;
   }
   *p = '\0';
 
-  switch (opt->tranformation) {
-    case TRANSFORM_NONE  : break;
-    case TRANSFORM_UPPER : str_toupper(s); break;
-    case TRANSFORM_LOWER : str_tolower(s); break;
-  }
-
-  if (lnscanner_has_active_filter(opt)) {
-    str_filter(opt, s);
-  }
-
-  return  c;
+  return c;
 }
